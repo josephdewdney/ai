@@ -94,16 +94,16 @@
       data.forEach(event => {
         const eventDiv = document.createElement('div');
         eventDiv.className = 'event';
-          let logoHtml = '';
-          // Show X logo for Karpathy's Vibe Coding Tweet
-          if (event.title && event.title.includes("Karpathy") && event.category === "Tweet") {
-            logoHtml = `<img src="logos/x-logo/logo-black.png" alt="X logo" style="height:24px;width:24px;vertical-align:middle;margin-right:8px;">`;
-          }
-          eventDiv.innerHTML = `
-            <div class="event-date">${event.date}</div>
-            <div class="title">${logoHtml}${event.title}</div>
-            <div class="desc">${event.description}</div>
-          `;
+        let logoHtml = '';
+        // Show logo from event.logo if present
+        if (event.logo) {
+          logoHtml = `<img src="${event.logo}" alt="event logo" style="height:24px;width:24px;vertical-align:middle;margin-right:8px;">`;
+        }
+        eventDiv.innerHTML = `
+          <div class="event-date">${event.date}</div>
+          <div class="title">${logoHtml}${event.title}</div>
+          <div class="desc">${event.description}</div>
+        `;
         dataDiv.appendChild(eventDiv);
       });
     }

@@ -396,7 +396,8 @@
     "title": "Anthropic Claude Launched",
     "description": "Anthropic releases Claude, a family of large language models, contributing to the generative AI boom.",
     "category": "Product Launch",
-    "links": ["https://en.wikipedia.org/wiki/Claude_(AI)"]
+    "links": ["https://en.wikipedia.org/wiki/Claude_(AI)"],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg"
   },
   {
     "date": "2023-12-01",
@@ -417,7 +418,8 @@
     "title": "Claude 3.5 Sonnet Released",
     "description": "Anthropic releases Claude 3.5 Sonnet, demonstrating improved performance in coding, workflows, and image analysis.",
     "category": "Product Launch",
-    "links": ["https://en.wikipedia.org/wiki/Claude_(AI)"]
+    "links": ["https://en.wikipedia.org/wiki/Claude_(AI)"],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg"
   },
   {
     "date": "2024-10-01",
@@ -573,13 +575,15 @@
       "https://claude.com/skills",
       "https://claude.com/blog/improving-frontend-design-through-skills",
       "https://claude.com/blog/complete-guide-to-building-skills-for-claude"
-    ]
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg"
   },
   {
     "date": "2024-01-19",
     "title": "Andrej Karpathy's Vibe Coding Tweet",
     "description": "Andrej Karpathy tweets about 'vibe coding', describing the feeling of effortless, creative programming when everything flows smoothly.",
     "category": "Tweet",
-    "links": ["https://x.com/karpathy/status/1886192184808149383"]
+    "links": ["https://x.com/karpathy/status/1886192184808149383"],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg"
   }
 ]
