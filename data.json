@@ -182,6 +182,7 @@
     "date": "1974-01-01",
     "title": "Frames Introduced",
     "description": "Marvin Minsky introduces frames, a data structure for representing stereotyped situations, influencing knowledge representation in AI.",
+
     "category": "Theory",
     "links": ["https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)"]
   },
@@ -452,5 +453,133 @@
       "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
       "https://www.pcmag.com/news/openclaw-is-the-hot-new-ai-agent-but-is-it-safe-to-use"
     ]
+  },
+  {
+    "date": "2018-06-11",
+    "title": "GPT-1 Released",
+    "description": "OpenAI releases Generative Pre-trained Transformer (GPT-1), the first large-scale transformer-based language model, demonstrating the power of unsupervised pre-training for NLP tasks.",
+    "category": "Product Launch",
+    "links": [
+      "https://openai.com/research/gpt-1",
+      "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
+    ]
+  },
+  {
+    "date": "2019-02-14",
+    "title": "GPT-2 Released",
+    "description": "OpenAI releases GPT-2, a much larger language model capable of generating coherent paragraphs of text, sparking debate about the risks of powerful generative models.",
+    "category": "Product Launch",
+    "links": [
+      "https://openai.com/research/gpt-2",
+      "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
+    ]
+  },
+  {
+    "date": "2022-03-15",
+    "title": "DALL-E 2 Released",
+    "description": "OpenAI releases DALL-E 2, an AI system that can create realistic images and art from natural language descriptions, advancing text-to-image generation.",
+    "category": "Product Launch",
+    "links": [
+      "https://openai.com/research/dall-e-2",
+      "https://en.wikipedia.org/wiki/DALL-E"
+    ]
+  },
+  {
+    "date": "2021-01-05",
+    "title": "DALL-E Released",
+    "description": "OpenAI introduces DALL-E, a neural network that creates images from textual descriptions, pioneering the field of text-to-image synthesis.",
+    "category": "Product Launch",
+    "links": [
+      "https://openai.com/research/dall-e",
+      "https://en.wikipedia.org/wiki/DALL-E"
+    ]
+  },
+  {
+    "date": "2023-10-19",
+    "title": "DALL-E 3 Released",
+    "description": "OpenAI releases DALL-E 3, further improving the quality and controllability of text-to-image generation.",
+    "category": "Product Launch",
+    "links": [
+      "https://openai.com/research/dall-e-3",
+      "https://en.wikipedia.org/wiki/DALL-E"
+    ]
+  },
+  {
+    "date": "2021-08-10",
+    "title": "Codex Released",
+    "description": "OpenAI releases Codex, a model capable of translating natural language into code, powering GitHub Copilot and advancing AI-assisted programming.",
+    "category": "Product Launch",
+    "links": [
+      "https://openai.com/research/codex",
+      "https://en.wikipedia.org/wiki/OpenAI_Codex"
+    ]
+  },
+  {
+    "date": "2022-09-21",
+    "title": "Whisper Released",
+    "description": "OpenAI releases Whisper, a general-purpose speech recognition model trained on a large amount of multilingual and multitask supervised data.",
+    "category": "Product Launch",
+    "links": [
+      "https://openai.com/research/whisper",
+      "https://en.wikipedia.org/wiki/Whisper_(speech_recognition)"
+    ]
+  },
+  {
+    "date": "2023-03-14",
+    "title": "GPT-4 Released",
+    "description": "OpenAI releases GPT-4, a large multimodal model that accepts image and text inputs, achieving state-of-the-art results on a range of professional and academic benchmarks.",
+    "category": "Product Launch",
+    "links": [
+      "https://openai.com/research/gpt-4",
+      "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
+    ]
+  },
+  {
+    "date": "2022-11-30",
+    "title": "GPT-3.5 Released",
+    "description": "OpenAI releases GPT-3.5, an improved version of GPT-3 that powers the initial release of ChatGPT and demonstrates enhanced reasoning and coding abilities.",
+    "category": "Product Launch",
+    "links": [
+      "https://openai.com/blog/chatgpt",
+      "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
+    ]
+  },
+  {
+    "date": "2024-02-15",
+    "title": "Sora Announced",
+    "description": "OpenAI announces Sora, a text-to-video model capable of generating high-fidelity videos from textual prompts, marking a major advance in generative AI for video.",
+    "category": "Product Launch",
+    "links": [
+      "https://openai.com/research/sora",
+      "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)"
+    ]
+  },
+  {
+    "date": "2023-07-01",
+    "title": "Model Context Protocol (MCP) Introduced",
+    "description": "The Model Context Protocol (MCP) is introduced as an open standard for interoperable AI agent communication, enabling agents and tools to share context, goals, and results across platforms. MCP aims to standardize how AI models, agents, and applications interact, supporting the rise of agentic workflows and multi-agent systems.",
+    "category": "Standard",
+    "links": [
+      "https://modelcontext.org/",
+      "https://github.com/modelcontext/protocol"
+    ]
+  },
+  {
+    "date": "2025-11-12",
+    "title": "Anthropic Launches Claude Agent Skills",
+    "description": "Anthropic introduces Agent Skills for Claude, enabling users to automate expertise and workflows. Skills can be stacked for complex tasks and help capture institutional knowledge.",
+    "category": "Product Launch",
+    "links": [
+      "https://claude.com/skills",
+      "https://claude.com/blog/improving-frontend-design-through-skills",
+      "https://claude.com/blog/complete-guide-to-building-skills-for-claude"
+    ]
+  },
+  {
+    "date": "2024-01-19",
+    "title": "Andrej Karpathy's Vibe Coding Tweet",
+    "description": "Andrej Karpathy tweets about 'vibe coding', describing the feeling of effortless, creative programming when everything flows smoothly.",
+    "category": "Tweet",
+    "links": ["https://x.com/karpathy/status/1886192184808149383"]
   }
 ]
