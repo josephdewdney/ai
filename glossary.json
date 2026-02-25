@@ -1,0 +1,182 @@
+[
+  {
+    "term": "AI Winter",
+    "definition": "A period of reduced funding and interest in artificial intelligence research, typically due to unmet expectations and slow progress. Notable AI winters occurred in the 1970s and late 1980s/early 1990s.",
+    "reference": "https://en.wikipedia.org/wiki/AI_winter"
+  },
+  {
+    "term": "AlexNet",
+    "definition": "A deep convolutional neural network developed by Krizhevsky, Sutskever, and Hinton that won the ImageNet competition in 2012, demonstrating the power of deep learning for computer vision.",
+    "reference": "https://en.wikipedia.org/wiki/AlexNet"
+  },
+  {
+    "term": "AlphaFold",
+    "definition": "An AI system developed by DeepMind that achieved a breakthrough in protein structure prediction, solving a long-standing challenge in biology.",
+    "reference": "https://en.wikipedia.org/wiki/AlphaFold"
+  },
+  {
+    "term": "AlphaGo",
+    "definition": "A computer program developed by DeepMind that defeated world champion Go player Lee Sedol in 2016, demonstrating the power of reinforcement learning and deep neural networks.",
+    "reference": "https://en.wikipedia.org/wiki/AlphaGo"
+  },
+  {
+    "term": "ALPAC Report",
+    "definition": "A 1966 report by the US government that criticized the progress of machine translation, leading to reduced funding for AI research.",
+    "reference": "https://en.wikipedia.org/wiki/ALPAC"
+  },
+  {
+    "term": "Anthropic Claude",
+    "definition": "A family of large language models developed by Anthropic, contributing to the generative AI boom in the 2020s.",
+    "reference": "https://en.wikipedia.org/wiki/Claude_(AI)"
+  },
+  {
+    "term": "Artificial Neuron",
+    "definition": "A mathematical model inspired by biological neurons, first described by McCulloch and Pitts in 1943, forming the basis of neural networks.",
+    "reference": "https://en.wikipedia.org/wiki/Artificial_neuron"
+  },
+  {
+    "term": "Backpropagation",
+    "definition": "An algorithm for training multi-layer neural networks by propagating errors backward through the network, popularized by Rumelhart, Hinton, and Williams in 1986.",
+    "reference": "https://en.wikipedia.org/wiki/Backpropagation"
+  },
+  {
+    "term": "Bayesian Network",
+    "definition": "A probabilistic graphical model that represents a set of variables and their conditional dependencies, popularized by Judea Pearl in 1988.",
+    "reference": "https://en.wikipedia.org/wiki/Bayesian_network"
+  },
+  {
+    "term": "Boltzmann Machine",
+    "definition": "A type of stochastic recurrent neural network introduced by Geoffrey Hinton and Terry Sejnowski in 1985.",
+    "reference": "https://en.wikipedia.org/wiki/Boltzmann_machine"
+  },
+  {
+    "term": "ChatGPT",
+    "definition": "A conversational AI developed by OpenAI, based on the GPT-3.5 and GPT-4 large language models, launched in 2022 and widely adopted for its advanced language capabilities.",
+    "reference": "https://openai.com/blog/chatgpt"
+  },
+  {
+    "term": "Convolutional Neural Network (CNN)",
+    "definition": "A class of deep neural networks, most commonly applied to analyzing visual imagery. Yann LeCun pioneered their use for digit recognition in the 1990s.",
+    "reference": "https://en.wikipedia.org/wiki/Convolutional_neural_network"
+  },
+  {
+    "term": "Cyc",
+    "definition": "A long-term artificial intelligence project started by Douglas Lenat in 1984 to assemble a comprehensive ontology and knowledge base of common sense knowledge.",
+    "reference": "https://en.wikipedia.org/wiki/Cyc"
+  },
+  {
+    "term": "DARPA Grand Challenge",
+    "definition": "A series of competitions for autonomous vehicles, sponsored by the US Defense Advanced Research Projects Agency (DARPA), with the first successful completion in 2005.",
+    "reference": "https://en.wikipedia.org/wiki/DARPA_Grand_Challenge"
+  },
+  {
+    "term": "Deep Blue",
+    "definition": "A chess-playing computer developed by IBM that defeated world chess champion Garry Kasparov in 1997.",
+    "reference": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
+  },
+  {
+    "term": "Deep Learning",
+    "definition": "A subset of machine learning involving neural networks with many layers, enabling breakthroughs in image, speech, and text processing.",
+    "reference": "https://en.wikipedia.org/wiki/Deep_learning"
+  },
+  {
+    "term": "ELIZA",
+    "definition": "An early natural language processing computer program created by Joseph Weizenbaum in 1966, simulating conversation and laying the foundation for chatbots.",
+    "reference": "https://en.wikipedia.org/wiki/ELIZA"
+  },
+  {
+    "term": "Expert System",
+    "definition": "A computer system that emulates the decision-making ability of a human expert, using rule-based logic. Examples include MYCIN and XCON.",
+    "reference": "https://en.wikipedia.org/wiki/Expert_system"
+  },
+  {
+    "term": "Fifth Generation Computer Project",
+    "definition": "A Japanese government initiative launched in 1982 to create computers using massively parallel computing and logic programming.",
+    "reference": "https://en.wikipedia.org/wiki/Fifth_generation_computer"
+  },
+  {
+    "term": "General Problem Solver (GPS)",
+    "definition": "A universal problem-solving algorithm developed by Newell and Simon in 1957, influential in AI planning and search.",
+    "reference": "https://en.wikipedia.org/wiki/General_Problem_Solver"
+  },
+  {
+    "term": "Google Gemini",
+    "definition": "A large language model developed by Google, launched in 2023 as a major competitor in the generative AI space.",
+    "reference": "https://en.wikipedia.org/wiki/Google_Gemini"
+  },
+  {
+    "term": "GPT",
+    "definition": "Generative Pre-trained Transformer (GPT) is a family of large language models developed by OpenAI. GPT models are trained on vast amounts of text data using unsupervised learning and leverage the Transformer architecture to generate human-like text for a wide range of tasks.",
+    "reference": "https://openai.com/research/gpt-3"
+  },
+  {
+    "term": "Hopfield Network",
+    "definition": "A form of recurrent neural network introduced by John Hopfield in 1982, used for associative memory and optimization problems.",
+    "reference": "https://en.wikipedia.org/wiki/Hopfield_network"
+  },
+  {
+    "term": "IBM Watson",
+    "definition": "An AI system developed by IBM that defeated human champions on the quiz show Jeopardy! in 2011, showcasing advances in natural language processing.",
+    "reference": "https://en.wikipedia.org/wiki/Watson_(computer)"
+  },
+  {
+    "term": "ImageNet",
+    "definition": "A large-scale image database launched in 2009 by Fei-Fei Li and colleagues, used for visual object recognition research.",
+    "reference": "https://en.wikipedia.org/wiki/ImageNet"
+  },
+  {
+    "term": "Lighthill Report",
+    "definition": "A 1973 report by James Lighthill that criticized AI research in the UK, leading to funding cuts and the first AI winter in Britain.",
+    "reference": "https://en.wikipedia.org/wiki/Lighthill_report"
+  },
+  {
+    "term": "Lisp Machine",
+    "definition": "A type of computer designed to efficiently run the Lisp programming language, popular in AI research in the 1980s before the AI winter.",
+    "reference": "https://en.wikipedia.org/wiki/Lisp_machine"
+  },
+  {
+    "term": "Logic Theorist",
+    "definition": "A computer program developed by Allen Newell and Herbert A. Simon in 1955 that proved mathematical theorems, considered the first AI program.",
+    "reference": "https://en.wikipedia.org/wiki/Logic_Theorist"
+  },
+  {
+    "term": "Moravec's Paradox",
+    "definition": "The observation by Hans Moravec that high-level reasoning requires little computation, but low-level sensorimotor skills require enormous computational resources.",
+    "reference": "https://en.wikipedia.org/wiki/Moravec%27s_paradox"
+  },
+  {
+    "term": "Nobel Prize (AI)",
+    "definition": "In 2024, Nobel Prizes were awarded to John Hopfield, Geoffrey Hinton, Demis Hassabis, John Jumper, and David Baker for their contributions to AI and protein folding.",
+    "reference": "https://www.nobelprize.org/all-nobel-prizes-2024/"
+  },
+  {
+    "term": "Perceptron",
+    "definition": "An early neural network model invented by Frank Rosenblatt in 1957, capable of learning simple patterns.",
+    "reference": "https://en.wikipedia.org/wiki/Perceptron"
+  },
+  {
+    "term": "Perceptrons (book)",
+    "definition": "A 1969 book by Marvin Minsky and Seymour Papert that analyzed the limitations of single-layer neural networks, contributing to the first AI winter.",
+    "reference": "https://en.wikipedia.org/wiki/Perceptrons_(book)"
+  },
+  {
+    "term": "SNARC",
+    "definition": "The Stochastic Neural Analog Reinforcement Calculator, built by Marvin Minsky and Dean Edmonds in 1951, was the first artificial neural network machine.",
+    "reference": "https://en.wikipedia.org/wiki/Stochastic_Neural_Analog_Reinforcement_Calculator"
+  },
+  {
+    "term": "Transformer",
+    "definition": "A neural network architecture introduced in the paper 'Attention Is All You Need' (2017) by Vaswani et al. It relies entirely on self-attention mechanisms, dispensing with recurrence and convolutions, and has become the foundation for most modern large language models.",
+    "reference": "https://arxiv.org/abs/1706.03762"
+  },
+  {
+    "term": "Turing Machine",
+    "definition": "A theoretical computational model introduced by Alan Turing in 1936, which manipulates symbols on a strip of tape according to a set of rules. It is a foundational concept in computer science and AI.",
+    "reference": "https://en.wikipedia.org/wiki/Turing_machine"
+  },
+  {
+    "term": "Turing Test",
+    "definition": "A test proposed by Alan Turing in 1950 to determine whether a machine can exhibit intelligent behavior indistinguishable from a human.",
+    "reference": "https://en.wikipedia.org/wiki/Turing_test"
+  }
+]

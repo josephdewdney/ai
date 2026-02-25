@@ -1,0 +1,456 @@
+[
+  {
+    "date": "1950-10-01",
+    "title": "The Turing Test",
+    "description": "Alan Turing proposes the Turing Test as a criterion for machine intelligence, asking whether a machine can imitate human responses well enough to be indistinguishable from a person in conversation.",
+    "category": "Theory",
+    "links": ["https://www.csee.umbc.edu/courses/471/papers/turing.pdf"]
+  },
+  {
+    "date": "1206-01-01",
+    "title": "Al-Jazari's Automata",
+    "description": "Al-Jazari designs programmable automata, early examples of mechanical devices that could perform tasks automatically, representing a precursor to modern robotics and AI.",
+    "category": "Precursors",
+    "links": ["https://en.wikipedia.org/wiki/Al-Jazari"]
+  },
+  {
+    "date": "1300-01-01",
+    "title": "Ramon Llull's Logical Machines",
+    "description": "Ramon Llull develops logical machines to combine basic truths mechanically, influencing later ideas of mechanized reasoning.",
+    "category": "Precursors",
+    "links": ["https://en.wikipedia.org/wiki/Ramon_Llull"]
+  },
+  {
+    "date": "1642-01-01",
+    "title": "Pascal's Calculator",
+    "description": "Blaise Pascal invents the mechanical calculator, an early step toward automated computation.",
+    "category": "Precursors",
+    "links": ["https://en.wikipedia.org/wiki/Pascal%27s_calculator"]
+  },
+  {
+    "date": "1679-01-01",
+    "title": "Leibniz's Stepped Reckoner and Calculus Ratiocinator",
+    "description": "Gottfried Wilhelm Leibniz builds the Stepped Reckoner and envisions the Calculus Ratiocinator, a universal logical calculation engine.",
+    "category": "Precursors",
+    "links": [
+      "https://en.wikipedia.org/wiki/Leibniz_wheel",
+      "https://en.wikipedia.org/wiki/Calculus_ratiocinator"
+    ]
+  },
+  {
+    "date": "1837-01-01",
+    "title": "Babbage's Analytical Engine",
+    "description": "Charles Babbage designs the Analytical Engine, the first concept of a programmable computer.",
+    "category": "Precursors",
+    "links": ["https://en.wikipedia.org/wiki/Analytical_Engine"]
+  },
+  {
+    "date": "1843-01-01",
+    "title": "Ada Lovelace's Notes on the Analytical Engine",
+    "description": "Ada Lovelace speculates on the Analytical Engine's ability to manipulate symbols and compose music, foreseeing general-purpose computation.",
+    "category": "Precursors",
+    "links": ["https://en.wikipedia.org/wiki/Ada_Lovelace"]
+  },
+  {
+    "date": "1948-01-01",
+    "title": "Cybernetics Published",
+    "description": "Norbert Wiener publishes 'Cybernetics', founding the study of control and communication in animals and machines, influencing early AI.",
+    "category": "Theory",
+    "links": ["https://en.wikipedia.org/wiki/Cybernetics"]
+  },
+  {
+    "date": "1936-01-01",
+    "title": "Turing Machine Proposed",
+    "description": "Alan Turing introduces the concept of the Turing machine, a theoretical model that formalizes the idea of computation and underpins computer science and AI.",
+    "category": "Theory",
+    "links": ["https://en.wikipedia.org/wiki/Turing_machine"]
+  },
+  {
+    "date": "1943-12-01",
+    "title": "First Artificial Neuron Model",
+    "description": "Warren McCulloch and Walter Pitts publish a paper describing the first mathematical model of an artificial neuron, laying the foundation for neural networks.",
+    "category": "Model",
+    "links": ["https://en.wikipedia.org/wiki/Artificial_neuron"]
+  },
+  {
+    "date": "1951-01-01",
+    "title": "SNARC: First Neural Net Machine",
+    "description": "Marvin Minsky and Dean Edmonds build SNARC, the first artificial neural network machine, pioneering hardware-based AI research.",
+    "category": "Hardware",
+    "links": [
+      "https://en.wikipedia.org/wiki/Stochastic_Neural_Analog_Reinforcement_Calculator"
+    ]
+  },
+  {
+    "date": "1955-01-01",
+    "title": "Logic Theorist",
+    "description": "Allen Newell and Herbert A. Simon develop the Logic Theorist, the first program to mimic human problem-solving by proving mathematical theorems.",
+    "category": "Algorithm",
+    "links": ["https://en.wikipedia.org/wiki/Logic_Theorist"]
+  },
+  {
+    "date": "1957-01-01",
+    "title": "General Problem Solver",
+    "description": "Newell and Simon create the General Problem Solver, a universal problem-solving machine that influenced AI planning and search algorithms.",
+    "category": "Algorithm",
+    "links": ["https://en.wikipedia.org/wiki/General_Problem_Solver"]
+  },
+  {
+    "date": "1959-01-01",
+    "title": "Samuel's Checkers Program",
+    "description": "Arthur Samuel develops a checkers-playing program that learns from experience, an early example of machine learning.",
+    "category": "Application",
+    "links": [
+      "https://en.wikipedia.org/wiki/Arthur_Samuel_(computer_scientist)"
+    ]
+  },
+  {
+    "date": "1956-08-31",
+    "title": "Dartmouth Workshop",
+    "description": "The Dartmouth Summer Research Project on Artificial Intelligence, led by John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon, is held. This event is considered the birth of AI as a field.",
+    "category": "Milestone",
+    "links": ["https://en.wikipedia.org/wiki/Dartmouth_workshop"]
+  },
+  {
+    "date": "1957-07-01",
+    "title": "The Perceptron",
+    "description": "Frank Rosenblatt invents the perceptron, an early neural network model capable of learning simple patterns, laying the groundwork for modern neural networks.",
+    "category": "Model",
+    "links": [
+      "https://news.cornell.edu/stories/2017/07/rosenblatts-perceptron-paved-way-modern-ai"
+    ]
+  },
+  {
+    "date": "1960-01-01",
+    "title": "ADALINE and MADALINE Neural Networks",
+    "description": "Bernard Widrow and Ted Hoff develop ADALINE and MADALINE, early neural networks used for practical applications.",
+    "category": "Model",
+    "links": ["https://en.wikipedia.org/wiki/ADALINE"]
+  },
+  {
+    "date": "1966-01-01",
+    "title": "ELIZA: First Chatbot",
+    "description": "Joseph Weizenbaum creates ELIZA, an early natural language processing computer program that simulates conversation, laying the foundation for future chatbots and conversational AI.",
+    "category": "Application",
+    "links": ["https://news.mit.edu/2016/joseph-weizenbaum-eliza-0217"]
+  },
+  {
+    "date": "1970-01-01",
+    "title": "Shakey the Robot",
+    "description": "SRI International develops Shakey, the first mobile robot able to reason about its actions, integrating perception, planning, and action.",
+    "category": "Robotics",
+    "links": ["https://en.wikipedia.org/wiki/Shakey_the_robot"]
+  },
+  {
+    "date": "1971-01-01",
+    "title": "STRIPS Planning System",
+    "description": "The Stanford Research Institute Problem Solver (STRIPS) is introduced, becoming a foundational algorithm for automated planning.",
+    "category": "Algorithm",
+    "links": [
+      "https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver"
+    ]
+  },
+  {
+    "date": "1972-01-01",
+    "title": "PARRY Chatbot",
+    "description": "Kenneth Colby creates PARRY, a chatbot simulating paranoid schizophrenia, advancing conversational AI.",
+    "category": "Application",
+    "links": ["https://en.wikipedia.org/wiki/PARRY"]
+  },
+  {
+    "date": "1972-01-01",
+    "title": "MYCIN Expert System",
+    "description": "MYCIN, an early expert system for medical diagnosis, demonstrates the power of rule-based AI in healthcare.",
+    "category": "Application",
+    "links": ["https://en.wikipedia.org/wiki/Mycin"]
+  },
+  {
+    "date": "1973-01-01",
+    "title": "Actor Model Introduced",
+    "description": "Carl Hewitt introduces the Actor model, a conceptual foundation for concurrent computation and distributed AI systems.",
+    "category": "Theory",
+    "links": ["https://en.wikipedia.org/wiki/Actor_model"]
+  },
+  {
+    "date": "1973-01-01",
+    "title": "Conceptual Dependency Theory",
+    "description": "Roger Schank develops Conceptual Dependency Theory, a framework for representing natural language meaning in AI.",
+    "category": "Theory",
+    "links": ["https://en.wikipedia.org/wiki/Conceptual_dependency_theory"]
+  },
+  {
+    "date": "1974-01-01",
+    "title": "Frames Introduced",
+    "description": "Marvin Minsky introduces frames, a data structure for representing stereotyped situations, influencing knowledge representation in AI.",
+    "category": "Theory",
+    "links": ["https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)"]
+  },
+  {
+    "date": "1972-01-01",
+    "title": "Expert Systems Era",
+    "description": "Rule-based expert systems like MYCIN and XCON are developed, enabling computers to perform tasks that previously required human expertise in fields such as medicine and business.",
+    "category": "Application",
+    "links": [
+      "https://ai.stanford.edu/~nilsson/OnlinePubs-Nils/General_Essays/HistoryAI.pdf"
+    ]
+  },
+  {
+    "date": "1966-01-01",
+    "title": "ALPAC Report",
+    "description": "The US government publishes the ALPAC report, criticizing the lack of progress in machine translation and leading to a major reduction in AI funding.",
+    "category": "AI Winter",
+    "links": ["https://en.wikipedia.org/wiki/ALPAC"]
+  },
+  {
+    "date": "1969-01-01",
+    "title": "Perceptrons Book Published",
+    "description": "Marvin Minsky and Seymour Papert publish 'Perceptrons', highlighting limitations of single-layer neural networks and contributing to the first AI winter.",
+    "category": "Publication",
+    "links": ["https://en.wikipedia.org/wiki/Perceptrons_(book)"]
+  },
+  {
+    "date": "1973-01-01",
+    "title": "Lighthill Report",
+    "description": "The Lighthill report in the UK criticizes AI research, leading to reduced funding and the first AI winter in Britain.",
+    "category": "AI Winter",
+    "links": ["https://en.wikipedia.org/wiki/Lighthill_report"]
+  },
+  {
+    "date": "1976-01-01",
+    "title": "Moravec's Paradox",
+    "description": "Hans Moravec articulates the paradox that high-level reasoning requires little computation, but low-level sensorimotor skills require enormous computational resources.",
+    "category": "Theory",
+    "links": ["https://en.wikipedia.org/wiki/Moravec%27s_paradox"]
+  },
+  {
+    "date": "1972-01-01",
+    "title": "Dreyfus Critique: What Computers Can't Do",
+    "description": "Hubert Dreyfus publishes 'What Computers Can't Do', critiquing the assumptions of symbolic AI and emphasizing the limits of computation.",
+    "category": "Critique",
+    "links": ["https://en.wikipedia.org/wiki/Hubert_Dreyfus"]
+  },
+  {
+    "date": "1986-10-09",
+    "title": "Backpropagation Popularized",
+    "description": "David Rumelhart, Geoffrey Hinton, and Ronald Williams publish the backpropagation algorithm, enabling the training of multi-layer neural networks and laying the foundation for deep learning.",
+    "category": "Algorithm",
+    "links": ["https://www.nature.com/articles/323533a0"]
+  },
+  {
+    "date": "1982-01-01",
+    "title": "Hopfield Network Introduced",
+    "description": "John Hopfield introduces the Hopfield network, a form of recurrent neural network that advances the field of connectionism.",
+    "category": "Model",
+    "links": ["https://en.wikipedia.org/wiki/Hopfield_network"]
+  },
+  {
+    "date": "1984-01-01",
+    "title": "Cyc Project Launched",
+    "description": "Douglas Lenat launches the Cyc project, an ambitious effort to encode common sense knowledge for AI systems.",
+    "category": "Knowledge Base",
+    "links": ["https://en.wikipedia.org/wiki/Cyc"]
+  },
+  {
+    "date": "1976-01-01",
+    "title": "Weizenbaum's Computer Power and Human Reason",
+    "description": "Joseph Weizenbaum publishes 'Computer Power and Human Reason', warning about the ethical and societal risks of AI.",
+    "category": "Critique",
+    "links": ["https://en.wikipedia.org/wiki/Computer_Power_and_Human_Reason"]
+  },
+  {
+    "date": "1985-01-01",
+    "title": "Boltzmann Machine Introduced",
+    "description": "Geoffrey Hinton and Terry Sejnowski introduce the Boltzmann machine, a stochastic recurrent neural network.",
+    "category": "Model",
+    "links": ["https://en.wikipedia.org/wiki/Boltzmann_machine"]
+  },
+  {
+    "date": "1988-01-01",
+    "title": "Bayesian Networks Popularized",
+    "description": "Judea Pearl publishes 'Probabilistic Reasoning in Intelligent Systems', popularizing Bayesian networks for AI.",
+    "category": "Algorithm",
+    "links": ["https://en.wikipedia.org/wiki/Bayesian_network"]
+  },
+  {
+    "date": "1980-01-01",
+    "title": "Searle's Chinese Room Argument",
+    "description": "John Searle presents the Chinese Room argument, challenging the notion that computers can possess understanding or consciousness.",
+    "category": "Critique",
+    "links": ["https://en.wikipedia.org/wiki/Chinese_room"]
+  },
+  {
+    "date": "1982-01-01",
+    "title": "Fifth Generation Computer Project",
+    "description": "Japan launches the Fifth Generation Computer Project, aiming to create computers using massively parallel computing and logic programming, influencing global AI research.",
+    "category": "Initiative",
+    "links": ["https://en.wikipedia.org/wiki/Fifth_generation_computer"]
+  },
+  {
+    "date": "1997-05-11",
+    "title": "Deep Blue Defeats Kasparov",
+    "description": "IBM’s Deep Blue defeats world chess champion Garry Kasparov, marking a major milestone in AI’s ability to solve complex, strategic problems.",
+    "category": "Milestone",
+    "links": ["https://www.ibm.com/ibm/history/ibm100/us/en/icons/deepblue/"]
+  },
+  {
+    "date": "1987-01-01",
+    "title": "AI Winter Begins",
+    "description": "Collapse of the Lisp machine market and overhyped expert systems leads to the second AI winter, with widespread funding cuts and company failures.",
+    "category": "AI Winter",
+    "links": ["https://en.wikipedia.org/wiki/AI_winter"]
+  },
+  {
+    "date": "1990-01-01",
+    "title": "Convolutional Neural Networks Applied",
+    "description": "Yann LeCun applies convolutional neural networks to handwritten digit recognition, leading to practical applications in document processing.",
+    "category": "Model",
+    "links": ["https://en.wikipedia.org/wiki/Convolutional_neural_network"]
+  },
+  {
+    "date": "1990-01-01",
+    "title": "Intelligent Agents Paradigm",
+    "description": "The intelligent agent paradigm becomes widely accepted, defining AI as the study of systems that perceive and act in environments.",
+    "category": "Theory",
+    "links": ["https://en.wikipedia.org/wiki/Intelligent_agent"]
+  },
+  {
+    "date": "2005-10-08",
+    "title": "DARPA Grand Challenge",
+    "description": "Stanford's autonomous vehicle wins the DARPA Grand Challenge, marking a breakthrough in self-driving car technology.",
+    "category": "Milestone",
+    "links": ["https://en.wikipedia.org/wiki/DARPA_Grand_Challenge"]
+  },
+  {
+    "date": "2009-01-01",
+    "title": "ImageNet Launched",
+    "description": "Fei-Fei Li and colleagues launch ImageNet, a large-scale image database that becomes a key resource for training deep learning models.",
+    "category": "Dataset",
+    "links": ["https://en.wikipedia.org/wiki/ImageNet"]
+  },
+  {
+    "date": "2013-01-01",
+    "title": "Word2Vec Released",
+    "description": "Google releases Word2Vec, a neural network-based word embedding model that advances natural language understanding and enables large language models.",
+    "category": "Algorithm",
+    "links": ["https://en.wikipedia.org/wiki/Word2vec"]
+  },
+  {
+    "date": "2006-01-01",
+    "title": "Deep Learning Renaissance",
+    "description": "Geoffrey Hinton and colleagues revive interest in deep neural networks by demonstrating effective training of deep belief networks, sparking the modern deep learning revolution.",
+    "category": "Milestone",
+    "links": ["https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf"]
+  },
+  {
+    "date": "2011-02-16",
+    "title": "IBM Watson Wins Jeopardy!",
+    "description": "IBM’s Watson defeats human champions on the quiz show Jeopardy!, showcasing advances in natural language processing and question answering.",
+    "category": "Milestone",
+    "links": ["https://en.wikipedia.org/wiki/Watson_(computer)"]
+  },
+  {
+    "date": "2012-09-30",
+    "title": "AlexNet Wins ImageNet",
+    "description": "AlexNet, a deep convolutional neural network by Krizhevsky, Sutskever, and Hinton, wins the ImageNet competition by a large margin, demonstrating the power of deep learning for computer vision.",
+    "category": "Milestone",
+    "links": ["https://en.wikipedia.org/wiki/AlexNet"]
+  },
+  {
+    "date": "2016-03-15",
+    "title": "AlphaGo Defeats Lee Sedol",
+    "description": "DeepMind’s AlphaGo defeats world champion Go player Lee Sedol, a feat previously thought to be decades away, demonstrating the power of reinforcement learning and deep neural networks.",
+    "category": "Milestone",
+    "links": ["https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol"]
+  },
+  {
+    "date": "2017-06-12",
+    "title": "Attention Is All You Need",
+    "description": "'Attention Is All You Need' by Vaswani et al. introduces the Transformer architecture, a novel neural network design based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. This paper revolutionized natural language processing and deep learning.",
+    "category": "Paper",
+    "links": ["https://arxiv.org/abs/1706.03762"]
+  },
+  {
+    "date": "2020-06-01",
+    "title": "AlphaFold Solves Protein Folding",
+    "description": "DeepMind's AlphaFold achieves a breakthrough in protein structure prediction, solving a 50-year-old grand challenge in biology.",
+    "category": "Milestone",
+    "links": ["https://en.wikipedia.org/wiki/AlphaFold"]
+  },
+  {
+    "date": "2020-06-11",
+    "title": "GPT-3 Released",
+    "description": "OpenAI releases GPT-3, a large language model that demonstrates unprecedented capabilities in text generation and understanding.",
+    "category": "Product Launch",
+    "links": ["https://en.wikipedia.org/wiki/GPT-3"]
+  },
+  {
+    "date": "2020-03-01",
+    "title": "15.ai Voice Synthesis Launched",
+    "description": "15.ai, a free web application, demonstrates high-quality AI voice cloning for creative content, popularizing AI voice synthesis.",
+    "category": "Application",
+    "links": ["https://en.wikipedia.org/wiki/15.ai"]
+  },
+  {
+    "date": "2023-03-01",
+    "title": "Anthropic Claude Launched",
+    "description": "Anthropic releases Claude, a family of large language models, contributing to the generative AI boom.",
+    "category": "Product Launch",
+    "links": ["https://en.wikipedia.org/wiki/Claude_(AI)"]
+  },
+  {
+    "date": "2023-12-01",
+    "title": "Google Gemini Launched",
+    "description": "Google launches Gemini (formerly Bard), a major competitor in the large language model space.",
+    "category": "Product Launch",
+    "links": ["https://en.wikipedia.org/wiki/Google_Gemini"]
+  },
+  {
+    "date": "2022-05-01",
+    "title": "Gato Released by DeepMind",
+    "description": "DeepMind releases Gato, a generalist agent capable of performing hundreds of tasks, advancing the field of foundation models.",
+    "category": "Product Launch",
+    "links": ["https://en.wikipedia.org/wiki/Gato_(DeepMind)"]
+  },
+  {
+    "date": "2024-06-01",
+    "title": "Claude 3.5 Sonnet Released",
+    "description": "Anthropic releases Claude 3.5 Sonnet, demonstrating improved performance in coding, workflows, and image analysis.",
+    "category": "Product Launch",
+    "links": ["https://en.wikipedia.org/wiki/Claude_(AI)"]
+  },
+  {
+    "date": "2024-10-01",
+    "title": "2024 Nobel Prizes for AI",
+    "description": "John Hopfield, Geoffrey Hinton, Demis Hassabis, John Jumper, and David Baker receive Nobel Prizes for their contributions to AI and protein folding.",
+    "category": "Award",
+    "links": ["https://www.nobelprize.org/all-nobel-prizes-2024/"]
+  },
+  {
+    "date": "2022-11-30",
+    "title": "ChatGPT Launched",
+    "description": "OpenAI launches ChatGPT, a conversational AI based on GPT-3.5, making advanced language models widely accessible to the public and sparking global interest in generative AI.",
+    "category": "Product Launch",
+    "links": ["https://openai.com/blog/chatgpt"]
+  },
+  {
+    "date": "2023-03-29",
+    "title": "Pause Giant AI Experiments Open Letter",
+    "description": "Thousands of AI researchers and tech leaders sign an open letter calling for a pause on training AI systems more powerful than GPT-4, citing societal risks.",
+    "category": "Milestone",
+    "links": [
+      "https://futureoflife.org/open-letter/pause-giant-ai-experiments/"
+    ]
+  },
+  {
+    "date": "2025-11-01",
+    "title": "OpenClaw Released",
+    "description": "Peter Steinberger releases OpenClaw (originally Clawdbot, later Moltbot), an open-source autonomous AI agent designed for agentic workflows across messaging platforms. OpenClaw quickly gains global adoption and becomes a symbol of the shift toward autonomous AI systems, but also raises new security and privacy concerns.",
+    "category": "Product Launch",
+    "links": [
+      "https://en.wikipedia.org/wiki/OpenClaw",
+      "https://openclaw.ai/",
+      "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
+      "https://www.pcmag.com/news/openclaw-is-the-hot-new-ai-agent-but-is-it-safe-to-use"
+    ]
+  }
+]
