@@ -49,7 +49,7 @@
     .event-date {
       position: absolute;
       left: -170px;
-      top: 32.5%;
+      top: 45px;
       transform: translateY(-50%);
       width: 120px;
       text-align: right;
@@ -94,12 +94,16 @@
       data.forEach(event => {
         const eventDiv = document.createElement('div');
         eventDiv.className = 'event';
-        eventDiv.innerHTML = `
-          <div class="event-date">${event.date}</div>
-          <div class="title">${event.title}</div>
-          <div class="desc">${event.description}</div>
-         
-        `;
+          let logoHtml = '';
+          // Show X logo for Karpathy's Vibe Coding Tweet
+          if (event.title && event.title.includes("Karpathy") && event.category === "Tweet") {
+            logoHtml = `<img src="logos/x-logo/logo-black.png" alt="X logo" style="height:24px;width:24px;vertical-align:middle;margin-right:8px;">`;
+          }
+          eventDiv.innerHTML = `
+            <div class="event-date">${event.date}</div>
+            <div class="title">${logoHtml}${event.title}</div>
+            <div class="desc">${event.description}</div>
+          `;
         dataDiv.appendChild(eventDiv);
       });
     }
