@@ -7,11 +7,11 @@
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-neutral-50">
   <h1 class="text-center text-3xl font-bold mb-8">AI</h1>
   <div class="relative max-w-[700px] mx-auto pl-10" id="data">
     <!-- Timeline line -->
-    <div class="absolute left-4 top-0 bottom-0 w-1 bg-blue-600 rounded"></div>
+    <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-zinc-600 rounded"></div>
   </div>
   <script>
     async function loadData() {
@@ -27,25 +27,29 @@
         // Timeline circle/logo
         if (event.logo) {
           const logoDiv = document.createElement('div');
-          logoDiv.className = 'absolute left-[-38px] top-[26px] w-9 h-9 rounded-full bg-gray-100 z-10 flex items-center justify-center';
+          logoDiv.className = 'absolute left-[-42px] top-[18px] w-9 h-9 rounded-full bg-neutral-50 z-10 flex items-center justify-center';
           const logoImg = document.createElement('img');
           logoImg.src = event.logo;
           logoImg.alt = 'event logo';
-          logoImg.className = 'w-6 h-6 rounded-full object-cover';
+          logoImg.className = 'size-5 rounded-full object-cover';
           logoDiv.appendChild(logoImg);
           eventDiv.appendChild(logoDiv);
         } else {
           const defaultCircle = document.createElement('div');
-          defaultCircle.className = 'absolute left-[-32px] top-[32px] w-6 h-6 rounded-full bg-blue-600 z-10 flex items-center justify-center';
+          defaultCircle.className = 'absolute left-[-31px] top-[27px] size-4 rounded-full bg-zinc-600 z-10 flex items-center justify-center';
           eventDiv.appendChild(defaultCircle);
         }
-
         // Event content
         const contentDiv = document.createElement('div');
         // Date
         const dateDiv = document.createElement('div');
-        dateDiv.className = 'absolute left-[-170px] top-[45px] w-[120px] text-right font-bold text-blue-600 text-[1.05em] whitespace-nowrap z-20 pointer-events-none leading-none tracking-wide';
-        dateDiv.textContent = event.date;
+        dateDiv.className = 'absolute left-[-170px] top-[28px] w-[120px] text-right font-semibold text-base whitespace-nowrap z-20 pointer-events-none leading-none tracking-wide';
+        // Format date in German way (DD.MM.YYYY)
+        const dateObj = new Date(event.date);
+        const day = String(dateObj.getDate()).padStart(2, '0');
+        const month = String(dateObj.getMonth() + 1).padStart(2, '0');
+        const year = dateObj.getFullYear();
+        dateDiv.textContent = `${day}.${month}.${year}`;
         contentDiv.appendChild(dateDiv);
         // Title
         const titleDiv = document.createElement('div');
@@ -54,7 +58,7 @@
         contentDiv.appendChild(titleDiv);
         // Description
         const descDiv = document.createElement('div');
-        descDiv.className = 'text-gray-800';
+        descDiv.className = 'text-zinc-800';
         descDiv.textContent = event.description;
         contentDiv.appendChild(descDiv);
         eventDiv.appendChild(contentDiv);
