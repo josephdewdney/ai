@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI - How did we get here?</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Outfit', 'system-ui', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+            body: ['"Source Sans 3"', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background: #fafafa;
+      background-image: radial-gradient(circle, #d4d4d8 0.7px, transparent 0.7px);
+      background-size: 28px 28px;
+    }
+
+    .timeline-line {
+      background: linear-gradient(180deg, transparent 0%, #b0b0b8 3%, #b0b0b8 97%, transparent 100%);
+    }
+
+    /* Subtle node pulse */
+    .node-dot {
+      position: relative;
+    }
+    .node-dot::after {
+      content: '';
+      position: absolute;
+      inset: -3px;
+      border-radius: 50%;
+      background: currentColor;
+      opacity: 0;
+      animation: node-ping 4s cubic-bezier(0,0,0.2,1) infinite;
+    }
+    @keyframes node-ping {
+      0%, 80%, 100% { opacity: 0; transform: scale(1); }
+      40% { opacity: 0.15; transform: scale(2); }
+    }
+
+    /* Glossary */
+    .glossary-term {
+      text-decoration: underline dotted;
+      text-decoration-color: #9ca3af;
+      text-underline-offset: 3px;
+      cursor: help;
+      position: relative;
+      color: #374151;
+      font-weight: 500;
+    }
+    .glossary-tooltip {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      bottom: calc(100% + 10px);
+      left: -10px;
+      width: 290px;
+      background: #1f2937;
+      color: #e5e7eb;
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 400;
+      line-height: 1.55;
+      padding: 10px 13px;
+      border-radius: 8px;
+      z-index: 60;
+      pointer-events: none;
+      transition: opacity 0.15s, transform 0.15s;
+      transform: translateY(4px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+    }
+    .glossary-tooltip::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 20px;
+      border: 5px solid transparent;
+      border-top-color: #1f2937;
+    }
+    .glossary-term:hover .glossary-tooltip {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Scroll animations */
+    .event-card {
+      opacity: 0;
+      transform: translateY(14px);
+      transition: opacity 0.45s cubic-bezier(0.16,1,0.3,1), transform 0.45s cubic-bezier(0.16,1,0.3,1), box-shadow 0.2s ease;
+    }
+    .event-card.visible { opacity: 1; transform: translateY(0); }
+    .event-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.07); }
+    .event-card.visible:hover { transform: translateY(-1px); }
+
+    .era-heading {
+      opacity: 0;
+      transform: translateX(-8px);
+      transition: opacity 0.35s ease, transform 0.35s ease;
+    }
+    .era-heading.visible { opacity: 1; transform: translateX(0); }
+
+    /* Collapse */
+    .era-events { transition: max-height 0.4s cubic-bezier(0.16,1,0.3,1), opacity 0.3s ease; }
+    .era-events.collapsed { opacity: 0.3; }
+
+    .era-chevron { transition: transform 0.3s cubic-bezier(0.16,1,0.3,1); display: inline-block; }
+
+    /* Hero */
+    .hero-title { animation: fade-up 0.6s cubic-bezier(0.16,1,0.3,1) 0.1s both; }
+    .hero-sub { animation: fade-up 0.6s cubic-bezier(0.16,1,0.3,1) 0.2s both; }
+    .hero-bar { animation: grow-width 0.7s cubic-bezier(0.16,1,0.3,1) 0.4s both; }
+    @keyframes fade-up {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes grow-width { from { width: 0; } to { width: 48px; } }
+  </style>
+</head>
+<body class="font-body text-gray-600 min-h-screen antialiased">
+
+  <header class="pt-16 pb-6 text-center">
+    <h1 class="hero-title font-display text-5xl md:text-6xl font-800 text-gray-900 tracking-tight">
+      AI
+    </h1>
+    <p class="hero-sub text-lg text-gray-600 mt-2 font-light tracking-wide">
+      How did we get here?
+    </p>
+    <div class="hero-bar h-[2px] bg-gray-300 mx-auto mt-5 rounded-full"></div>
+  </header>
+
+  <div class="relative max-w-[700px] mx-auto pl-12 pb-20" id="data">
+    <div class="timeline-line absolute left-[21px] top-0 bottom-0 w-[2px] rounded-full"></div>
+  </div>
+
+  <script>
+    let allData = [];
+    let eras = [];
+    let glossary = [];
+    const usedGlossaryTerms = new Set();
+
+    async function loadData() {
+      const [dataRes, erasRes, glossaryRes] = await Promise.all([
+        fetch('data.json'), fetch('eras.json'), fetch('glossary.json')
+      ]);
+      allData = await dataRes.json();
+      eras = await erasRes.json();
+      glossary = await glossaryRes.json();
+      allData.sort((a, b) => new Date(a.date) - new Date(b.date));
+      render();
+      requestAnimationFrame(() => observeElements());
+    }
+
+    function annotateGlossary(text) {
+      const sorted = [...glossary].sort((a, b) => b.term.length - a.term.length);
+      let result = text;
+      for (const entry of sorted) {
+        if (usedGlossaryTerms.has(entry.term)) continue;
+        const regex = new RegExp(`\\b(${entry.term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})\\b`, 'i');
+        if (regex.test(result)) {
+          usedGlossaryTerms.add(entry.term);
+          const tooltipHtml = `<span class="glossary-tooltip">${escapeHtml(entry.definition)}</span>`;
+          result = result.replace(regex, `<span class="glossary-term">$1${tooltipHtml}</span>`);
+        }
+      }
+      return result;
+    }
+
+    function escapeHtml(str) {
+      return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    function formatDate(dateStr) {
+      const d = new Date(dateStr);
+      const day = String(d.getDate()).padStart(2, '0');
+      const month = String(d.getMonth() + 1).padStart(2, '0');
+      return `${day}.${month}.${d.getFullYear()}`;
+    }
+
+    function render() {
+      usedGlossaryTerms.clear();
+      const dataDiv = document.getElementById('data');
+      dataDiv.innerHTML = '<div class="timeline-line absolute left-[21px] top-0 bottom-0 w-[2px] rounded-full"></div>';
+
+      const events = allData.filter(e => e.featured);
+      let cardIndex = 0;
+
+      for (const era of eras) {
+        const eraStart = new Date(era.start);
+        const eraEnd = new Date(era.end);
+        const eraEvents = events.filter(e => {
+          const d = new Date(e.date);
+          return d >= eraStart && d <= eraEnd;
+        });
+        if (eraEvents.length === 0) continue;
+
+        const heading = document.createElement('div');
+        heading.className = 'era-heading relative mt-14 mb-3 cursor-pointer select-none';
+        heading.innerHTML = `
+          <div class="era-node absolute left-[-33px] top-[8px] w-3.5 h-3.5 rounded-full bg-gray-400 z-10 ring-[3px] ring-[#fafafa] transition-all duration-300"></div>
+          <div>
+            <h2 class="font-display text-[1.6rem] font-700 text-gray-900 tracking-tight leading-snug">${escapeHtml(era.name)}</h2>
+            <p class="text-sm text-gray-600 mt-0.5">${escapeHtml(era.description)}</p>
+          </div>
+        `;
+        dataDiv.appendChild(heading);
+
+        const eraContainer = document.createElement('div');
+        eraContainer.className = 'era-events overflow-x-visible overflow-y-clip';
+
+        heading.addEventListener('click', () => {
+          const node = heading.querySelector('.era-node');
+          if (eraContainer.style.maxHeight === '0px') {
+            eraContainer.style.maxHeight = eraContainer.scrollHeight + 'px';
+            eraContainer.classList.remove('collapsed');
+            node.style.transform = 'scale(1)';
+            node.style.opacity = '1';
+          } else {
+            eraContainer.style.maxHeight = '0px';
+            eraContainer.classList.add('collapsed');
+            node.style.transform = 'scale(0.7)';
+            node.style.opacity = '0.4';
+          }
+        });
+
+        for (const event of eraEvents) {
+          const eventDiv = document.createElement('div');
+          eventDiv.className = 'event-card relative mt-7 mb-7 ml-1 py-4 px-5 rounded-xl bg-white border border-gray-100 shadow-sm';
+          eventDiv.style.transitionDelay = `${(cardIndex % 4) * 50}ms`;
+
+          if (event.logo) {
+            const logoDiv = document.createElement('div');
+            logoDiv.className = 'absolute left-[-49px] top-[8px] w-9 h-9 rounded-full bg-white z-10 flex items-center justify-center shadow-sm border border-gray-100';
+            const logoImg = document.createElement('img');
+            logoImg.src = event.logo;
+            logoImg.alt = '';
+            logoImg.className = 'size-5 rounded-full object-contain';
+            logoImg.loading = 'lazy';
+            logoDiv.appendChild(logoImg);
+            eventDiv.appendChild(logoDiv);
+          } else {
+            const circle = document.createElement('div');
+            circle.className = 'node-dot absolute left-[-36px] top-[22px] size-2.5 rounded-full bg-gray-400 z-10 ring-[3px] ring-[#fafafa] text-gray-400';
+            eventDiv.appendChild(circle);
+          }
+
+          const contentDiv = document.createElement('div');
+
+          const dateDiv = document.createElement('div');
+          dateDiv.className = 'absolute left-[-192px] top-[20px] w-[125px] text-right font-mono text-[0.78rem] text-gray-500 whitespace-nowrap z-20 pointer-events-none leading-none tracking-wider';
+          dateDiv.textContent = formatDate(event.date);
+          contentDiv.appendChild(dateDiv);
+
+          const titleDiv = document.createElement('div');
+          titleDiv.className = 'font-display text-[1.1rem] font-700 text-gray-900 mb-1 leading-snug tracking-tight';
+          titleDiv.textContent = event.title;
+          contentDiv.appendChild(titleDiv);
+
+          const descDiv = document.createElement('div');
+          descDiv.className = 'text-[0.88rem] leading-relaxed text-gray-600';
+          descDiv.innerHTML = annotateGlossary(escapeHtml(event.description));
+          contentDiv.appendChild(descDiv);
+
+          eventDiv.appendChild(contentDiv);
+          eraContainer.appendChild(eventDiv);
+          cardIndex++;
+        }
+
+        dataDiv.appendChild(eraContainer);
+        requestAnimationFrame(() => {
+          eraContainer.style.maxHeight = eraContainer.scrollHeight + 'px';
+        });
+      }
+    }
+
+    function observeElements() {
+      const observer = new IntersectionObserver((entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        }
+      }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+      document.querySelectorAll('.event-card, .era-heading').forEach(el => observer.observe(el));
+    }
+
+    loadData();
+  </script>
+</body>
+</html>

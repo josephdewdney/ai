@@ -1,0 +1,10 @@
+[
+  { "name": "Precursors & Foundations", "start": "1200-01-01", "end": "1955-12-31", "description": "From ancient automata to the dawn of computing" },
+  { "name": "The Golden Age", "start": "1956-01-01", "end": "1973-12-31", "description": "AI is born at Dartmouth and optimism runs high" },
+  { "name": "First AI Winter", "start": "1974-01-01", "end": "1979-12-31", "description": "Funding dries up as early promises go unmet" },
+  { "name": "Expert Systems Era", "start": "1980-01-01", "end": "1987-12-31", "description": "Rule-based systems boom, then bust" },
+  { "name": "Second AI Winter", "start": "1988-01-01", "end": "1993-12-31", "description": "Hype collapses again, but progress continues quietly" },
+  { "name": "Machine Learning Era", "start": "1994-01-01", "end": "2009-12-31", "description": "Statistical methods and data-driven AI emerge" },
+  { "name": "Deep Learning Era", "start": "2010-01-01", "end": "2019-12-31", "description": "Neural networks come roaring back" },
+  { "name": "The Recent Boom", "start": "2020-01-01", "end": "2026-12-31", "description": "LLMs, foundation models, and agentic AI reshape everything" }
+]
