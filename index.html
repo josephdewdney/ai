@@ -5,6 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI History Visualization</title>
   <style>
+        .event-default-circle {
+          position: absolute;
+          left: -32px;
+          top: 32px;
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          background: #0078d7;
+          z-index: 2;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
     body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; }
     h1 { text-align: center; }
     .timeline {
@@ -16,7 +29,7 @@
     .timeline::before {
       content: '';
       position: absolute;
-      left: 20px;
+      left: 17px;
       top: 0;
       bottom: 0;
       width: 4px;
@@ -28,23 +41,33 @@
       background: #fff;
       border-radius: 8px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      display: flex;
       margin: 30px 0;
-      padding: 20px 24px 20px 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
       border-left: none;
       min-height: 60px;
     }
-    .event::before {
-      content: '';
+    .event-logo {
       position: absolute;
-      left: -32px;
-      top: 32px;
-      width: 16px;
-      height: 16px;
-      background: #fff;
-      border: 4px solid #0078d7;
+      left: -38px;
+      top: 26px;
+      width: 36px;
+      height: 36px;
       border-radius: 50%;
-      box-shadow: 0 0 0 4px #f9f9f9;
+      background: #f9f9f9;
       z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .event-logo-img {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      object-fit: cover;
     }
     .event-date {
       position: absolute;
@@ -94,15 +117,27 @@
       data.forEach(event => {
         const eventDiv = document.createElement('div');
         eventDiv.className = 'event';
-        let logoHtml = '';
-        // Show logo from event.logo if present
+        // Show logo as timeline circle if present, otherwise show default circle
         if (event.logo) {
-          logoHtml = `<img src="${event.logo}" alt="event logo" style="height:24px;width:24px;vertical-align:middle;margin-right:8px;">`;
+          const logoDiv = document.createElement('div');
+          logoDiv.className = 'event-logo';
+          const logoImg = document.createElement('img');
+          logoImg.src = event.logo;
+          logoImg.alt = 'event logo';
+          logoImg.className = 'event-logo-img';
+          logoDiv.appendChild(logoImg);
+          eventDiv.appendChild(logoDiv);
+        } else {
+          const defaultCircle = document.createElement('div');
+          defaultCircle.className = 'event-default-circle';
+          eventDiv.appendChild(defaultCircle);
         }
-        eventDiv.innerHTML = `
-          <div class="event-date">${event.date}</div>
-          <div class="title">${logoHtml}${event.title}</div>
-          <div class="desc">${event.description}</div>
+        eventDiv.innerHTML += `
+          <div>
+            <div class="event-date">${event.date}</div>
+            <div class="title">${event.title}</div>
+            <div class="desc">${event.description}</div>
+          </div>
         `;
         dataDiv.appendChild(eventDiv);
       });
