@@ -4,110 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI History Visualization</title>
-  <style>
-        .event-default-circle {
-          position: absolute;
-          left: -32px;
-          top: 32px;
-          width: 24px;
-          height: 24px;
-          border-radius: 50%;
-          background: #0078d7;
-          z-index: 2;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-    body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; }
-    h1 { text-align: center; }
-    .timeline {
-      max-width: 700px;
-      margin: 0 auto;
-      position: relative;
-      padding-left: 40px;
-    }
-    .timeline::before {
-      content: '';
-      position: absolute;
-      left: 17px;
-      top: 0;
-      bottom: 0;
-      width: 4px;
-      background: #0078d7;
-      border-radius: 2px;
-    }
-    .event {
-      position: relative;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-      display: flex;
-      margin: 30px 0;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 12px;
-        padding-right: 12px;
-      border-left: none;
-      min-height: 60px;
-    }
-    .event-logo {
-      position: absolute;
-      left: -38px;
-      top: 26px;
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      background: #f9f9f9;
-      z-index: 2;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .event-logo-img {
-      width: 24px;
-      height: 24px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
-    .event-date {
-      position: absolute;
-      left: -170px;
-      top: 45px;
-      transform: translateY(-50%);
-      width: 120px;
-      text-align: right;
-      font-weight: bold;
-      color: #0078d7;
-      font-size: 1.05em;
-      white-space: nowrap;
-      z-index: 3;
-      pointer-events: none;
-      line-height: 1;
-      letter-spacing: 0.5px;
-    }
-    .event .title {
-      font-size: 1.2em;
-      margin: 8px 0 4px 0;
-    }
-    .event .desc {
-      color: #333;
-    }
-    .event .links {
-      margin-top: 8px;
-    }
-    .event .links a {
-      color: #0078d7;
-      text-decoration: none;
-      margin-right: 10px;
-    }
-    .event .links a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <h1>AI</h1>
-  <div class="timeline" id="data"></div>
+  <h1 class="text-center text-3xl font-bold mb-8">AI</h1>
+  <div class="relative max-w-[700px] mx-auto pl-10" id="data">
+    <!-- Timeline line -->
+    <div class="absolute left-4 top-0 bottom-0 w-1 bg-blue-600 rounded"></div>
+  </div>
   <script>
     async function loadData() {
       const response = await fetch('data.json');
@@ -115,30 +20,44 @@
       const dataDiv = document.getElementById('data');
       data.sort((a, b) => new Date(a.date) - new Date(b.date));
       data.forEach(event => {
+        // Timeline event container
         const eventDiv = document.createElement('div');
-        eventDiv.className = 'event';
-        // Show logo as timeline circle if present, otherwise show default circle
+        eventDiv.className = 'relative bg-white rounded-lg shadow-md flex mt-8 mb-8 py-3 px-3 min-h-[60px]';
+
+        // Timeline circle/logo
         if (event.logo) {
           const logoDiv = document.createElement('div');
-          logoDiv.className = 'event-logo';
+          logoDiv.className = 'absolute left-[-38px] top-[26px] w-9 h-9 rounded-full bg-gray-100 z-10 flex items-center justify-center';
           const logoImg = document.createElement('img');
           logoImg.src = event.logo;
           logoImg.alt = 'event logo';
-          logoImg.className = 'event-logo-img';
+          logoImg.className = 'w-6 h-6 rounded-full object-cover';
           logoDiv.appendChild(logoImg);
           eventDiv.appendChild(logoDiv);
         } else {
           const defaultCircle = document.createElement('div');
-          defaultCircle.className = 'event-default-circle';
+          defaultCircle.className = 'absolute left-[-32px] top-[32px] w-6 h-6 rounded-full bg-blue-600 z-10 flex items-center justify-center';
           eventDiv.appendChild(defaultCircle);
         }
-        eventDiv.innerHTML += `
-          <div>
-            <div class="event-date">${event.date}</div>
-            <div class="title">${event.title}</div>
-            <div class="desc">${event.description}</div>
-          </div>
-        `;
+
+        // Event content
+        const contentDiv = document.createElement('div');
+        // Date
+        const dateDiv = document.createElement('div');
+        dateDiv.className = 'absolute left-[-170px] top-[45px] w-[120px] text-right font-bold text-blue-600 text-[1.05em] whitespace-nowrap z-20 pointer-events-none leading-none tracking-wide';
+        dateDiv.textContent = event.date;
+        contentDiv.appendChild(dateDiv);
+        // Title
+        const titleDiv = document.createElement('div');
+        titleDiv.className = 'text-lg font-semibold mt-2 mb-1';
+        titleDiv.textContent = event.title;
+        contentDiv.appendChild(titleDiv);
+        // Description
+        const descDiv = document.createElement('div');
+        descDiv.className = 'text-gray-800';
+        descDiv.textContent = event.description;
+        contentDiv.appendChild(descDiv);
+        eventDiv.appendChild(contentDiv);
         dataDiv.appendChild(eventDiv);
       });
     }
