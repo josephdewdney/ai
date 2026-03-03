@@ -255,7 +255,7 @@
   },
   {
     "date": "1984-01-01",
-    "title": "Cyc Project Launched",
+    "title": "Cyc Project",
     "description": "Douglas Lenat launches the Cyc project, an ambitious effort to encode common sense knowledge for AI systems.",
     "category": "Knowledge Base",
     "links": ["https://en.wikipedia.org/wiki/Cyc"]
@@ -334,14 +334,14 @@
   },
   {
     "date": "2009-01-01",
-    "title": "ImageNet Launched",
+    "title": "ImageNet",
     "description": "Fei-Fei Li and colleagues launch ImageNet, a large-scale image database that becomes a key resource for training deep learning models.",
     "category": "Dataset",
     "links": ["https://en.wikipedia.org/wiki/ImageNet"]
   },
   {
     "date": "2013-01-01",
-    "title": "Word2Vec Released",
+    "title": "Word2Vec",
     "description": "Google releases Word2Vec, a neural network-based word embedding model that advances natural language understanding and enables large language models.",
     "category": "Algorithm",
     "links": ["https://en.wikipedia.org/wiki/Word2vec"]
@@ -394,7 +394,7 @@
   },
   {
     "date": "2020-06-11",
-    "title": "GPT-3 Released",
+    "title": "GPT-3",
     "description": "OpenAI releases GPT-3, a large language model that demonstrates unprecedented capabilities in text generation and understanding.",
     "category": "Product Launch",
     "featured": true,
@@ -403,14 +403,14 @@
   },
   {
     "date": "2020-03-01",
-    "title": "15.ai Voice Synthesis Launched",
+    "title": "15.ai Voice Synthesis",
     "description": "15.ai, a free web application, demonstrates high-quality AI voice cloning for creative content, popularizing AI voice synthesis.",
     "category": "Application",
     "links": ["https://en.wikipedia.org/wiki/15.ai"]
   },
   {
     "date": "2023-03-01",
-    "title": "Anthropic Claude Launched",
+    "title": "Anthropic Claude",
     "description": "Anthropic releases Claude, a family of large language models, contributing to the generative AI boom.",
     "category": "Product Launch",
     "links": ["https://en.wikipedia.org/wiki/Claude_(AI)"],
@@ -418,7 +418,7 @@
   },
   {
     "date": "2023-12-01",
-    "title": "Google Gemini Launched",
+    "title": "Google Gemini",
     "description": "Google launches Gemini (formerly Bard), a major competitor in the large language model space.",
     "category": "Product Launch",
     "links": ["https://en.wikipedia.org/wiki/Google_Gemini"],
@@ -426,7 +426,7 @@
   },
   {
     "date": "2025-08-07",
-    "title": "GPT-5 Released",
+    "title": "GPT-5",
     "description": "OpenAI releases GPT-5, featuring a router that automatically selects between a faster model and a slower reasoning model based on the task.",
     "category": "Product Launch",
     "links": [
@@ -437,14 +437,14 @@
   },
   {
     "date": "2022-05-01",
-    "title": "Gato Released by DeepMind",
+    "title": "Gato by DeepMind",
     "description": "DeepMind releases Gato, a generalist agent capable of performing hundreds of tasks, advancing the field of foundation models.",
     "category": "Product Launch",
     "links": ["https://en.wikipedia.org/wiki/Gato_(DeepMind)"]
   },
   {
     "date": "2024-06-01",
-    "title": "Claude 3.5 Sonnet Released",
+    "title": "Claude 3.5 Sonnet",
     "description": "Anthropic releases Claude 3.5 Sonnet, demonstrating improved performance in coding, workflows, and image analysis.",
     "category": "Product Launch",
     "links": ["https://en.wikipedia.org/wiki/Claude_(AI)"],
@@ -460,7 +460,7 @@
   },
   {
     "date": "2022-11-30",
-    "title": "ChatGPT Launch",
+    "title": "ChatGPT",
     "description": "OpenAI launches ChatGPT, a conversational AI model based on GPT-3.5, which quickly becomes a global phenomenon for its natural language capabilities.",
     "category": "Milestone",
     "featured": true,
@@ -478,7 +478,7 @@
   },
   {
     "date": "2025-11-01",
-    "title": "OpenClaw Released",
+    "title": "OpenClaw",
     "description": "Peter Steinberger releases OpenClaw, an open-source autonomous AI agent for messaging platforms. OpenClaw gains global adoption and highlights new security and privacy concerns.",
     "category": "Product Launch",
     "links": [
@@ -490,7 +490,7 @@
   },
   {
     "date": "2018-06-11",
-    "title": "GPT-1 Released",
+    "title": "GPT-1",
     "description": "OpenAI releases Generative Pre-trained Transformer (GPT-1), the first large-scale transformer-based language model, demonstrating the power of unsupervised pre-training for NLP tasks.",
     "category": "Product Launch",
     "links": [
@@ -501,7 +501,7 @@
   },
   {
     "date": "2019-02-14",
-    "title": "GPT-2 Released",
+    "title": "GPT-2",
     "description": "OpenAI releases GPT-2, a much larger language model capable of generating coherent paragraphs of text, sparking debate about the risks of powerful generative models.",
     "category": "Product Launch",
     "links": [
@@ -512,7 +512,7 @@
   },
   {
     "date": "2022-03-15",
-    "title": "DALL-E 2 Released",
+    "title": "DALL-E 2",
     "description": "OpenAI releases DALL-E 2, an AI system that can create realistic images and art from natural language descriptions, advancing text-to-image generation.",
     "category": "Product Launch",
     "links": [
@@ -523,7 +523,7 @@
   },
   {
     "date": "2021-01-05",
-    "title": "DALL-E Released",
+    "title": "DALL-E",
     "description": "OpenAI introduces DALL-E, a neural network that creates images from textual descriptions, pioneering the field of text-to-image synthesis.",
     "category": "Product Launch",
     "links": [
@@ -534,7 +534,7 @@
   },
   {
     "date": "2023-10-19",
-    "title": "DALL-E 3 Released",
+    "title": "DALL-E 3",
     "description": "OpenAI releases DALL-E 3, further improving the quality and controllability of text-to-image generation.",
     "category": "Product Launch",
     "links": [
@@ -545,7 +545,7 @@
   },
   {
     "date": "2021-08-10",
-    "title": "Codex Released",
+    "title": "Codex",
     "description": "OpenAI releases Codex, a model capable of translating natural language into code, powering GitHub Copilot and advancing AI-assisted programming.",
     "category": "Product Launch",
     "links": [
@@ -556,7 +556,7 @@
   },
   {
     "date": "2022-09-21",
-    "title": "Whisper Released",
+    "title": "Whisper",
     "description": "OpenAI releases Whisper, a general-purpose speech recognition model trained on a large amount of multilingual and multitask supervised data.",
     "category": "Product Launch",
     "links": [
@@ -567,7 +567,7 @@
   },
   {
     "date": "2023-03-14",
-    "title": "GPT-4 Released",
+    "title": "GPT-4",
     "description": "OpenAI releases GPT-4, a large multimodal model that accepts image and text inputs, achieving state-of-the-art results on a range of professional and academic benchmarks.",
     "category": "Product Launch",
     "featured": true,
@@ -579,7 +579,7 @@
   },
   {
     "date": "2022-11-30",
-    "title": "GPT-3.5 Released",
+    "title": "GPT-3.5",
     "description": "OpenAI releases GPT-3.5, an improved version of GPT-3 that powers the initial release of ChatGPT and demonstrates enhanced reasoning and coding abilities.",
     "category": "Product Launch",
     "links": [
@@ -631,7 +631,7 @@
   },
   {
     "date": "2025-06-15",
-    "title": "OpenAI Long-Horizon Agents Released",
+    "title": "OpenAI Long-Horizon Agents",
     "description": "OpenAI launches agentic frameworks and models trained for long-horizon, multi-step tasks, enabling autonomous workflows and persistent digital assistants.",
     "category": "Product Launch",
     "links": [
