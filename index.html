@@ -3,68 +3,198 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI History Visualization</title>
-  <!-- Tailwind CSS CDN -->
+  <title>The Evolution of AI</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .glossary-term {
+      text-decoration: underline dotted;
+      text-decoration-color: #a1a1aa;
+      text-underline-offset: 2px;
+      cursor: help;
+      position: relative;
+    }
+    .glossary-tooltip {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      bottom: calc(100% + 6px);
+      left: 0;
+      width: 280px;
+      background: #18181b;
+      color: #f4f4f5;
+      font-size: 0.8rem;
+      line-height: 1.4;
+      padding: 8px 10px;
+      border-radius: 6px;
+      z-index: 50;
+      pointer-events: none;
+      transition: opacity 0.15s;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    }
+    .glossary-term:hover .glossary-tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
 </head>
 <body class="bg-neutral-50">
-  <h1 class="text-center text-3xl font-bold mt-8 mb-8">AI</h1>
+  <!-- Header -->
+  <div class="text-center mt-10 mb-2">
+    <h1 class="text-4xl font-bold tracking-tight">The Evolution of AI</h1>
+    <p class="text-zinc-500 mt-1 text-lg">From ancient automata to agentic intelligence</p>
+  </div>
+
   <div class="relative max-w-[700px] mx-auto pl-10" id="data">
-    <!-- Timeline line -->
     <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-zinc-600 rounded"></div>
   </div>
-  <script>
-    async function loadData() {
-      const response = await fetch('data.json');
-      const data = await response.json();
-      const dataDiv = document.getElementById('data');
-      data.sort((a, b) => new Date(a.date) - new Date(b.date));
-      data.forEach(event => {
-        // Timeline event container
-        const eventDiv = document.createElement('div');
-        eventDiv.className = 'relative bg-white rounded-lg shadow-md flex mt-8 mb-8 py-3 px-3 min-h-[60px]';
 
-        // Timeline circle/logo
-        if (event.logo) {
-          const logoDiv = document.createElement('div');
-          logoDiv.className = 'absolute left-[-41px] top-[10px] w-9 h-9 rounded-full bg-neutral-50 z-10 flex items-center justify-center';
-          const logoImg = document.createElement('img');
-          logoImg.src = event.logo;
-          logoImg.alt = 'event logo';
-          logoImg.className = 'size-5 rounded-full object-cover';
-          logoDiv.appendChild(logoImg);
-          eventDiv.appendChild(logoDiv);
-        } else {
-          const defaultCircle = document.createElement('div');
-          defaultCircle.className = 'absolute left-[-31px] top-[19px] size-4 rounded-full bg-zinc-600 z-10 flex items-center justify-center';
-          eventDiv.appendChild(defaultCircle);
-        }
-        // Event content
-        const contentDiv = document.createElement('div');
-        // Date
-        const dateDiv = document.createElement('div');
-        dateDiv.className = 'absolute left-[-170px] top-[20px] w-[120px] text-right font-semibold text-base whitespace-nowrap z-20 pointer-events-none leading-none tracking-wide';
-        // Format date in German way (DD.MM.YYYY)
-        const dateObj = new Date(event.date);
-        const day = String(dateObj.getDate()).padStart(2, '0');
-        const month = String(dateObj.getMonth() + 1).padStart(2, '0');
-        const year = dateObj.getFullYear();
-        dateDiv.textContent = `${day}.${month}.${year}`;
-        contentDiv.appendChild(dateDiv);
-        // Title
-        const titleDiv = document.createElement('div');
-        titleDiv.className = 'text-lg font-semibold mb-1';
-        titleDiv.textContent = event.title;
-        contentDiv.appendChild(titleDiv);
-        // Description
-        const descDiv = document.createElement('div');
-        descDiv.className = 'text-zinc-800';
-        descDiv.textContent = event.description;
-        contentDiv.appendChild(descDiv);
-        eventDiv.appendChild(contentDiv);
-        dataDiv.appendChild(eventDiv);
-      });
+  <script>
+    let allData = [];
+    let eras = [];
+    let glossary = [];
+    const usedGlossaryTerms = new Set();
+
+    async function loadData() {
+      const [dataRes, erasRes, glossaryRes] = await Promise.all([
+        fetch('data.json'),
+        fetch('eras.json'),
+        fetch('glossary.json')
+      ]);
+      allData = await dataRes.json();
+      eras = await erasRes.json();
+      glossary = await glossaryRes.json();
+      allData.sort((a, b) => new Date(a.date) - new Date(b.date));
+      render();
     }
+
+    function annotateGlossary(text) {
+      // Sort glossary terms by length descending so longer matches win
+      const sorted = [...glossary].sort((a, b) => b.term.length - a.term.length);
+      let result = text;
+      for (const entry of sorted) {
+        if (usedGlossaryTerms.has(entry.term)) continue;
+        // Match whole word, case-insensitive
+        const regex = new RegExp(`\\b(${entry.term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})\\b`, 'i');
+        if (regex.test(result)) {
+          usedGlossaryTerms.add(entry.term);
+          const tooltipHtml = `<span class="glossary-tooltip">${escapeHtml(entry.definition)}</span>`;
+          result = result.replace(regex, `<span class="glossary-term">$1${tooltipHtml}</span>`);
+        }
+      }
+      return result;
+    }
+
+    function escapeHtml(str) {
+      return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    function formatDate(dateStr) {
+      const d = new Date(dateStr);
+      const day = String(d.getDate()).padStart(2, '0');
+      const month = String(d.getMonth() + 1).padStart(2, '0');
+      return `${day}.${month}.${d.getFullYear()}`;
+    }
+
+    function render() {
+      usedGlossaryTerms.clear();
+      const dataDiv = document.getElementById('data');
+      // Keep the timeline line
+      dataDiv.innerHTML = '<div class="absolute left-4 top-0 bottom-0 w-0.5 bg-zinc-600 rounded"></div>';
+
+      const events = allData.filter(e => e.featured);
+
+      // Group events by era
+      for (const era of eras) {
+        const eraStart = new Date(era.start);
+        const eraEnd = new Date(era.end);
+        const eraEvents = events.filter(e => {
+          const d = new Date(e.date);
+          return d >= eraStart && d <= eraEnd;
+        });
+        if (eraEvents.length === 0) continue;
+
+        // Era heading (clickable to collapse/expand)
+        const heading = document.createElement('div');
+        heading.className = 'relative mt-12 mb-2 ml-[-8px] cursor-pointer select-none group';
+        heading.innerHTML = `
+          <div class="absolute left-[-19px] top-[10px] w-3 h-3 rounded-full bg-zinc-800 z-10 ring-2 ring-neutral-50"></div>
+          <h2 class="text-xl font-bold text-zinc-900 flex items-center gap-2">
+            <span class="era-chevron transition-transform duration-200 text-zinc-400 text-sm">&#9660;</span>
+            ${escapeHtml(era.name)}
+          </h2>
+          <p class="text-sm text-zinc-500 mt-0.5 ml-5">${escapeHtml(era.description)}</p>
+        `;
+        dataDiv.appendChild(heading);
+
+        // Events container for this era
+        const eraContainer = document.createElement('div');
+        eraContainer.className = 'era-events transition-all duration-300 overflow-x-visible overflow-y-clip';
+
+        heading.addEventListener('click', () => {
+          const chevron = heading.querySelector('.era-chevron');
+          if (eraContainer.style.maxHeight === '0px') {
+            eraContainer.style.maxHeight = eraContainer.scrollHeight + 'px';
+            chevron.style.transform = 'rotate(0deg)';
+          } else {
+            eraContainer.style.maxHeight = '0px';
+            chevron.style.transform = 'rotate(-90deg)';
+          }
+        });
+
+        // Events in this era
+        for (const event of eraEvents) {
+          const eventDiv = document.createElement('div');
+          eventDiv.className = 'relative bg-white rounded-lg shadow-md flex mt-8 mb-8 py-3 px-3 min-h-[60px]';
+
+          // Timeline circle/logo
+          if (event.logo) {
+            const logoDiv = document.createElement('div');
+            logoDiv.className = 'absolute left-[-41px] top-[10px] w-9 h-9 rounded-full bg-neutral-50 z-10 flex items-center justify-center';
+            const logoImg = document.createElement('img');
+            logoImg.src = event.logo;
+            logoImg.alt = 'event logo';
+            logoImg.className = 'size-5 rounded-full object-cover';
+            logoDiv.appendChild(logoImg);
+            eventDiv.appendChild(logoDiv);
+          } else {
+            const circle = document.createElement('div');
+            circle.className = 'absolute left-[-31px] top-[19px] size-4 rounded-full bg-zinc-600 z-10 flex items-center justify-center';
+            eventDiv.appendChild(circle);
+          }
+
+          // Content
+          const contentDiv = document.createElement('div');
+
+          // Date
+          const dateDiv = document.createElement('div');
+          dateDiv.className = 'absolute left-[-170px] top-[20px] w-[120px] text-right font-semibold text-base whitespace-nowrap z-20 pointer-events-none leading-none tracking-wide';
+          dateDiv.textContent = formatDate(event.date);
+          contentDiv.appendChild(dateDiv);
+
+          // Title
+          const titleDiv = document.createElement('div');
+          titleDiv.className = 'text-lg font-semibold mb-1';
+          titleDiv.textContent = event.title;
+          contentDiv.appendChild(titleDiv);
+
+          // Description with glossary annotations
+          const descDiv = document.createElement('div');
+          descDiv.className = 'text-zinc-800';
+          descDiv.innerHTML = annotateGlossary(escapeHtml(event.description));
+          contentDiv.appendChild(descDiv);
+
+          eventDiv.appendChild(contentDiv);
+          eraContainer.appendChild(eventDiv);
+        }
+
+        dataDiv.appendChild(eraContainer);
+        // Set initial expanded state after appending so scrollHeight is available
+        requestAnimationFrame(() => {
+          eraContainer.style.maxHeight = eraContainer.scrollHeight + 'px';
+        });
+      }
+    }
+
     loadData();
   </script>
 </body>
