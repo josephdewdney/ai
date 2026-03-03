@@ -4,6 +4,7 @@
     "title": "The Turing Test",
     "description": "Alan Turing proposes the Turing Test as a criterion for machine intelligence, asking whether a machine can imitate human responses well enough to be indistinguishable from a person in conversation.",
     "category": "Theory",
+    "featured": true,
     "links": ["https://www.csee.umbc.edu/courses/471/papers/turing.pdf"]
   },
   {
@@ -11,6 +12,7 @@
     "title": "Al-Jazari's Automata",
     "description": "Al-Jazari designs programmable automata, early examples of mechanical devices that could perform tasks automatically, representing a precursor to modern robotics and AI.",
     "category": "Precursors",
+    "featured": true,
     "links": ["https://en.wikipedia.org/wiki/Al-Jazari"]
   },
   {
@@ -63,6 +65,7 @@
     "title": "Turing Machine Proposed",
     "description": "Alan Turing introduces the concept of the Turing machine, a theoretical model that formalizes the idea of computation and underpins computer science and AI.",
     "category": "Theory",
+    "featured": true,
     "links": ["https://en.wikipedia.org/wiki/Turing_machine"]
   },
   {
@@ -70,6 +73,7 @@
     "title": "First Artificial Neuron Model",
     "description": "Warren McCulloch and Walter Pitts publish a paper describing the first mathematical model of an artificial neuron, laying the foundation for neural networks.",
     "category": "Model",
+    "featured": true,
     "links": ["https://en.wikipedia.org/wiki/Artificial_neuron"]
   },
   {
@@ -109,6 +113,7 @@
     "title": "Dartmouth Workshop",
     "description": "The Dartmouth Summer Research Project on Artificial Intelligence, led by John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon, is held. This event is considered the birth of AI as a field.",
     "category": "Milestone",
+    "featured": true,
     "links": ["https://en.wikipedia.org/wiki/Dartmouth_workshop"]
   },
   {
@@ -116,6 +121,7 @@
     "title": "The Perceptron",
     "description": "Frank Rosenblatt invents the perceptron, an early neural network model capable of learning simple patterns, laying the groundwork for modern neural networks.",
     "category": "Model",
+    "featured": true,
     "links": [
       "https://news.cornell.edu/stories/2017/07/rosenblatts-perceptron-paved-way-modern-ai"
     ]
@@ -132,6 +138,7 @@
     "title": "ELIZA: First Chatbot",
     "description": "Joseph Weizenbaum creates ELIZA, an early natural language processing computer program that simulates conversation, laying the foundation for future chatbots and conversational AI.",
     "category": "Application",
+    "featured": true,
     "links": ["https://news.mit.edu/2016/joseph-weizenbaum-eliza-0217"]
   },
   {
@@ -214,6 +221,7 @@
     "title": "Lighthill Report",
     "description": "The Lighthill report in the UK criticizes AI research, leading to reduced funding and the first AI winter in Britain.",
     "category": "AI Winter",
+    "featured": true,
     "links": ["https://en.wikipedia.org/wiki/Lighthill_report"]
   },
   {
@@ -235,6 +243,7 @@
     "title": "Backpropagation Popularized",
     "description": "David Rumelhart, Geoffrey Hinton, and Ronald Williams publish the backpropagation algorithm, enabling the training of multi-layer neural networks and laying the foundation for deep learning.",
     "category": "Algorithm",
+    "featured": true,
     "links": ["https://www.nature.com/articles/323533a0"]
   },
   {
@@ -291,6 +300,7 @@
     "title": "Deep Blue Defeats Kasparov",
     "description": "IBM’s Deep Blue defeats world chess champion Garry Kasparov, marking a major milestone in AI’s ability to solve complex, strategic problems.",
     "category": "Milestone",
+    "featured": true,
     "links": ["https://www.ibm.com/ibm/history/ibm100/us/en/icons/deepblue/"]
   },
   {
@@ -298,6 +308,7 @@
     "title": "AI Winter Begins",
     "description": "Collapse of the Lisp machine market and overhyped expert systems leads to the second AI winter, with widespread funding cuts and company failures.",
     "category": "AI Winter",
+    "featured": true,
     "links": ["https://en.wikipedia.org/wiki/AI_winter"]
   },
   {
@@ -340,6 +351,7 @@
     "title": "Deep Learning Renaissance",
     "description": "Geoffrey Hinton and colleagues revive interest in deep neural networks by demonstrating effective training of deep belief networks, sparking the modern deep learning revolution.",
     "category": "Milestone",
+    "featured": true,
     "links": ["https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf"]
   },
   {
@@ -354,6 +366,7 @@
     "title": "AlexNet Wins ImageNet",
     "description": "AlexNet, a deep convolutional neural network by Krizhevsky, Sutskever, and Hinton, wins the ImageNet competition by a large margin, demonstrating the power of deep learning for computer vision.",
     "category": "Milestone",
+    "featured": true,
     "links": ["https://en.wikipedia.org/wiki/AlexNet"]
   },
   {
@@ -361,6 +374,7 @@
     "title": "AlphaGo Defeats Lee Sedol",
     "description": "DeepMind’s AlphaGo defeats world champion Go player Lee Sedol, a feat previously thought to be decades away, demonstrating the power of reinforcement learning and deep neural networks.",
     "category": "Milestone",
+    "featured": true,
     "links": ["https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol"]
   },
   {
@@ -368,6 +382,7 @@
     "title": "Attention Is All You Need",
     "description": "'Attention Is All You Need' by Vaswani et al. introduces the Transformer architecture, a novel neural network design based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. This paper revolutionized natural language processing and deep learning.",
     "category": "Paper",
+    "featured": true,
     "links": ["https://arxiv.org/abs/1706.03762"]
   },
   {
@@ -382,6 +397,7 @@
     "title": "GPT-3 Released",
     "description": "OpenAI releases GPT-3, a large language model that demonstrates unprecedented capabilities in text generation and understanding.",
     "category": "Product Launch",
+    "featured": true,
     "links": ["https://en.wikipedia.org/wiki/GPT-3"],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
@@ -398,7 +414,7 @@
     "description": "Anthropic releases Claude, a family of large language models, contributing to the generative AI boom.",
     "category": "Product Launch",
     "links": ["https://en.wikipedia.org/wiki/Claude_(AI)"],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg"
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg"
   },
   {
     "date": "2023-12-01",
@@ -439,6 +455,7 @@
     "title": "2024 Nobel Prizes for AI",
     "description": "John Hopfield, Geoffrey Hinton, Demis Hassabis, John Jumper, and David Baker receive Nobel Prizes for their contributions to AI and protein folding.",
     "category": "Award",
+    "featured": true,
     "links": ["https://www.nobelprize.org/all-nobel-prizes-2024/"]
   },
   {
@@ -446,6 +463,7 @@
     "title": "ChatGPT Launch",
     "description": "OpenAI launches ChatGPT, a conversational AI model based on GPT-3.5, which quickly becomes a global phenomenon for its natural language capabilities.",
     "category": "Milestone",
+    "featured": true,
     "links": ["https://openai.com/blog/chatgpt/"],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
@@ -552,6 +570,7 @@
     "title": "GPT-4 Released",
     "description": "OpenAI releases GPT-4, a large multimodal model that accepts image and text inputs, achieving state-of-the-art results on a range of professional and academic benchmarks.",
     "category": "Product Launch",
+    "featured": true,
     "links": [
       "https://openai.com/research/gpt-4",
       "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
@@ -581,7 +600,7 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
   {
-    "date": "2023-07-01",
+    "date": "2024-11-25",
     "title": "Model Context Protocol (MCP) Introduced",
     "description": "The Model Context Protocol (MCP) is introduced as an open standard for interoperable AI agent communication, supporting agentic workflows and multi-agent systems.",
     "category": "Standard",
@@ -603,7 +622,7 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg"
   },
   {
-    "date": "2024-01-19",
+    "date": "2025-02-06",
     "title": "Andrej Karpathy's Vibe Coding Tweet",
     "description": "Andrej Karpathy tweets about 'vibe coding', describing the feeling of effortless, creative programming when everything flows smoothly.",
     "category": "Tweet",
@@ -626,6 +645,7 @@
     "title": "Anthropic Claude 4.6: Agentic AI at Scale",
     "description": "Anthropic releases Claude Opus 4.6 and Sonnet 4.6, excelling at long-context, agentic tasks in coding, research, and enterprise automation.",
     "category": "Product Launch",
+    "featured": true,
     "links": [
       "https://www.anthropic.com/news/claude-opus-4-6",
       "https://www.anthropic.com/news/claude-sonnet-4-6"
