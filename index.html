@@ -8,7 +8,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-neutral-50">
-  <h1 class="text-center text-3xl font-bold mb-8">AI</h1>
+  <h1 class="text-center text-3xl font-bold mt-8 mb-8">AI</h1>
   <div class="relative max-w-[700px] mx-auto pl-10" id="data">
     <!-- Timeline line -->
     <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-zinc-600 rounded"></div>
@@ -27,7 +27,7 @@
         // Timeline circle/logo
         if (event.logo) {
           const logoDiv = document.createElement('div');
-          logoDiv.className = 'absolute left-[-42px] top-[18px] w-9 h-9 rounded-full bg-neutral-50 z-10 flex items-center justify-center';
+          logoDiv.className = 'absolute left-[-41px] top-[10px] w-9 h-9 rounded-full bg-neutral-50 z-10 flex items-center justify-center';
           const logoImg = document.createElement('img');
           logoImg.src = event.logo;
           logoImg.alt = 'event logo';
@@ -36,14 +36,14 @@
           eventDiv.appendChild(logoDiv);
         } else {
           const defaultCircle = document.createElement('div');
-          defaultCircle.className = 'absolute left-[-31px] top-[27px] size-4 rounded-full bg-zinc-600 z-10 flex items-center justify-center';
+          defaultCircle.className = 'absolute left-[-31px] top-[19px] size-4 rounded-full bg-zinc-600 z-10 flex items-center justify-center';
           eventDiv.appendChild(defaultCircle);
         }
         // Event content
         const contentDiv = document.createElement('div');
         // Date
         const dateDiv = document.createElement('div');
-        dateDiv.className = 'absolute left-[-170px] top-[28px] w-[120px] text-right font-semibold text-base whitespace-nowrap z-20 pointer-events-none leading-none tracking-wide';
+        dateDiv.className = 'absolute left-[-170px] top-[20px] w-[120px] text-right font-semibold text-base whitespace-nowrap z-20 pointer-events-none leading-none tracking-wide';
         // Format date in German way (DD.MM.YYYY)
         const dateObj = new Date(event.date);
         const day = String(dateObj.getDate()).padStart(2, '0');
@@ -53,7 +53,7 @@
         contentDiv.appendChild(dateDiv);
         // Title
         const titleDiv = document.createElement('div');
-        titleDiv.className = 'text-lg font-semibold mt-2 mb-1';
+        titleDiv.className = 'text-lg font-semibold mb-1';
         titleDiv.textContent = event.title;
         contentDiv.appendChild(titleDiv);
         // Description

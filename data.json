@@ -382,7 +382,8 @@
     "title": "GPT-3 Released",
     "description": "OpenAI releases GPT-3, a large language model that demonstrates unprecedented capabilities in text generation and understanding.",
     "category": "Product Launch",
-    "links": ["https://en.wikipedia.org/wiki/GPT-3"]
+    "links": ["https://en.wikipedia.org/wiki/GPT-3"],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
   {
     "date": "2020-03-01",
@@ -404,7 +405,19 @@
     "title": "Google Gemini Launched",
     "description": "Google launches Gemini (formerly Bard), a major competitor in the large language model space.",
     "category": "Product Launch",
-    "links": ["https://en.wikipedia.org/wiki/Google_Gemini"]
+    "links": ["https://en.wikipedia.org/wiki/Google_Gemini"],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Google_Gemini_icon_2025.svg"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "GPT-5 Released",
+    "description": "OpenAI releases GPT-5, featuring a router that automatically selects between a faster model and a slower reasoning model based on the task.",
+    "category": "Product Launch",
+    "links": [
+      "https://openai.com/index/introducing-gpt-5/",
+      "https://en.wikipedia.org/wiki/GPT-5"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
   {
     "date": "2022-05-01",
@@ -430,10 +443,11 @@
   },
   {
     "date": "2022-11-30",
-    "title": "ChatGPT Launched",
-    "description": "OpenAI launches ChatGPT, a conversational AI based on GPT-3.5, making advanced language models widely accessible to the public and sparking global interest in generative AI.",
-    "category": "Product Launch",
-    "links": ["https://openai.com/blog/chatgpt"]
+    "title": "ChatGPT Launch",
+    "description": "OpenAI launches ChatGPT, a conversational AI model based on GPT-3.5, which quickly becomes a global phenomenon for its natural language capabilities.",
+    "category": "Milestone",
+    "links": ["https://openai.com/blog/chatgpt/"],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
   {
     "date": "2023-03-29",
@@ -447,7 +461,7 @@
   {
     "date": "2025-11-01",
     "title": "OpenClaw Released",
-    "description": "Peter Steinberger releases OpenClaw (originally Clawdbot, later Moltbot), an open-source autonomous AI agent designed for agentic workflows across messaging platforms. OpenClaw quickly gains global adoption and becomes a symbol of the shift toward autonomous AI systems, but also raises new security and privacy concerns.",
+    "description": "Peter Steinberger releases OpenClaw, an open-source autonomous AI agent for messaging platforms. OpenClaw gains global adoption and highlights new security and privacy concerns.",
     "category": "Product Launch",
     "links": [
       "https://en.wikipedia.org/wiki/OpenClaw",
@@ -464,7 +478,8 @@
     "links": [
       "https://openai.com/research/gpt-1",
       "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
-    ]
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
   {
     "date": "2019-02-14",
@@ -474,7 +489,8 @@
     "links": [
       "https://openai.com/research/gpt-2",
       "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
-    ]
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
   {
     "date": "2022-03-15",
@@ -484,7 +500,8 @@
     "links": [
       "https://openai.com/research/dall-e-2",
       "https://en.wikipedia.org/wiki/DALL-E"
-    ]
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
   {
     "date": "2021-01-05",
@@ -494,7 +511,8 @@
     "links": [
       "https://openai.com/research/dall-e",
       "https://en.wikipedia.org/wiki/DALL-E"
-    ]
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
   {
     "date": "2023-10-19",
@@ -504,7 +522,8 @@
     "links": [
       "https://openai.com/research/dall-e-3",
       "https://en.wikipedia.org/wiki/DALL-E"
-    ]
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
   {
     "date": "2021-08-10",
@@ -514,7 +533,8 @@
     "links": [
       "https://openai.com/research/codex",
       "https://en.wikipedia.org/wiki/OpenAI_Codex"
-    ]
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
   {
     "date": "2022-09-21",
@@ -524,7 +544,8 @@
     "links": [
       "https://openai.com/research/whisper",
       "https://en.wikipedia.org/wiki/Whisper_(speech_recognition)"
-    ]
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
   {
     "date": "2023-03-14",
@@ -534,7 +555,8 @@
     "links": [
       "https://openai.com/research/gpt-4",
       "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
-    ]
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
   {
     "date": "2022-11-30",
@@ -544,7 +566,8 @@
     "links": [
       "https://openai.com/blog/chatgpt",
       "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
-    ]
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
   {
     "date": "2024-02-15",
@@ -554,12 +577,13 @@
     "links": [
       "https://openai.com/research/sora",
       "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)"
-    ]
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
   {
     "date": "2023-07-01",
     "title": "Model Context Protocol (MCP) Introduced",
-    "description": "The Model Context Protocol (MCP) is introduced as an open standard for interoperable AI agent communication, enabling agents and tools to share context, goals, and results across platforms. MCP aims to standardize how AI models, agents, and applications interact, supporting the rise of agentic workflows and multi-agent systems.",
+    "description": "The Model Context Protocol (MCP) is introduced as an open standard for interoperable AI agent communication, supporting agentic workflows and multi-agent systems.",
     "category": "Standard",
     "links": [
       "https://modelcontext.org/",
@@ -568,7 +592,7 @@
   },
   {
     "date": "2025-11-12",
-    "title": "Anthropic Launches Claude Agent Skills",
+    "title": "Agent Skills",
     "description": "Anthropic introduces Agent Skills for Claude, enabling users to automate expertise and workflows. Skills can be stacked for complex tasks and help capture institutional knowledge.",
     "category": "Product Launch",
     "links": [
@@ -585,5 +609,27 @@
     "category": "Tweet",
     "links": ["https://x.com/karpathy/status/1886192184808149383"],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg"
+  },
+  {
+    "date": "2025-06-15",
+    "title": "OpenAI Long-Horizon Agents Released",
+    "description": "OpenAI launches agentic frameworks and models trained for long-horizon, multi-step tasks, enabling autonomous workflows and persistent digital assistants.",
+    "category": "Product Launch",
+    "links": [
+      "https://openai.com/research/long-horizon-agents",
+      "https://openai.com/blog/agentic-ai-2025"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/OpenAI_Logo.svg"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "Anthropic Claude 4.6: Agentic AI at Scale",
+    "description": "Anthropic releases Claude Opus 4.6 and Sonnet 4.6, excelling at long-context, agentic tasks in coding, research, and enterprise automation.",
+    "category": "Product Launch",
+    "links": [
+      "https://www.anthropic.com/news/claude-opus-4-6",
+      "https://www.anthropic.com/news/claude-sonnet-4-6"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg"
   }
 ]
