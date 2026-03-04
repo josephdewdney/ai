@@ -620,9 +620,9 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
   {
-    "date": "2022-03-15",
-    "title": "AI Image Generation Goes Mainstream",
-    "description": "OpenAI releases DALL-E 2 and Stability AI releases Stable Diffusion, bringing text-to-image generation to millions of users. For the first time, anyone can generate photorealistic images from text descriptions, igniting a global debate about AI and creative work.",
+    "date": "2022-08-22",
+    "title": "Stable Diffusion",
+    "description": "Stability AI releases Stable Diffusion as open-source, making high-quality text-to-image generation freely available to anyone. Millions of people generate images for the first time, igniting a global debate about AI and creative work.",
     "category": "Product Launch",
     "links": [
       "https://openai.com/research/dall-e-2",
@@ -755,8 +755,8 @@
   },
   {
     "date": "2026-02-17",
-    "title": "Anthropic Claude 4.6: Agentic AI at Scale",
-    "description": "Anthropic releases Claude Opus 4.6 and Sonnet 4.6, excelling at long-context, agentic tasks in coding, research, and enterprise automation.",
+    "title": "Claude Opus 4.6",
+    "description": "Anthropic releases Claude Opus 4.6, a frontier model excelling at long-context agentic tasks in coding, research, and enterprise automation.",
     "category": "Product Launch",
     "featured": true,
     "links": [
@@ -767,8 +767,8 @@
   },
   {
     "date": "2014-06-10",
-    "title": "Generative Adversarial Networks",
-    "description": "Ian Goodfellow and colleagues introduce GANs, a framework where two neural networks compete \u2014 a generator creating data and a discriminator detecting fakes. GANs give machines the ability to create, laying the conceptual foundation for the generative AI revolution.",
+    "title": "Generative Adversarial Nets",
+    "description": "Ian Goodfellow publishes 'Generative Adversarial Nets', introducing a framework where two neural networks compete \u2014 a generator creating data and a discriminator detecting fakes. The paper gives machines the ability to create, laying the conceptual foundation for the generative AI revolution.",
     "category": "Research",
     "featured": true
   },
@@ -795,6 +795,37 @@
     "category": "Research",
     "featured": true,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
+  },
+  {
+    "date": "1997-11-15",
+    "title": "Long Short-Term Memory (LSTM)",
+    "description": "Sepp Hochreiter and Jürgen Schmidhuber publish the LSTM paper, introducing a neural network architecture that can remember information over long sequences. LSTM becomes the dominant architecture for speech recognition, machine translation, and language modeling for the next two decades.",
+    "category": "Research",
+    "featured": true
+  },
+  {
+    "date": "2011-10-04",
+    "title": "Siri",
+    "description": "Apple launches Siri on the iPhone 4S, bringing AI into the pockets of millions. For the first time, ordinary people talk to an AI assistant daily, opening the door for Alexa, Google Assistant, and the voice AI era.",
+    "category": "Product Launch",
+    "featured": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+  },
+  {
+    "date": "2015-12-11",
+    "title": "OpenAI Founded",
+    "description": "Sam Altman, Elon Musk, and others found OpenAI as a nonprofit research lab with $1 billion in pledged funding, dedicated to building safe artificial general intelligence for the benefit of humanity.",
+    "category": "Industry",
+    "featured": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg"
+  },
+  {
+    "date": "2021-06-29",
+    "title": "GitHub Copilot",
+    "description": "GitHub launches Copilot, an AI pair programmer powered by OpenAI Codex that autocompletes code in real time. It becomes the first AI tool used daily by millions of developers, proving that large language models have immediate practical value.",
+    "category": "Product Launch",
+    "featured": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/GitHub_Copilot_logo.svg"
   },
   {
     "date": "2025-01-20",
