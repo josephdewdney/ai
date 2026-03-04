@@ -2,3 +2,4 @@
 - detail the evolution of AI
 - emphasize the recent AI boom
 - the presentation should be 10 minutes long with 5 minutes for questions
+- only include the big changes
