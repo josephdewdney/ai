@@ -85,9 +85,9 @@
     ]
   },
   {
-    "date": "1955-01-01",
+    "date": "1956-01-01",
     "title": "Logic Theorist",
-    "description": "Allen Newell and Herbert A. Simon develop the Logic Theorist, the first program to mimic human problem-solving by proving mathematical theorems.",
+    "description": "Allen Newell, Herbert A. Simon, and Cliff Shaw develop the Logic Theorist, the first program to mimic human problem-solving by proving mathematical theorems.",
     "category": "Algorithm",
     "links": ["https://en.wikipedia.org/wiki/Logic_Theorist"]
   },
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "date": "1956-08-31",
+    "date": "1956-08-17",
     "title": "Dartmouth Workshop",
     "description": "The Dartmouth Summer Research Project on Artificial Intelligence, led by John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon, is held. This event is considered the birth of AI as a field.",
     "category": "Milestone",
@@ -194,7 +194,7 @@
   {
     "date": "1980-01-01",
     "title": "R1: First Commercial Expert System",
-    "description": "DEC deploys R1 (also called XCON), the first commercially successful expert system, which configures VAX computer orders and saves the company $40 million per year. It proves AI has real business value.",
+    "description": "DEC deploys R1 (also called XCON), the first commercially successful expert system, which configures VAX computer orders and saves the company an estimated $25 million per year. It proves AI has real business value.",
     "category": "Application",
     "featured": true,
     "links": [
@@ -224,9 +224,9 @@
     "links": ["https://en.wikipedia.org/wiki/Lighthill_report"]
   },
   {
-    "date": "1976-01-01",
+    "date": "1988-01-01",
     "title": "Moravec's Paradox",
-    "description": "Hans Moravec articulates the paradox that high-level reasoning requires little computation, but low-level sensorimotor skills require enormous computational resources.",
+    "description": "Hans Moravec articulates the paradox that high-level reasoning requires little computation, but low-level sensorimotor skills require enormous computational resources, in his book Mind Children.",
     "category": "Theory",
     "links": ["https://en.wikipedia.org/wiki/Moravec%27s_paradox"]
   },
@@ -312,9 +312,9 @@
     "links": ["https://en.wikipedia.org/wiki/AI_winter"]
   },
   {
-    "date": "1990-01-01",
+    "date": "1998-01-01",
     "title": "LeNet-5: Handwritten Digit Recognition",
-    "description": "Yann LeCun publishes LeNet-5, a convolutional neural network that reads handwritten zip codes for the US Postal Service, becoming one of the first practical applications of deep learning.",
+    "description": "Yann LeCun, Bottou, Bengio, and Haffner publish LeNet-5, a convolutional neural network for document recognition, building on LeCun's earlier work reading handwritten zip codes for the US Postal Service.",
     "category": "Model",
     "links": ["https://en.wikipedia.org/wiki/Convolutional_neural_network"]
   },
@@ -375,7 +375,7 @@
   {
     "date": "2016-03-15",
     "title": "AlphaGo Defeats Lee Sedol",
-    "description": "DeepMind\u2019s AlphaGo defeats world champion Go player Lee Sedol, a feat previously thought to be decades away, demonstrating the power of reinforcement learning and deep neural networks.",
+    "description": "DeepMind\u2019s AlphaGo defeats top Go player Lee Sedol, a feat previously thought to be decades away, demonstrating the power of reinforcement learning and deep neural networks.",
     "category": "Milestone",
     "featured": true,
     "links": ["https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol"],
@@ -384,13 +384,13 @@
   {
     "date": "2017-06-12",
     "title": "Attention Is All You Need",
-    "description": "'Attention Is All You Need' by Vaswani et al. introduces the Transformer architecture, a novel neural network design based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. This paper revolutionized natural language processing and deep learning.",
+    "description": "'Attention Is All You Need' by Vaswani et al. introduces the Transformer architecture, a novel neural network design based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. This paper transformed natural language processing and deep learning.",
     "category": "Paper",
     "featured": true,
     "links": ["https://arxiv.org/abs/1706.03762"]
   },
   {
-    "date": "2020-06-01",
+    "date": "2020-11-30",
     "title": "AlphaFold Solves Protein Folding",
     "description": "DeepMind's AlphaFold achieves a breakthrough in protein structure prediction, solving a 50-year-old grand challenge in biology.",
     "category": "Milestone",
@@ -433,7 +433,7 @@
   {
     "date": "2025-08-07",
     "title": "GPT-5",
-    "description": "OpenAI releases GPT-5, a unified multimodal model with a 400,000-token context window and a router that automatically selects between a faster model and a slower reasoning model based on the task.",
+    "description": "OpenAI releases GPT-5, a unified multimodal model with a 128,000-token context window and a router that automatically selects between a faster model and a slower reasoning model based on the task.",
     "category": "Product Launch",
     "featured": true,
     "links": [
@@ -458,7 +458,7 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg"
   },
   {
-    "date": "2024-10-01",
+    "date": "2024-10-08",
     "title": "2024 Nobel Prizes for AI",
     "description": "John Hopfield, Geoffrey Hinton, Demis Hassabis, John Jumper, and David Baker receive Nobel Prizes for their contributions to AI and protein folding.",
     "category": "Award",
@@ -648,7 +648,7 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/OpenAI_Logo.svg"
   },
   {
-    "date": "2026-02-17",
+    "date": "2026-02-05",
     "title": "Claude Opus 4.6",
     "description": "Anthropic releases Claude Opus 4.6, a frontier model excelling at long-context agentic tasks in coding, research, and enterprise automation.",
     "category": "Product Launch",

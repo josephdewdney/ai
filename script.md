@@ -14,11 +14,11 @@ We're going to walk through a timeline, from the 1950s to where things are headi
 
 So the story really starts in 1950, when Alan Turing publishes this paper — "Computing Machinery and Intelligence" — and he asks a deceptively simple question: can machines think? And rather than trying to define what thinking actually is, he sidesteps the whole thing and proposes what we now call the Turing Test. If a machine can hold a conversation and you genuinely can't tell it apart from a human, does it even matter whether it's "really" thinking? It's a clever framing, and it basically kicked off the whole field.
 
-Then in 1956, a group of researchers got together at Dartmouth College — John McCarthy, Marvin Minsky, Claude Shannon, and a few others — and they coined the term "artificial intelligence." And they were incredibly optimistic. They genuinely believed that within a generation, machines would be able to do anything a human mind could do.
+Then in 1956, a group of researchers got together at Dartmouth College — John McCarthy, Marvin Minsky, Claude Shannon — yes, that's who the AI is named after — and a few others — and they coined the term "artificial intelligence." And they were incredibly optimistic. They genuinely believed that within a generation, machines would be able to do anything a human mind could do.
 
 And early on, it actually looked like they might be right. In 1966, a program called ELIZA came out of MIT. It was essentially a chatbot that used pattern matching to simulate a therapist. And people were amazed by it — some genuinely believed they were talking to something that understood them. It was really the first time software created that illusion of intelligence.
 
-Around the same time, researchers were building what's now called symbolic AI, or "Good Old-Fashioned AI." The idea was pretty straightforward — you encode human knowledge as rules. If this, then that. Expert systems took this approach and ran with it, and for narrow, well-defined problems, they actually worked quite well.
+Around the same time, researchers were building what's now called symbolic AI. The idea was pretty straightforward — you encode human knowledge as rules. If this, then that. Expert systems took this approach and ran with it, and for narrow, well-defined problems, they actually worked quite well.
 
 ---
 
@@ -34,7 +34,7 @@ And I think this is worth pausing on, because there's a pattern here that repeat
 
 So what actually pulled AI out of the cold? It was really a philosophical shift more than anything. Instead of telling a computer the rules, you give it data and let it figure out the rules itself. That's machine learning.
 
-Now, the concept of neural networks actually goes all the way back to the 1940s. And in 1957, Frank Rosenblatt built what he called the Perceptron — a simple network that could learn to classify inputs. But it was limited, and after Minsky and Papert published a book proving those limitations in 1969, interest in neural networks basically collapsed for over a decade.
+Now, the concept of neural networks actually goes all the way back to the 1940s. And in 1957, Frank Rosenblatt built what he called the Perceptron — a simple network that could learn to classify inputs. But it was limited, and after Minsky and Papert published a book highlighting those limitations in 1969, interest in neural networks basically collapsed for over a decade.
 
 The real breakthrough came in the 1980s with backpropagation — essentially a method for training multi-layer networks by working out how much each connection contributed to the error, and adjusting accordingly. So suddenly neural networks could learn much more complex patterns. But they still needed far more data and compute than was available at the time.
 
@@ -46,7 +46,7 @@ In the meantime though, other machine learning approaches were thriving. Support
 
 And then 2012 happened. A neural network called AlexNet won the ImageNet competition by a massive margin. It used convolutional neural networks running on GPUs — and the thing is, these techniques had been around for decades. But three things had finally converged at the same time: we had the algorithms, we had the data thanks to the internet, and we had the compute thanks to GPUs that were originally designed for video games. That convergence unlocked capabilities that had been theoretically possible but practically out of reach.
 
-And what followed was a rapid wave of progress. In 2014, GANs showed that AI could generate realistic images. In 2016, AlphaGo beat the world champion at Go — and Go is a game so complex that brute-force search is essentially impossible. The system had to develop something that genuinely looked like intuition.
+And what followed was a rapid wave of progress. In 2014, GANs introduced a way for neural networks to learn to generate images. In 2016, AlphaGo beat one of the strongest players in the world at Go — and Go is a game so complex that brute-force search is essentially impossible. The system had to develop something that genuinely looked like intuition.
 
 ---
 
@@ -58,7 +58,7 @@ And this architecture turned out to be very scalable. When you scaled it up, som
 
 GPT-2 in 2019 showed that a large language model could generate surprisingly coherent text. GPT-3 in 2020, with 175 billion parameters, showed that scale itself was kind of an ingredient — the more you scaled, the more capabilities just emerged. And then in late 2022, ChatGPT brought all of this to the general public. It reached 100 million users in two months. For context, it took Instagram two and a half years to get there.
 
-Now, just looking at the last year or so — in early 2025, a Chinese lab called DeepSeek released an open-source reasoning model that rivalled the best closed models, and they reportedly built it for under six million dollars. That sent shockwaves through the industry — it actually wiped 600 billion off Nvidia's market cap in a single day. Then GPT-5 launched with a 400,000-token context window, Claude 4 became the top coding model, and Google shipped Gemini 3, which scored a perfect 100% on a maths benchmark that was considered extremely difficult just a year before.
+Now, just looking at the last year or so — in early 2025, a Chinese lab called DeepSeek released an open-source reasoning model that rivalled the best closed models, and they reportedly built it for under six million dollars. That sent shockwaves through the industry — it actually wiped 600 billion off Nvidia's market cap in a single day. Then GPT-5 launched with a 128,000-token context window, Claude 4 became the top coding model, and Google shipped Gemini 3, which scored a perfect 100% on a maths benchmark that was considered extremely difficult just a year before.
 
 And then I think the really interesting shift happened. So all of this — the text generation, the image generation, the code writing — that's what people mean when they say "generative AI." AI that creates new content rather than just classifying or analysing existing data. And up to this point, it was fundamentally reactive — you ask it something, it gives you an answer. But in 2025, we started seeing proper AI agents. Not chatbots — these are systems that can browse the web, write and run code, use tools, and complete multi-step tasks pretty much autonomously. Protocols like the Model Context Protocol have emerged to standardise how these agents interact with external systems. And I think that's the key transition — it's going from AI you talk to, to AI that actually plans and acts on its own.
 
