@@ -24,6 +24,11 @@ This presentation serves as an introduction to a series of presentations on AI f
 - Keep: major turning points, clear definitions, and real-world impact.
 - Skip: minor milestones, technical deep dives, and long historical lists.
 
+## Notes
+
+- The points in the timeline don't have to match exactly what is said in the script. The timeline can have more points than are spoken about, for example.
+- The audience may be experiencing AI fatigue. AI hype has been relentless. Acknowledge this rather than pretend the audience is eager. Avoid hype language, be honest about limitations, and focus on substance over buzzwords.
+
 ## Possible Future Presentations
 
 ### Technical Topics
