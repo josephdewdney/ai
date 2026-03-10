@@ -749,40 +749,40 @@
   },
   {
     "date": "2026-03-01",
-    "title": "Swarm Intelligence and Multi-Agent Systems",
-    "description": "AI agents evolve from single assistants into coordinated swarms. Multi-agent architectures, where a coordinator delegates to specialist agents, are entering production. Amazon runs swarms of 1,000+ autonomous robots per warehouse. The swarm intelligence market is projected to reach $7.2 billion by 2032.",
+    "title": "Swarm Intelligence",
+    "description": "Agents evolve into coordinated multi-agent systems — specialist agents working together like ant colonies.",
     "category": "Trend",
     "featured": true,
     "links": []
   },
   {
     "date": "2026-03-02",
-    "title": "Physical AI and Robotics",
-    "description": "The AI brain and the robotic body are merging. Humanoid robots are working on BMW production lines, and Tesla targets 50,000 robot deployments in its Gigafactories by end of 2026. Goldman Sachs projects up to 100,000 humanoid robot shipments globally this year.",
+    "title": "Physical AI",
+    "description": "AI merges with robotics. Humanoid robots on BMW production lines, Tesla targeting 50K deployments.",
     "category": "Trend",
     "featured": true,
     "links": []
   },
   {
     "date": "2026-03-03",
-    "title": "Scientific AI and Autonomous Discovery",
-    "description": "Building on AlphaFold's breakthrough in protein folding, AI systems are moving toward independently generating hypotheses, designing experiments, and discovering new materials and medicines — conducting science, not just assisting with it.",
+    "title": "Scientific AI",
+    "description": "Building on AlphaFold, AI moves toward conducting science — generating hypotheses and designing experiments.",
     "category": "Trend",
     "featured": true,
     "links": []
   },
   {
-    "date": "2026-03-09",
-    "title": "World Models: A Challenge to LLMs",
-    "description": "Yann LeCun leaves Meta and raises over $1 billion for AMI Labs to build 'world models' — AI that understands physics, causality, and cause-and-effect rather than just predicting text tokens. It's the biggest funded contrarian bet against the current LLM paradigm.",
+    "date": "2026-03-04",
+    "title": "World Models",
+    "description": "A challenge to LLMs — AI that understands physics and causality, not just text. LeCun raised $1B to build it.",
     "category": "Trend",
     "featured": true,
     "links": []
   },
   {
-    "date": "2026-03-10",
+    "date": "2026-03-05",
     "title": "Ambient AI",
-    "description": "AI is becoming embedded in operating systems, cars, buildings, and workflows — not as a tool you open, but as intelligence woven into everyday life. The shift from AI as an application to AI as infrastructure, as commonplace as electricity.",
+    "description": "AI embedded in cars, buildings, workflows — as commonplace as electricity.",
     "category": "Trend",
     "featured": true,
     "links": []

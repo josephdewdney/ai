@@ -66,19 +66,9 @@ And then I think the really interesting shift happened. Up to this point, genera
 
 **What Comes Next**
 
-So where does all of this go from here? And I should say upfront, nobody really knows for certain, but there are some directions that I think are worth paying attention to.
+So where does all of this go from here? Nobody really knows for certain, but there are a few directions worth watching. Agents are already evolving into swarms — coordinated multi-agent systems, a bit like ant colonies, where specialists work together on complex tasks. AI is merging with the physical world — humanoid robots are already on BMW production lines. There's scientific AI, building on AlphaFold, where systems don't just assist research but conduct it. There are people challenging the whole LLM approach with "world models" that understand physics rather than just text. And AI is becoming ambient — embedded in cars, buildings, workflows, becoming as commonplace as electricity.
 
-The first one is that those single agents are already evolving into what you might call swarms. Multi-agent systems where a coordinator delegates tasks to specialist agents, each optimised for a specific function. And if you think about it, it's a lot like an ant colony — no single ant knows the big picture, but the colony as a whole solves incredibly complex problems through simple local rules and coordination. This isn't just theoretical either. Amazon already runs swarms of over a thousand autonomous robots per warehouse, all coordinating in real time with no central controller.
-
-Then there's physical AI. Humanoid robots are actually working on BMW production lines right now. Tesla is targeting fifty thousand robot deployments in its own factories this year. The AI brain and the robotic body are finally coming together, and I think that's going to be a huge deal.
-
-There's also what I'd call scientific AI — systems that don't just assist researchers but actually conduct science themselves. We've already seen a glimpse of this with AlphaFold, which solved protein folding, a fifty-year grand challenge in biology. The next step is AI that independently generates hypotheses, designs experiments, and discovers new materials or medicines.
-
-And then there's a really interesting challenge to the whole current approach. Yann LeCun — one of the godfathers of deep learning — actually left Meta and raised a billion dollars to build what he calls "world models." His argument is that large language models are fundamentally limited because they only understand text — they don't understand physics, causality, or how the real world actually works. Whether he's right or not, it's the biggest funded contrarian bet against the current paradigm.
-
-And maybe the most subtle shift of all: AI is becoming ambient. It's being embedded in operating systems, in cars, in buildings, in everyday workflows — not as a tool you open, but as intelligence woven into everything around you. AI becoming as commonplace as electricity.
-
-As for AGI — artificial general intelligence — the lab leaders are split. Anthropic's CEO says it could happen by 2027. Sam Altman says that by 2028, more of the world's intellectual capacity could live inside data centres than outside. Hassabis at DeepMind is more cautious — he puts it at about fifty-fifty by end of the decade. They disagree on the timeline, but none of them disagree on the direction.
+As for AGI, the lab leaders disagree on timelines — anywhere from 2027 to end of the decade — but none of them disagree on the direction.
 
 ---
 
