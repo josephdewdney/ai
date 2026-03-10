@@ -260,7 +260,7 @@
 
           const dateDiv = document.createElement('div');
           dateDiv.className = 'absolute left-[-192px] top-[20px] w-[125px] text-right font-mono text-[0.78rem] text-gray-500 whitespace-nowrap z-20 pointer-events-none leading-none tracking-wider';
-          dateDiv.textContent = formatDate(event.date);
+          dateDiv.textContent = event.category === 'Trend' ? '??' : formatDate(event.date);
           contentDiv.appendChild(dateDiv);
 
           const titleDiv = document.createElement('div');

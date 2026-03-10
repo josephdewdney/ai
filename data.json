@@ -196,6 +196,7 @@
     "title": "R1: First Commercial Expert System",
     "description": "DEC deploys R1 (also called XCON), the first commercially successful expert system, which configures VAX computer orders and saves the company $40 million per year. It proves AI has real business value.",
     "category": "Application",
+    "featured": true,
     "links": [
       "https://ai.stanford.edu/~nilsson/OnlinePubs-Nils/General_Essays/HistoryAI.pdf"
     ]
@@ -307,6 +308,7 @@
     "title": "Lisp Machine Market Collapses",
     "description": "The Lisp machine market collapses and overhyped expert systems fail to deliver, triggering the second AI winter with widespread funding cuts and company failures.",
     "category": "AI Winter",
+    "featured": true,
     "links": ["https://en.wikipedia.org/wiki/AI_winter"]
   },
   {
@@ -399,8 +401,9 @@
   {
     "date": "2020-06-11",
     "title": "GPT-3",
-    "description": "OpenAI releases GPT-3, a large language model that demonstrates unprecedented capabilities in text generation and understanding.",
+    "description": "OpenAI releases GPT-3, a large language model with 175 billion parameters that demonstrates unprecedented capabilities in text generation, translation, and reasoning. It shows that scale itself is an ingredient — the more you scale, the more capabilities emerge.",
     "category": "Product Launch",
+    "featured": true,
     "links": ["https://en.wikipedia.org/wiki/GPT-3"],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
   },
@@ -430,8 +433,9 @@
   {
     "date": "2025-08-07",
     "title": "GPT-5",
-    "description": "OpenAI releases GPT-5, featuring a router that automatically selects between a faster model and a slower reasoning model based on the task.",
+    "description": "OpenAI releases GPT-5, a unified multimodal model with a 400,000-token context window and a router that automatically selects between a faster model and a slower reasoning model based on the task.",
     "category": "Product Launch",
+    "featured": true,
     "links": [
       "https://openai.com/index/introducing-gpt-5/",
       "https://en.wikipedia.org/wiki/GPT-5"
@@ -519,10 +523,8 @@
     "description": "Stability AI releases Stable Diffusion as open-source, making high-quality text-to-image generation freely available to anyone. Millions of people generate images for the first time, igniting a global debate about AI and creative work.",
     "category": "Product Launch",
     "links": [
-      "https://openai.com/research/dall-e-2",
-      "https://en.wikipedia.org/wiki/DALL-E"
+      "https://en.wikipedia.org/wiki/Stable_Diffusion"
     ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
     "featured": true
   },
   {
@@ -726,5 +728,63 @@
     "category": "Industry",
     "featured": true,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Deepseek-logo-icon.svg"
+  },
+  {
+    "date": "2025-05-22",
+    "title": "Claude 4",
+    "description": "Anthropic releases the Claude 4 family, with Claude Opus 4 becoming the top-performing coding model. It scores 72.5% on SWE-bench and introduces hybrid instant/extended-thinking modes for agentic workflows.",
+    "category": "Product Launch",
+    "featured": true,
+    "links": ["https://www.anthropic.com/news/claude-4"],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg"
+  },
+  {
+    "date": "2025-12-17",
+    "title": "Gemini 3",
+    "description": "Google releases Gemini 3 Flash and Gemini 3 Pro, achieving a perfect 100% on the AIME 2025 maths benchmark with a 1-million-token context window. The model replaces Gemini 2.5 across Google's products.",
+    "category": "Product Launch",
+    "featured": true,
+    "links": ["https://deepmind.google/technologies/gemini/"],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Google_Gemini_icon_2025.svg"
+  },
+  {
+    "date": "2026-03-01",
+    "title": "Swarm Intelligence and Multi-Agent Systems",
+    "description": "AI agents evolve from single assistants into coordinated swarms. Multi-agent architectures, where a coordinator delegates to specialist agents, are entering production. Amazon runs swarms of 1,000+ autonomous robots per warehouse. The swarm intelligence market is projected to reach $7.2 billion by 2032.",
+    "category": "Trend",
+    "featured": true,
+    "links": []
+  },
+  {
+    "date": "2026-03-02",
+    "title": "Physical AI and Robotics",
+    "description": "The AI brain and the robotic body are merging. Humanoid robots are working on BMW production lines, and Tesla targets 50,000 robot deployments in its Gigafactories by end of 2026. Goldman Sachs projects up to 100,000 humanoid robot shipments globally this year.",
+    "category": "Trend",
+    "featured": true,
+    "links": []
+  },
+  {
+    "date": "2026-03-03",
+    "title": "Scientific AI and Autonomous Discovery",
+    "description": "Building on AlphaFold's breakthrough in protein folding, AI systems are moving toward independently generating hypotheses, designing experiments, and discovering new materials and medicines — conducting science, not just assisting with it.",
+    "category": "Trend",
+    "featured": true,
+    "links": []
+  },
+  {
+    "date": "2026-03-09",
+    "title": "World Models: A Challenge to LLMs",
+    "description": "Yann LeCun leaves Meta and raises over $1 billion for AMI Labs to build 'world models' — AI that understands physics, causality, and cause-and-effect rather than just predicting text tokens. It's the biggest funded contrarian bet against the current LLM paradigm.",
+    "category": "Trend",
+    "featured": true,
+    "links": []
+  },
+  {
+    "date": "2026-03-10",
+    "title": "Ambient AI",
+    "description": "AI is becoming embedded in operating systems, cars, buildings, and workflows — not as a tool you open, but as intelligence woven into everyday life. The shift from AI as an application to AI as infrastructure, as commonplace as electricity.",
+    "category": "Trend",
+    "featured": true,
+    "links": []
   }
 ]
