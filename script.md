@@ -46,7 +46,7 @@ In the meantime though, other machine learning approaches were thriving. Support
 
 And then 2012 happened. A neural network called AlexNet won the ImageNet competition by a massive margin. It used convolutional neural networks running on GPUs — and the thing is, these techniques had been around for decades. But three things had finally converged at the same time: we had the algorithms, we had the data thanks to the internet, and we had the compute thanks to GPUs that were originally designed for video games. That convergence unlocked capabilities that had been theoretically possible but practically out of reach.
 
-And what followed was just this explosion of progress. In 2014, GANs showed that AI could generate realistic images. In 2016, AlphaGo beat the world champion at Go — and Go is a game so complex that brute-force search is essentially impossible. The system had to develop something that genuinely looked like intuition.
+And what followed was a rapid wave of progress. In 2014, GANs showed that AI could generate realistic images. In 2016, AlphaGo beat the world champion at Go — and Go is a game so complex that brute-force search is essentially impossible. The system had to develop something that genuinely looked like intuition.
 
 ---
 
@@ -54,13 +54,13 @@ And what followed was just this explosion of progress. In 2014, GANs showed that
 
 Then in 2017, a team at Google published a paper called "Attention Is All You Need," which introduced the transformer architecture. And this really did fundamentally change natural language processing. The key insight was the attention mechanism — instead of processing text word by word in sequence, the model could look at all parts of the input simultaneously and learn which parts are relevant to each other.
 
-And this architecture turned out to be incredibly scalable. When you scaled it up, something quite unexpected happened — the models started developing capabilities that nobody had explicitly programmed. Reasoning. Code generation. Translation. Researchers call these emergent properties, and I think they're one of the most fascinating things about this whole story.
+And this architecture turned out to be very scalable. When you scaled it up, something quite unexpected happened — the models started developing capabilities that nobody had explicitly programmed. Reasoning. Code generation. Translation. Researchers call these emergent properties, and I think they're one of the most fascinating things about this whole story.
 
 GPT-2 in 2019 showed that a large language model could generate surprisingly coherent text. GPT-3 in 2020, with 175 billion parameters, showed that scale itself was kind of an ingredient — the more you scaled, the more capabilities just emerged. And then in late 2022, ChatGPT brought all of this to the general public. It reached 100 million users in two months. For context, it took Instagram two and a half years to get there.
 
 Now, just looking at the last year or so — in early 2025, a Chinese lab called DeepSeek released an open-source reasoning model that rivalled the best closed models, and they reportedly built it for under six million dollars. That sent shockwaves through the industry — it actually wiped 600 billion off Nvidia's market cap in a single day. Then GPT-5 launched with a 400,000-token context window, Claude 4 became the top coding model, and Google shipped Gemini 3, which scored a perfect 100% on a maths benchmark that was considered extremely difficult just a year before.
 
-And then I think the really interesting shift happened. Up to this point, generative AI was fundamentally reactive — you ask it something, it gives you an answer. But in 2025, we started seeing proper AI agents. Not chatbots — these are systems that can browse the web, write and run code, use tools, and complete multi-step tasks pretty much autonomously. Protocols like the Model Context Protocol have emerged to standardise how these agents interact with external systems. And I think that's the key transition — it's going from AI you talk to, to AI that actually plans and acts on its own.
+And then I think the really interesting shift happened. So all of this — the text generation, the image generation, the code writing — that's what people mean when they say "generative AI." AI that creates new content rather than just classifying or analysing existing data. And up to this point, it was fundamentally reactive — you ask it something, it gives you an answer. But in 2025, we started seeing proper AI agents. Not chatbots — these are systems that can browse the web, write and run code, use tools, and complete multi-step tasks pretty much autonomously. Protocols like the Model Context Protocol have emerged to standardise how these agents interact with external systems. And I think that's the key transition — it's going from AI you talk to, to AI that actually plans and acts on its own.
 
 ---
 
@@ -72,7 +72,7 @@ As for AGI, the lab leaders disagree on timelines — anywhere from 2027 to end 
 
 ---
 
-So that's the story. Seventy years from Turing's question to swarms of autonomous agents and robots on factory floors. And it's still accelerating.
+So that's the story. Seventy years from Turing's question to autonomous agents and robots on factory floors.
 
 This is the first in a series of info chunks on AI. In future sessions we'll go deeper into specific topics — how these models actually work under the hood, how agents and swarms are being built, what it means practically for how we write software and build products. So if anything from today sparked your curiosity or if there's a topic you'd want us to cover, let us know.
 
