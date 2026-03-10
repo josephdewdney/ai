@@ -6,90 +6,84 @@
 
 So, I've been using AI and coding agents more and more recently, as I'm sure a lot of you have been as well, and I became increasingly curious as to how we actually got here. I studied neural networks, biologically inspired optimization algorithms and the like in my mathematics degree, and I've followed the developments closely, but I didn't have the overall picture. So I did some research — with help from Daniel and Timo — and found it quite interesting and actually quite telling. We decided it would be a good topic to kick off a series of AI info chunks. In future sessions we can pick particular topics to go deeper into and perhaps pour some cold water on some of the AI hype, so keep in mind what you'd want to learn more about during this talk.
 
+We're going to walk through a timeline, from the 1950s to where things are heading next. Let's get into it.
+
 ---
 
 **Early Enthusiasm, Great Expectations**
 
-1950. Alan Turing publishes "Computing Machinery and Intelligence" and asks a simple question: can machines think? He proposes the Turing Test — if a machine can hold a conversation and you can't tell it apart from a human, does it matter whether it's "really" thinking?
+So the story really starts in 1950, when Alan Turing publishes this paper — "Computing Machinery and Intelligence" — and he asks a deceptively simple question: can machines think? And rather than trying to define what thinking actually is, he sidesteps the whole thing and proposes what we now call the Turing Test. If a machine can hold a conversation and you genuinely can't tell it apart from a human, does it even matter whether it's "really" thinking? It's a clever framing, and it basically kicked off the whole field.
 
-That question lit a fire. In 1956, a group of researchers met at Dartmouth College — John McCarthy, Marvin Minsky, Claude Shannon, and others. They coined the term "artificial intelligence" and they were wildly optimistic. They genuinely believed that within a generation, machines would be able to do anything a human mind could do.
+Then in 1956, a group of researchers got together at Dartmouth College — John McCarthy, Marvin Minsky, Claude Shannon, and a few others — and they coined the term "artificial intelligence." And they were incredibly optimistic. They genuinely believed that within a generation, machines would be able to do anything a human mind could do.
 
----
+And early on, it actually looked like they might be right. In 1966, a program called ELIZA came out of MIT. It was essentially a chatbot that used pattern matching to simulate a therapist. And people were amazed by it — some genuinely believed they were talking to something that understood them. It was really the first time software created that illusion of intelligence.
 
-*(continuing Early Enthusiasm)*
-
-In 1966, a program called ELIZA was created at MIT. It was basically a chatbot — it used pattern matching to simulate a therapist. Some people genuinely believed they were talking to something that understood them. It was the first time software created that illusion of intelligence.
-
-Around the same time, researchers were building symbolic AI — "Good Old-Fashioned AI." Encode human knowledge as rules. If this, then that. Expert systems took this approach and ran with it. For narrow problems, they worked well.
+Around the same time, researchers were building what's now called symbolic AI, or "Good Old-Fashioned AI." The idea was pretty straightforward — you encode human knowledge as rules. If this, then that. Expert systems took this approach and ran with it, and for narrow, well-defined problems, they actually worked quite well.
 
 ---
 
 **A Dose of Reality**
 
-But these systems were brittle. They couldn't handle ambiguity or learn from new data. Funding dried up. Twice. The first AI winter hit in the mid-1970s. Interest came back in the 80s with expert systems, but when those failed to deliver, a second winter followed in the late 80s and early 90s.
+But the thing is, these systems were brittle. They couldn't handle ambiguity, they couldn't learn from new data, and the hardware of the time just wasn't powerful enough to do anything more ambitious. So funding dried up. Twice, actually. The first AI winter hit in the mid-1970s. Interest came back in the 80s with expert systems, but when those failed to live up to the hype, a second winter followed in the late 80s and early 90s.
 
-There's a pattern here that repeats throughout AI history: hype, followed by reality, followed by disappointment. Keep that in mind.
+And I think this is worth pausing on, because there's a pattern here that repeats throughout AI history — hype, followed by reality, followed by disappointment. And I'd encourage you to keep that pattern in mind, because I think it's relevant to where we are today as well.
 
 ---
 
 **Statistical Learning**
 
-What pulled AI out of the cold was a philosophical shift. Instead of telling a computer the rules, you give it data and let it figure out the rules itself. That's machine learning.
+So what actually pulled AI out of the cold? It was really a philosophical shift more than anything. Instead of telling a computer the rules, you give it data and let it figure out the rules itself. That's machine learning.
 
-The concept of neural networks goes back to the 1940s. In 1957, Frank Rosenblatt built the Perceptron — a simple network that could learn to classify inputs. But it was limited, and interest collapsed after Minsky and Papert proved those limitations in 1969.
+Now, the concept of neural networks actually goes all the way back to the 1940s. And in 1957, Frank Rosenblatt built what he called the Perceptron — a simple network that could learn to classify inputs. But it was limited, and after Minsky and Papert published a book proving those limitations in 1969, interest in neural networks basically collapsed for over a decade.
 
-The breakthrough came in the 1980s with backpropagation — a method for training multi-layer networks. Suddenly, neural networks could learn complex patterns. But they still needed more data and compute than was available.
+The real breakthrough came in the 1980s with backpropagation — essentially a method for training multi-layer networks by working out how much each connection contributed to the error, and adjusting accordingly. So suddenly neural networks could learn much more complex patterns. But they still needed far more data and compute than was available at the time.
 
-Meanwhile, other approaches thrived. Support vector machines, random forests, boosting — these became the workhorses of practical AI through the 90s and 2000s. Spam filters, recommendation engines, fraud detection — that was all machine learning.
+In the meantime though, other machine learning approaches were thriving. Support vector machines, random forests, boosting methods — these became the workhorses of practical AI through the 90s and 2000s. If you've used spam filters, recommendation engines, fraud detection — that was all machine learning, just not the deep learning variety.
 
 ---
 
 **The Deep Learning Revolution**
 
-Then, 2012. A neural network called AlexNet won the ImageNet competition by a massive margin. It used convolutional neural networks running on GPUs — techniques that had been around for decades. But now three things had converged: the algorithms, the data thanks to the internet, and the compute thanks to GPUs originally designed for video games.
+And then 2012 happened. A neural network called AlexNet won the ImageNet competition by a massive margin. It used convolutional neural networks running on GPUs — and the thing is, these techniques had been around for decades. But three things had finally converged at the same time: we had the algorithms, we had the data thanks to the internet, and we had the compute thanks to GPUs that were originally designed for video games. That convergence unlocked capabilities that had been theoretically possible but practically out of reach.
 
-What followed was an explosion. In 2014, GANs showed AI could generate realistic images. In 2016, AlphaGo beat the world champion at Go — a game so complex that brute-force search was impossible. It had to develop something that looked like intuition.
+And what followed was just this explosion of progress. In 2014, GANs showed that AI could generate realistic images. In 2016, AlphaGo beat the world champion at Go — and Go is a game so complex that brute-force search is essentially impossible. The system had to develop something that genuinely looked like intuition.
 
 ---
 
 **The Foundation Model Era**
 
-In 2017, Google published "Attention Is All You Need." The transformer architecture fundamentally changed natural language processing. The key insight: instead of processing text sequentially, the model could look at all parts of the input simultaneously and learn which parts are relevant to each other.
+Then in 2017, a team at Google published a paper called "Attention Is All You Need," which introduced the transformer architecture. And this really did fundamentally change natural language processing. The key insight was the attention mechanism — instead of processing text word by word in sequence, the model could look at all parts of the input simultaneously and learn which parts are relevant to each other.
 
-This architecture scaled incredibly well. And when you scaled it up, something unexpected happened — the models developed capabilities nobody explicitly programmed. Reasoning. Code generation. Translation. These are what researchers call emergent properties.
+And this architecture turned out to be incredibly scalable. When you scaled it up, something quite unexpected happened — the models started developing capabilities that nobody had explicitly programmed. Reasoning. Code generation. Translation. Researchers call these emergent properties, and I think they're one of the most fascinating things about this whole story.
 
-GPT-2 in 2019 showed a large language model could generate surprisingly coherent text. GPT-3 in 2020, with 175 billion parameters, showed that scale itself was an ingredient — the more you scaled, the more capabilities emerged. And in late 2022, ChatGPT brought all of this to the public. It reached 100 million users in two months. Instagram took two and a half years.
+GPT-2 in 2019 showed that a large language model could generate surprisingly coherent text. GPT-3 in 2020, with 175 billion parameters, showed that scale itself was kind of an ingredient — the more you scaled, the more capabilities just emerged. And then in late 2022, ChatGPT brought all of this to the general public. It reached 100 million users in two months. For context, it took Instagram two and a half years to get there.
 
-In early 2025, DeepSeek — a Chinese lab — released an open-source reasoning model that rivalled the best closed models, built for under six million dollars. It wiped 600 billion off Nvidia's market cap in a day. Then GPT-5 launched with a 400,000-token context window. Claude 4 became the top coding model. Google shipped Gemini 3, scoring 100% on a maths benchmark that was considered extremely hard a year earlier.
+Now, just looking at the last year or so — in early 2025, a Chinese lab called DeepSeek released an open-source reasoning model that rivalled the best closed models, and they reportedly built it for under six million dollars. That sent shockwaves through the industry — it actually wiped 600 billion off Nvidia's market cap in a single day. Then GPT-5 launched with a 400,000-token context window, Claude 4 became the top coding model, and Google shipped Gemini 3, which scored a perfect 100% on a maths benchmark that was considered extremely difficult just a year before.
 
-And then a key shift happened. Up to this point, generative AI was fundamentally reactive — you ask it something, it responds. But in 2025, AI agents arrived. Not chatbots — systems that browse the web, write and run code, use tools, and complete multi-step tasks autonomously. Protocols like the Model Context Protocol emerged to standardise how agents interact with the world. The shift is from AI you talk to, to AI that plans and acts on its own.
+And then I think the really interesting shift happened. Up to this point, generative AI was fundamentally reactive — you ask it something, it gives you an answer. But in 2025, we started seeing proper AI agents. Not chatbots — these are systems that can browse the web, write and run code, use tools, and complete multi-step tasks pretty much autonomously. Protocols like the Model Context Protocol have emerged to standardise how these agents interact with external systems. And I think that's the key transition — it's going from AI you talk to, to AI that actually plans and acts on its own.
 
 ---
 
 **What Comes Next**
 
-So where is this headed?
+So where does all of this go from here? And I should say upfront, nobody really knows for certain, but there are some directions that I think are worth paying attention to.
 
-Those single agents are already evolving into swarms. Multi-agent systems where a coordinator delegates to specialists — each optimised for a specific task. Think of an ant colony. No single ant knows the big picture, but the colony solves complex problems through simple rules and coordination. Amazon already runs swarms of over a thousand robots per warehouse, coordinating in real time with no central controller.
+The first one is that those single agents are already evolving into what you might call swarms. Multi-agent systems where a coordinator delegates tasks to specialist agents, each optimised for a specific function. And if you think about it, it's a lot like an ant colony — no single ant knows the big picture, but the colony as a whole solves incredibly complex problems through simple local rules and coordination. This isn't just theoretical either. Amazon already runs swarms of over a thousand autonomous robots per warehouse, all coordinating in real time with no central controller.
 
-AI is merging with the physical world. Humanoid robots are working on BMW production lines. Tesla is targeting fifty thousand robot deployments this year. The AI brain and the robotic body are finally coming together.
+Then there's physical AI. Humanoid robots are actually working on BMW production lines right now. Tesla is targeting fifty thousand robot deployments in its own factories this year. The AI brain and the robotic body are finally coming together, and I think that's going to be a huge deal.
 
-Then there's scientific AI — systems that don't just assist researchers but conduct science themselves. We've already seen this with AlphaFold, which solved protein folding — a fifty-year grand challenge in biology. The next step is AI that independently generates hypotheses, designs experiments, and discovers new materials or medicines.
+There's also what I'd call scientific AI — systems that don't just assist researchers but actually conduct science themselves. We've already seen a glimpse of this with AlphaFold, which solved protein folding, a fifty-year grand challenge in biology. The next step is AI that independently generates hypotheses, designs experiments, and discovers new materials or medicines.
 
-There's also a serious challenge to the current approach. Yann LeCun — one of the godfathers of deep learning — raised a billion dollars to build "world models." His argument: large language models only understand text. They don't understand physics or causality. The next leap may require AI that simulates cause and effect, not just predicts the next word.
+And then there's a really interesting challenge to the whole current approach. Yann LeCun — one of the godfathers of deep learning — actually left Meta and raised a billion dollars to build what he calls "world models." His argument is that large language models are fundamentally limited because they only understand text — they don't understand physics, causality, or how the real world actually works. Whether he's right or not, it's the biggest funded contrarian bet against the current paradigm.
 
-And perhaps the most subtle shift: AI is becoming ambient. Embedded in operating systems, in cars, in buildings, in workflows — not as a tool you open, but as intelligence woven into everything around you. AI becoming as commonplace as electricity.
+And maybe the most subtle shift of all: AI is becoming ambient. It's being embedded in operating systems, in cars, in buildings, in everyday workflows — not as a tool you open, but as intelligence woven into everything around you. AI becoming as commonplace as electricity.
 
-As for AGI? The lab leaders are split. Anthropic's CEO says 2027. Sam Altman says by 2028, more intellectual capacity could live inside data centres than outside. Hassabis at DeepMind says fifty-fifty by end of the decade. They disagree on the timeline. None of them disagree on the direction.
-
----
-
-That's the story. Seventy years from Turing's question to swarms of autonomous agents and robots on factory floors. And we're still accelerating.
-
-This is the first in a series. In future sessions, we'll go deeper — how these models actually work, how agents and swarms are being built, and what it all means for how we write software and build products.
-
-I've got about five minutes for questions — fire away.
+As for AGI — artificial general intelligence — the lab leaders are split. Anthropic's CEO says it could happen by 2027. Sam Altman says that by 2028, more of the world's intellectual capacity could live inside data centres than outside. Hassabis at DeepMind is more cautious — he puts it at about fifty-fifty by end of the decade. They disagree on the timeline, but none of them disagree on the direction.
 
 ---
 
-**Word count: ~1,750**
+So that's the story. Seventy years from Turing's question to swarms of autonomous agents and robots on factory floors. And it's still accelerating.
+
+This is the first in a series of info chunks on AI. In future sessions we'll go deeper into specific topics — how these models actually work under the hood, how agents and swarms are being built, what it means practically for how we write software and build products. So if anything from today sparked your curiosity or if there's a topic you'd want us to cover, let us know.
+
+Right, I've got about five minutes for questions — fire away.
