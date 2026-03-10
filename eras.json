@@ -1,9 +1,9 @@
 [
-  { "name": "The Gestation of AI", "start": "1200-01-01", "end": "1955-12-31", "description": "From ancient automata to the dawn of computing" },
+  { "name": "The Inception of AI", "start": "1200-01-01", "end": "1955-12-31", "description": "The ideas and breakthroughs that laid the groundwork for AI" },
   { "name": "Early Enthusiasm, Great Expectations", "start": "1956-01-01", "end": "1973-12-31", "description": "AI is born at Dartmouth and optimism runs high" },
   { "name": "A Dose of Reality", "start": "1974-01-01", "end": "1993-12-31", "description": "Two waves of hype collapse, but progress continues quietly" },
-  { "name": "Statistical Learning", "start": "1994-01-01", "end": "2009-12-31", "description": "Data-driven methods and probabilistic AI emerge" },
-  { "name": "The Deep Learning Revolution", "start": "2010-01-01", "end": "2019-12-31", "description": "Neural networks, GPUs, and big data change everything" },
-  { "name": "The Foundation Model Era", "start": "2020-01-01", "end": "2026-02-28", "description": "LLMs, generative AI, and agents reshape the landscape" },
+  { "name": "Machine Learning & Big Data", "start": "1994-01-01", "end": "2009-12-31", "description": "Data-driven methods and probabilistic AI emerge" },
+  { "name": "Deep Learning", "start": "2010-01-01", "end": "2019-12-31", "description": "Neural networks, GPUs, and big data change everything" },
+  { "name": "LLMs, Generative AI & Agents", "start": "2020-01-01", "end": "2026-02-28", "description": "LLMs, generative AI, and agents reshape the landscape" },
   { "name": "What Comes Next", "start": "2026-03-01", "end": "2035-12-31", "description": "Swarms, physical AI, and the road ahead" }
 ]

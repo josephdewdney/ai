@@ -30,7 +30,7 @@ And I think this is worth pausing on, because there's a pattern here that repeat
 
 ---
 
-**Statistical Learning**
+**Machine Learning & Big Data**
 
 So what actually pulled AI out of the cold? It was really a philosophical shift more than anything. Instead of telling a computer the rules, you give it data and let it figure out the rules itself. That's machine learning.
 
@@ -42,7 +42,7 @@ In the meantime though, other machine learning approaches were thriving. Support
 
 ---
 
-**The Deep Learning Revolution**
+**Deep Learning**
 
 And then 2012 happened. A neural network called AlexNet won the ImageNet competition by a massive margin. It used convolutional neural networks running on GPUs — and the thing is, these techniques had been around for decades. But three things had finally converged at the same time: we had the algorithms, we had the data thanks to the internet, and we had the compute thanks to GPUs that were originally designed for video games. That convergence unlocked capabilities that had been theoretically possible but practically out of reach.
 
@@ -50,7 +50,7 @@ And what followed was a rapid wave of progress. In 2014, GANs introduced a way f
 
 ---
 
-**The Foundation Model Era**
+**LLMs, Generative AI & Agents**
 
 Then in 2017, a team at Google published a paper called "Attention Is All You Need," which introduced the transformer architecture. And this really did fundamentally change natural language processing. The key insight was the attention mechanism — instead of processing text word by word in sequence, the model could look at all parts of the input simultaneously and learn which parts are relevant to each other.
 
