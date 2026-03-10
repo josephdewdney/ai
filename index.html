@@ -218,16 +218,22 @@
         dataDiv.appendChild(heading);
 
         const eraContainer = document.createElement('div');
-        eraContainer.className = 'era-events overflow-x-visible overflow-y-clip';
+        eraContainer.className = 'era-events';
 
         heading.addEventListener('click', () => {
           const node = heading.querySelector('.era-node');
           if (eraContainer.style.maxHeight === '0px') {
+            eraContainer.style.overflowY = 'clip';
             eraContainer.style.maxHeight = eraContainer.scrollHeight + 'px';
             eraContainer.classList.remove('collapsed');
             node.style.transform = 'scale(1)';
             node.style.opacity = '1';
+            eraContainer.addEventListener('transitionend', function handler() {
+              eraContainer.style.overflowY = 'visible';
+              eraContainer.removeEventListener('transitionend', handler);
+            });
           } else {
+            eraContainer.style.overflowY = 'clip';
             eraContainer.style.maxHeight = '0px';
             eraContainer.classList.add('collapsed');
             node.style.transform = 'scale(0.7)';
@@ -281,6 +287,7 @@
         dataDiv.appendChild(eraContainer);
         requestAnimationFrame(() => {
           eraContainer.style.maxHeight = eraContainer.scrollHeight + 'px';
+          eraContainer.style.overflowY = 'visible';
         });
       }
     }
