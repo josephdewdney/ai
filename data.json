@@ -1,8 +1,8 @@
 [
   {
     "date": "1950-10-01",
-    "title": "The Turing Test",
-    "description": "Alan Turing proposes the Turing Test as a criterion for machine intelligence, asking whether a machine can imitate human responses well enough to be indistinguishable from a person in conversation.",
+    "title": "Computing Machinery and Intelligence",
+    "description": "Alan Turing publishes 'Computing Machinery and Intelligence', asking whether machines can think. He proposes the Turing Test — if a machine can hold a conversation and you can't tell it apart from a human, does it matter whether it's really thinking?",
     "category": "Theory",
     "featured": true,
     "links": ["https://www.csee.umbc.edu/courses/471/papers/turing.pdf"]
