@@ -9,3 +9,7 @@
 - Review every featured timeline entry in data.json. For each one, determine whether it represents a specific, dateable event — such as a paper being published, a product launching, a competition being won, a company being founded, or a report being released. Flag any entry that is instead a vague trend, a general concept, a gradual shift, or a period of time rather than a single event. For each flagged entry, suggest a concrete replacement event or events with specific dates.
 
 - Check each item on the timeline has the correct date
+
+- Check the glossary items are actual quotes from the given reference.
+
+- Check if every term that could need it has a glossary item.
