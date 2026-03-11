@@ -282,8 +282,12 @@
 
         dataDiv.appendChild(eraContainer);
         requestAnimationFrame(() => {
-          eraContainer.style.maxHeight = eraContainer.scrollHeight + 'px';
-          eraContainer.style.overflowY = 'visible';
+          eraContainer.style.maxHeight = '0px';
+          eraContainer.style.overflowY = 'clip';
+          eraContainer.classList.add('collapsed');
+          const node = heading.querySelector('.era-node');
+          node.style.transform = 'scale(0.7)';
+          node.style.opacity = '0.4';
         });
       }
     }
