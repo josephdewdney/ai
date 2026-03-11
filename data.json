@@ -522,6 +522,18 @@
     "era": "deep-learning"
   },
   {
+    "date": "2016-09-26",
+    "title": "Google Neural Machine Translation",
+    "description": "Google replaces its phrase-based translation system with a neural network, dramatically improving translation quality across 100+ languages overnight. A landmark demonstration of deep learning in production at massive scale.",
+    "category": "Product Launch",
+    "featured": true,
+    "links": [
+      "https://en.wikipedia.org/wiki/Google_Neural_Machine_Translation"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
+    "era": "deep-learning"
+  },
+  {
     "date": "2017-06-12",
     "title": "Attention Is All You Need",
     "description": "'Attention Is All You Need' by Vaswani et al. introduces the Transformer architecture, a novel neural network design based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. This paper transformed natural language processing and deep learning.",
@@ -620,7 +632,7 @@
     "title": "2024 Nobel Prizes for AI",
     "description": "John Hopfield, Geoffrey Hinton, Demis Hassabis, John Jumper, and David Baker receive Nobel Prizes for their contributions to AI and protein folding.",
     "category": "Award",
-    "featured": true,
+    "featured": false,
     "links": [
       "https://www.nobelprize.org/all-nobel-prizes-2024/"
     ],
@@ -668,7 +680,7 @@
     "title": "GPT-1",
     "description": "OpenAI releases Generative Pre-trained Transformer (GPT-1), the first large-scale transformer-based language model, demonstrating the power of unsupervised pre-training for NLP tasks.",
     "category": "Product Launch",
-    "featured": true,
+    "featured": false,
     "links": [
       "https://openai.com/research/gpt-1",
       "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
@@ -681,7 +693,7 @@
     "title": "GPT-2",
     "description": "OpenAI releases GPT-2, a much larger language model capable of generating coherent paragraphs of text, sparking debate about the risks of powerful generative models.",
     "category": "Product Launch",
-    "featured": true,
+    "featured": false,
     "links": [
       "https://openai.com/research/gpt-2",
       "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
@@ -860,7 +872,7 @@
     "title": "Generative Adversarial Nets",
     "description": "Ian Goodfellow publishes 'Generative Adversarial Nets', introducing a framework where two neural networks compete — a generator creating data and a discriminator detecting fakes. The paper gives machines the ability to create, laying the conceptual foundation for the generative AI revolution.",
     "category": "Research",
-    "featured": true,
+    "featured": false,
     "era": "deep-learning"
   },
   {
@@ -868,7 +880,7 @@
     "title": "BERT",
     "description": "Google releases BERT (Bidirectional Encoder Representations from Transformers), the first model to show that pre-training a Transformer bidirectionally on unlabeled text produces breakthrough language understanding. BERT crushes every NLP benchmark and proves the Transformer architecture's real-world dominance, setting the stage for the large language model revolution.",
     "category": "Research",
-    "featured": true,
+    "featured": false,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
     "era": "foundation-models"
   },
@@ -886,7 +898,7 @@
     "title": "OpenAI o1: Reasoning Models",
     "description": "OpenAI releases o1, the first model that 'thinks' before responding — using chain-of-thought reasoning at inference time. Instead of making models smarter by training them longer, o1 proves you can make them smarter by letting them reason longer, opening a new paradigm in AI capabilities.",
     "category": "Research",
-    "featured": true,
+    "featured": false,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
     "era": "foundation-models"
   },
@@ -903,7 +915,7 @@
     "title": "Siri",
     "description": "Apple launches Siri on the iPhone 4S, bringing AI into the pockets of millions. For the first time, ordinary people talk to an AI assistant daily, opening the door for Alexa, Google Assistant, and the voice AI era.",
     "category": "Product Launch",
-    "featured": true,
+    "featured": false,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
     "era": "deep-learning"
   },
@@ -912,7 +924,7 @@
     "title": "OpenAI Founded",
     "description": "Sam Altman, Elon Musk, and others found OpenAI as a nonprofit research lab with $1 billion in pledged funding, dedicated to building safe artificial general intelligence for the benefit of humanity.",
     "category": "Industry",
-    "featured": true,
+    "featured": false,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
     "era": "deep-learning"
   },
@@ -921,7 +933,7 @@
     "title": "GitHub Copilot",
     "description": "GitHub launches Copilot, an AI pair programmer powered by OpenAI Codex that autocompletes code in real time. It becomes the first AI tool used daily by millions of developers, proving that large language models have immediate practical value.",
     "category": "Product Launch",
-    "featured": true,
+    "featured": false,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/GitHub_Copilot_logo.svg",
     "era": "foundation-models"
   },
@@ -930,7 +942,7 @@
     "title": "DeepSeek R1",
     "description": "Chinese startup DeepSeek releases R1, an open-source reasoning model matching frontier closed-source models at a fraction of the cost. The release triggers a stock market shock, with Nvidia losing nearly $600 billion in a single day, challenging assumptions about the capital required for AI progress.",
     "category": "Industry",
-    "featured": true,
+    "featured": false,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Deepseek-logo-icon.svg",
     "era": "foundation-models"
   },
