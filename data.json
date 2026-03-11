@@ -72,45 +72,12 @@
     "era": "beginnings"
   },
   {
-    "date": "1949-01-01",
-    "title": "Hebbian Learning",
-    "description": "Donald Hebb proposes a learning rule for neural connections in 'The Organization of Behavior'. The idea — that neurons which fire together wire together — becomes a foundational principle for neural network learning.",
-    "category": "Theory",
-    "featured": true,
-    "links": [
-      "https://en.wikipedia.org/wiki/Hebbian_theory"
-    ],
-    "era": "beginnings"
-  },
-  {
     "date": "1948-01-01",
     "title": "Cybernetics Published",
     "description": "Norbert Wiener publishes 'Cybernetics', founding the study of control and communication in animals and machines, influencing early AI.",
     "category": "Theory",
     "links": [
       "https://en.wikipedia.org/wiki/Cybernetics"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1936-01-01",
-    "title": "Turing Machine Proposed",
-    "description": "Alan Turing introduces the concept of the Turing machine, a theoretical model that formalizes the idea of computation and underpins computer science and AI.",
-    "category": "Theory",
-    "featured": true,
-    "links": [
-      "https://en.wikipedia.org/wiki/Turing_machine"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1943-12-01",
-    "title": "First Artificial Neuron Model",
-    "description": "Warren McCulloch and Walter Pitts publish a paper describing the first mathematical model of an artificial neuron, laying the foundation for neural networks.",
-    "category": "Model",
-    "featured": true,
-    "links": [
-      "https://en.wikipedia.org/wiki/Artificial_neuron"
     ],
     "era": "beginnings"
   },
@@ -307,7 +274,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Lighthill_report"
     ],
-    "era": "expert-systems"
+    "era": "beginnings"
   },
   {
     "date": "1988-01-01",
