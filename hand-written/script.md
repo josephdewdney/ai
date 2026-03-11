@@ -9,16 +9,17 @@
 ## The Beginnings: 1950 - 1974
 
 - Alan Turing's paper
-- Dartmouth is what made it the focus
+- Dartmouth is what made it the focus - Fun fact: Claude from Anthropic is named after Claude Shannon.
 - Mostly symbolic AI - Perceptron exception
 - Eliza
 - The systems had to be programmed and fell apart outside of their narrow domain.
-- start of first AI winter triggered by Lighthill Report (1973) and US/UK funding cuts
+- Start of first AI winter triggered by Lighthill Report (1973) and US/UK funding cuts
 
 ## Expert Systems: 1980 – 1987
 
-- Rule-based systems — MYCIN (1976) diagnosed blood infections using ~600 rules, inspired the boom
+- Rule-based systems
 - Narrower ambitions, proven concepts from the first AI winter, and competitive pressure from Japan's Fifth Generation Computer Project (1982) made it possible
+- MYCIN (1976) diagnosed blood infections using ~600 rules, inspired the boom
 - Ran on expensive specialized LISP machines ($50K–$100K+); cheaper general-purpose PCs ended the era by making them obsolete in 1987
 - Commercialisation - R1/XCON configured VAX orders for DEC, saving $40M/year. Companies realized they could make money from AI.
 - Brittle, couldn't handle uncertainty, couldn't learn
