@@ -17,11 +17,12 @@
 
 ## Expert Systems: 1980 – 1987
 
-- Rule-based systems
+- Rule-based systems — MYCIN (1976) diagnosed blood infections using ~600 rules, inspired the boom
 - Narrower ambitions, proven concepts from the first AI winter, and competitive pressure from Japan's Fifth Generation Computer Project (1982) made it possible
 - Ran on expensive specialized LISP machines ($50K–$100K+); cheaper general-purpose PCs ended the era by making them obsolete in 1987
-- Commercialisation - companies realized they could make money from it
+- Commercialisation - R1/XCON configured VAX orders for DEC, saving $40M/year. Companies realized they could make money from AI.
 - Brittle, couldn't handle uncertainty, couldn't learn
+- Second AI winter — DARPA cut AI funding, expert systems too expensive to maintain, LISP machine market collapsed
 
 ## Machine Learning: 1986 - 2012
 
