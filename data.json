@@ -195,14 +195,15 @@
     "era": "beginnings"
   },
   {
-    "date": "1972-01-01",
+    "date": "1976-01-01",
     "title": "MYCIN Expert System",
-    "description": "MYCIN, an early expert system for medical diagnosis, demonstrates the power of rule-based AI in healthcare.",
+    "description": "MYCIN diagnoses blood infections using ~600 IF-THEN rules, performing as well as human specialists. It inspires the expert systems boom of the 1980s.",
     "category": "Application",
+    "featured": true,
     "links": [
       "https://en.wikipedia.org/wiki/Mycin"
     ],
-    "era": "beginnings"
+    "era": "expert-systems"
   },
   {
     "date": "1973-01-01",
@@ -372,8 +373,20 @@
     "title": "Fifth Generation Computer Project",
     "description": "Japan launches the Fifth Generation Computer Project, aiming to create computers using massively parallel computing and logic programming, influencing global AI research.",
     "category": "Initiative",
+    "featured": true,
     "links": [
       "https://en.wikipedia.org/wiki/Fifth_generation_computer"
+    ],
+    "era": "expert-systems"
+  },
+  {
+    "date": "1983-01-01",
+    "title": "Lisp Machines & the AI Boom",
+    "description": "Symbolics, LMI, and Texas Instruments sell specialised Lisp machines costing $50K–$100K+. Two-thirds of Fortune 500 companies invest in AI projects, and the industry exceeds $1 billion per year.",
+    "category": "Industry",
+    "featured": true,
+    "links": [
+      "https://en.wikipedia.org/wiki/Lisp_machine"
     ],
     "era": "expert-systems"
   },
@@ -525,6 +538,7 @@
     "title": "15.ai Voice Synthesis",
     "description": "15.ai, a free web application, demonstrates high-quality AI voice cloning for creative content, popularizing AI voice synthesis.",
     "category": "Application",
+    "featured": false,
     "links": [
       "https://en.wikipedia.org/wiki/15.ai"
     ],
@@ -535,6 +549,7 @@
     "title": "Anthropic Claude",
     "description": "Anthropic releases Claude, a family of large language models, contributing to the generative AI boom.",
     "category": "Product Launch",
+    "featured": false,
     "links": [
       "https://en.wikipedia.org/wiki/Claude_(AI)"
     ],
@@ -546,6 +561,7 @@
     "title": "Google Gemini",
     "description": "Google launches Gemini (formerly Bard), a major competitor in the large language model space.",
     "category": "Product Launch",
+    "featured": false,
     "links": [
       "https://en.wikipedia.org/wiki/Google_Gemini"
     ],
@@ -557,7 +573,7 @@
     "title": "GPT-5",
     "description": "OpenAI releases GPT-5, a unified multimodal model with a 128,000-token context window and a router that automatically selects between a faster model and a slower reasoning model based on the task.",
     "category": "Product Launch",
-    "featured": true,
+    "featured": false,
     "links": [
       "https://openai.com/index/introducing-gpt-5/",
       "https://en.wikipedia.org/wiki/GPT-5"
@@ -570,6 +586,7 @@
     "title": "Gato by DeepMind",
     "description": "DeepMind releases Gato, a generalist agent capable of performing hundreds of tasks, advancing the field of foundation models.",
     "category": "Product Launch",
+    "featured": false,
     "links": [
       "https://en.wikipedia.org/wiki/Gato_(DeepMind)"
     ],
@@ -580,6 +597,7 @@
     "title": "Claude 3.5 Sonnet",
     "description": "Anthropic releases Claude 3.5 Sonnet, demonstrating improved performance in coding, workflows, and image analysis.",
     "category": "Product Launch",
+    "featured": false,
     "links": [
       "https://en.wikipedia.org/wiki/Claude_(AI)"
     ],
@@ -614,6 +632,7 @@
     "title": "Pause Giant AI Experiments Open Letter",
     "description": "Thousands of AI researchers and tech leaders sign an open letter calling for a pause on training AI systems more powerful than GPT-4, citing societal risks.",
     "category": "Milestone",
+    "featured": false,
     "links": [
       "https://futureoflife.org/open-letter/pause-giant-ai-experiments/"
     ],
@@ -624,6 +643,7 @@
     "title": "OpenClaw",
     "description": "Peter Steinberger releases OpenClaw, an open-source autonomous AI agent for messaging platforms. OpenClaw gains global adoption and highlights new security and privacy concerns.",
     "category": "Product Launch",
+    "featured": false,
     "links": [
       "https://en.wikipedia.org/wiki/OpenClaw",
       "https://openclaw.ai/",
@@ -637,6 +657,7 @@
     "title": "GPT-1",
     "description": "OpenAI releases Generative Pre-trained Transformer (GPT-1), the first large-scale transformer-based language model, demonstrating the power of unsupervised pre-training for NLP tasks.",
     "category": "Product Launch",
+    "featured": true,
     "links": [
       "https://openai.com/research/gpt-1",
       "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
@@ -649,6 +670,7 @@
     "title": "GPT-2",
     "description": "OpenAI releases GPT-2, a much larger language model capable of generating coherent paragraphs of text, sparking debate about the risks of powerful generative models.",
     "category": "Product Launch",
+    "featured": true,
     "links": [
       "https://openai.com/research/gpt-2",
       "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
@@ -661,6 +683,7 @@
     "title": "Stable Diffusion",
     "description": "Stability AI releases Stable Diffusion as open-source, making high-quality text-to-image generation freely available to anyone. Millions of people generate images for the first time, igniting a global debate about AI and creative work.",
     "category": "Product Launch",
+    "featured": false,
     "links": [
       "https://en.wikipedia.org/wiki/Stable_Diffusion"
     ],
@@ -671,6 +694,7 @@
     "title": "DALL-E",
     "description": "OpenAI introduces DALL-E, a neural network that creates images from textual descriptions, pioneering the field of text-to-image synthesis.",
     "category": "Product Launch",
+    "featured": false,
     "links": [
       "https://openai.com/research/dall-e",
       "https://en.wikipedia.org/wiki/DALL-E"
@@ -683,6 +707,7 @@
     "title": "DALL-E 3",
     "description": "OpenAI releases DALL-E 3, further improving the quality and controllability of text-to-image generation.",
     "category": "Product Launch",
+    "featured": false,
     "links": [
       "https://openai.com/research/dall-e-3",
       "https://en.wikipedia.org/wiki/DALL-E"
@@ -695,6 +720,7 @@
     "title": "Codex",
     "description": "OpenAI releases Codex, a model capable of translating natural language into code, powering GitHub Copilot and advancing AI-assisted programming.",
     "category": "Product Launch",
+    "featured": false,
     "links": [
       "https://openai.com/research/codex",
       "https://en.wikipedia.org/wiki/OpenAI_Codex"
@@ -707,6 +733,7 @@
     "title": "Whisper",
     "description": "OpenAI releases Whisper, a general-purpose speech recognition model trained on a large amount of multilingual and multitask supervised data.",
     "category": "Product Launch",
+    "featured": false,
     "links": [
       "https://openai.com/research/whisper",
       "https://en.wikipedia.org/wiki/Whisper_(speech_recognition)"
@@ -719,6 +746,7 @@
     "title": "GPT-4",
     "description": "OpenAI releases GPT-4, a large multimodal model that accepts image and text inputs, achieving state-of-the-art results on a range of professional and academic benchmarks.",
     "category": "Product Launch",
+    "featured": false,
     "links": [
       "https://openai.com/research/gpt-4",
       "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
@@ -731,6 +759,7 @@
     "title": "GPT-3.5",
     "description": "OpenAI releases GPT-3.5, an improved version of GPT-3 that powers the initial release of ChatGPT and demonstrates enhanced reasoning and coding abilities.",
     "category": "Product Launch",
+    "featured": false,
     "links": [
       "https://openai.com/blog/chatgpt",
       "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
@@ -743,6 +772,7 @@
     "title": "Sora Announced",
     "description": "OpenAI announces Sora, a text-to-video model capable of generating high-fidelity videos from textual prompts, marking a major advance in generative AI for video.",
     "category": "Product Launch",
+    "featured": false,
     "links": [
       "https://openai.com/research/sora",
       "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)"
@@ -781,6 +811,7 @@
     "title": "Andrej Karpathy's Vibe Coding Tweet",
     "description": "Andrej Karpathy tweets about 'vibe coding', describing the feeling of effortless, creative programming when everything flows smoothly.",
     "category": "Tweet",
+    "featured": false,
     "links": [
       "https://x.com/karpathy/status/1886192184808149383"
     ],
@@ -792,6 +823,7 @@
     "title": "OpenAI Long-Horizon Agents",
     "description": "OpenAI launches agentic frameworks and models trained for long-horizon, multi-step tasks, enabling autonomous workflows and persistent digital assistants.",
     "category": "Product Launch",
+    "featured": false,
     "links": [
       "https://openai.com/research/long-horizon-agents",
       "https://openai.com/blog/agentic-ai-2025"
@@ -804,7 +836,7 @@
     "title": "Claude Opus 4.6",
     "description": "Anthropic releases Claude Opus 4.6, a frontier model excelling at long-context agentic tasks in coding, research, and enterprise automation.",
     "category": "Product Launch",
-    "featured": true,
+    "featured": false,
     "links": [
       "https://www.anthropic.com/news/claude-opus-4-6",
       "https://www.anthropic.com/news/claude-sonnet-4-6"
@@ -834,7 +866,7 @@
     "title": "Meta LLaMA",
     "description": "Meta releases LLaMA, a powerful open-source large language model. When weights leak publicly, it proves frontier-quality AI can run on consumer hardware. LLaMA spawns an open-source ecosystem — Alpaca, Vicuna, Mistral — and fundamentally shifts the power dynamics of AI from closed labs to the global community.",
     "category": "Research",
-    "featured": true,
+    "featured": false,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Meta_Platforms_logo.svg",
     "era": "foundation-models"
   },
@@ -896,7 +928,7 @@
     "title": "Claude 4",
     "description": "Anthropic releases the Claude 4 family, with Claude Opus 4 becoming the top-performing coding model. It scores 72.5% on SWE-bench and introduces hybrid instant/extended-thinking modes for agentic workflows.",
     "category": "Product Launch",
-    "featured": true,
+    "featured": false,
     "links": [
       "https://www.anthropic.com/news/claude-4"
     ],
@@ -908,7 +940,7 @@
     "title": "Gemini 3",
     "description": "Google releases Gemini 3 Flash and Gemini 3 Pro, achieving a perfect 100% on the AIME 2025 maths benchmark with a 1-million-token context window. The model replaces Gemini 2.5 across Google's products.",
     "category": "Product Launch",
-    "featured": true,
+    "featured": false,
     "links": [
       "https://deepmind.google/technologies/gemini/"
     ],
