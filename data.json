@@ -11,117 +11,6 @@
     "era": "beginnings"
   },
   {
-    "date": "1206-01-01",
-    "title": "Al-Jazari's Automata",
-    "description": "Al-Jazari designs programmable automata, early examples of mechanical devices that could perform tasks automatically, representing a precursor to modern robotics and AI.",
-    "category": "Precursors",
-    "links": [
-      "https://en.wikipedia.org/wiki/Al-Jazari"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1275-01-01",
-    "title": "Ramon Llull's Logical Machines",
-    "description": "Ramon Llull develops logical machines to combine basic truths mechanically, influencing later ideas of mechanized reasoning.",
-    "category": "Precursors",
-    "links": [
-      "https://en.wikipedia.org/wiki/Ramon_Llull"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1642-01-01",
-    "title": "Pascal's Calculator",
-    "description": "Blaise Pascal invents the mechanical calculator, an early step toward automated computation.",
-    "category": "Precursors",
-    "links": [
-      "https://en.wikipedia.org/wiki/Pascal%27s_calculator"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1673-01-01",
-    "title": "Leibniz's Stepped Reckoner and Calculus Ratiocinator",
-    "description": "Gottfried Wilhelm Leibniz presents the Stepped Reckoner to the Royal Society and envisions the Calculus Ratiocinator, a universal logical calculation engine.",
-    "category": "Precursors",
-    "links": [
-      "https://en.wikipedia.org/wiki/Leibniz_wheel",
-      "https://en.wikipedia.org/wiki/Calculus_ratiocinator"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1837-01-01",
-    "title": "Babbage's Analytical Engine",
-    "description": "Charles Babbage designs the Analytical Engine, the first concept of a programmable computer.",
-    "category": "Precursors",
-    "links": [
-      "https://en.wikipedia.org/wiki/Analytical_Engine"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1843-01-01",
-    "title": "Ada Lovelace's Notes on the Analytical Engine",
-    "description": "Ada Lovelace speculates on the Analytical Engine's ability to manipulate symbols and compose music, foreseeing general-purpose computation.",
-    "category": "Precursors",
-    "links": [
-      "https://en.wikipedia.org/wiki/Ada_Lovelace"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1948-01-01",
-    "title": "Cybernetics Published",
-    "description": "Norbert Wiener publishes 'Cybernetics', founding the study of control and communication in animals and machines, influencing early AI.",
-    "category": "Theory",
-    "links": [
-      "https://en.wikipedia.org/wiki/Cybernetics"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1951-01-01",
-    "title": "SNARC: First Neural Net Machine",
-    "description": "Marvin Minsky and Dean Edmonds build SNARC, the first artificial neural network machine, pioneering hardware-based AI research.",
-    "category": "Hardware",
-    "links": [
-      "https://en.wikipedia.org/wiki/Stochastic_Neural_Analog_Reinforcement_Calculator"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1956-01-01",
-    "title": "Logic Theorist",
-    "description": "Allen Newell, Herbert A. Simon, and Cliff Shaw develop the Logic Theorist, the first program to mimic human problem-solving by proving mathematical theorems.",
-    "category": "Algorithm",
-    "links": [
-      "https://en.wikipedia.org/wiki/Logic_Theorist"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1957-01-01",
-    "title": "General Problem Solver",
-    "description": "Newell, Simon, and Shaw create the General Problem Solver, a universal problem-solving machine that influenced AI planning and search algorithms.",
-    "category": "Algorithm",
-    "links": [
-      "https://en.wikipedia.org/wiki/General_Problem_Solver"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1959-01-01",
-    "title": "Samuel's Checkers Program",
-    "description": "Arthur Samuel publishes 'Some Studies in Machine Learning Using the Game of Checkers', coining the term 'machine learning'. His checkers program, developed from 1952, learns from experience.",
-    "category": "Application",
-    "links": [
-      "https://en.wikipedia.org/wiki/Arthur_Samuel_(computer_scientist)"
-    ],
-    "era": "beginnings"
-  },
-  {
     "date": "1956-06-18",
     "title": "Dartmouth Workshop",
     "description": "The Dartmouth Summer Research Project on Artificial Intelligence, led by John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon, is held. This event is considered the birth of AI as a field.",
@@ -144,16 +33,6 @@
     "era": "beginnings"
   },
   {
-    "date": "1960-01-01",
-    "title": "ADALINE Neural Network",
-    "description": "Bernard Widrow and Ted Hoff develop ADALINE, an early neural network used for practical applications. MADALINE follows in 1962.",
-    "category": "Model",
-    "links": [
-      "https://en.wikipedia.org/wiki/ADALINE"
-    ],
-    "era": "beginnings"
-  },
-  {
     "date": "1966-01-01",
     "title": "ELIZA: First Chatbot",
     "description": "Joseph Weizenbaum creates ELIZA, an early natural language processing computer program that simulates conversation, laying the foundation for future chatbots and conversational AI.",
@@ -161,36 +40,6 @@
     "featured": true,
     "links": [
       "https://news.mit.edu/2016/joseph-weizenbaum-eliza-0217"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1966-01-01",
-    "title": "Shakey the Robot",
-    "description": "SRI International develops Shakey, the first mobile robot able to reason about its actions, integrating perception, planning, and action.",
-    "category": "Robotics",
-    "links": [
-      "https://en.wikipedia.org/wiki/Shakey_the_robot"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1971-01-01",
-    "title": "STRIPS Planning System",
-    "description": "The Stanford Research Institute Problem Solver (STRIPS) is introduced, becoming a foundational algorithm for automated planning.",
-    "category": "Algorithm",
-    "links": [
-      "https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1972-01-01",
-    "title": "PARRY Chatbot",
-    "description": "Kenneth Colby creates PARRY, a chatbot simulating paranoid schizophrenia, advancing conversational AI.",
-    "category": "Application",
-    "links": [
-      "https://en.wikipedia.org/wiki/PARRY"
     ],
     "era": "beginnings"
   },
@@ -206,36 +55,6 @@
     "era": "expert-systems"
   },
   {
-    "date": "1973-01-01",
-    "title": "Actor Model Introduced",
-    "description": "Carl Hewitt introduces the Actor model, a conceptual foundation for concurrent computation and distributed AI systems.",
-    "category": "Theory",
-    "links": [
-      "https://en.wikipedia.org/wiki/Actor_model"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1969-01-01",
-    "title": "Conceptual Dependency Theory",
-    "description": "Roger Schank introduces Conceptual Dependency Theory, a framework for representing natural language meaning in AI.",
-    "category": "Theory",
-    "links": [
-      "https://en.wikipedia.org/wiki/Conceptual_dependency_theory"
-    ],
-    "era": "beginnings"
-  },
-  {
-    "date": "1974-01-01",
-    "title": "Frames Introduced",
-    "description": "Marvin Minsky introduces frames, a data structure for representing stereotyped situations, influencing knowledge representation in AI.",
-    "category": "Theory",
-    "links": [
-      "https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)"
-    ],
-    "era": "expert-systems"
-  },
-  {
     "date": "1980-01-01",
     "title": "R1: First Commercial Expert System",
     "description": "DEC deploys R1 (also called XCON), the first commercially successful expert system, which configures VAX computer orders and saves the company an estimated $25 million per year. It proves AI has real business value.",
@@ -243,26 +62,6 @@
     "featured": true,
     "links": [
       "https://ai.stanford.edu/~nilsson/OnlinePubs-Nils/General_Essays/HistoryAI.pdf"
-    ],
-    "era": "expert-systems"
-  },
-  {
-    "date": "1966-01-01",
-    "title": "ALPAC Report",
-    "description": "The ALPAC advisory committee publishes a report criticizing the lack of progress in machine translation, leading to a major reduction in US funding for the field.",
-    "category": "AI Winter",
-    "links": [
-      "https://en.wikipedia.org/wiki/ALPAC"
-    ],
-    "era": "expert-systems"
-  },
-  {
-    "date": "1969-01-01",
-    "title": "Perceptrons Book Published",
-    "description": "Marvin Minsky and Seymour Papert publish 'Perceptrons', highlighting limitations of single-layer neural networks and contributing to the first AI winter.",
-    "category": "Publication",
-    "links": [
-      "https://en.wikipedia.org/wiki/Perceptrons_(book)"
     ],
     "era": "expert-systems"
   },
@@ -278,26 +77,6 @@
     "era": "beginnings"
   },
   {
-    "date": "1988-01-01",
-    "title": "Moravec's Paradox",
-    "description": "Hans Moravec articulates the paradox that high-level reasoning requires little computation, but low-level sensorimotor skills require enormous computational resources, in his book Mind Children.",
-    "category": "Theory",
-    "links": [
-      "https://en.wikipedia.org/wiki/Moravec%27s_paradox"
-    ],
-    "era": "expert-systems"
-  },
-  {
-    "date": "1972-01-01",
-    "title": "Dreyfus Critique: What Computers Can't Do",
-    "description": "Hubert Dreyfus publishes 'What Computers Can't Do', critiquing the assumptions of symbolic AI and emphasizing the limits of computation.",
-    "category": "Critique",
-    "links": [
-      "https://en.wikipedia.org/wiki/Hubert_Dreyfus"
-    ],
-    "era": "expert-systems"
-  },
-  {
     "date": "1986-10-09",
     "title": "Learning Representations by Back-Propagating Errors",
     "description": "David Rumelhart, Geoffrey Hinton, and Ronald Williams publish their landmark paper in Nature, demonstrating that backpropagation can train multi-layer neural networks. This technique becomes the backbone of all modern deep learning.",
@@ -307,66 +86,6 @@
       "https://www.nature.com/articles/323533a0"
     ],
     "era": "machine-learning"
-  },
-  {
-    "date": "1982-01-01",
-    "title": "Hopfield Network Introduced",
-    "description": "John Hopfield introduces the Hopfield network, a form of recurrent neural network that advances the field of connectionism.",
-    "category": "Model",
-    "links": [
-      "https://en.wikipedia.org/wiki/Hopfield_network"
-    ],
-    "era": "expert-systems"
-  },
-  {
-    "date": "1984-01-01",
-    "title": "Cyc Project",
-    "description": "Douglas Lenat launches the Cyc project, an ambitious effort to encode common sense knowledge for AI systems.",
-    "category": "Knowledge Base",
-    "links": [
-      "https://en.wikipedia.org/wiki/Cyc"
-    ],
-    "era": "expert-systems"
-  },
-  {
-    "date": "1976-01-01",
-    "title": "Weizenbaum's Computer Power and Human Reason",
-    "description": "Joseph Weizenbaum publishes 'Computer Power and Human Reason', warning about the ethical and societal risks of AI.",
-    "category": "Critique",
-    "links": [
-      "https://en.wikipedia.org/wiki/Computer_Power_and_Human_Reason"
-    ],
-    "era": "expert-systems"
-  },
-  {
-    "date": "1985-01-01",
-    "title": "Boltzmann Machine Introduced",
-    "description": "David Ackley, Geoffrey Hinton, and Terry Sejnowski introduce the Boltzmann machine, a stochastic recurrent neural network.",
-    "category": "Model",
-    "links": [
-      "https://en.wikipedia.org/wiki/Boltzmann_machine"
-    ],
-    "era": "expert-systems"
-  },
-  {
-    "date": "1988-01-01",
-    "title": "Bayesian Networks Popularized",
-    "description": "Judea Pearl publishes 'Probabilistic Reasoning in Intelligent Systems', popularizing Bayesian networks for AI.",
-    "category": "Algorithm",
-    "links": [
-      "https://en.wikipedia.org/wiki/Bayesian_network"
-    ],
-    "era": "machine-learning"
-  },
-  {
-    "date": "1980-01-01",
-    "title": "Searle's Chinese Room Argument",
-    "description": "John Searle presents the Chinese Room argument, challenging the notion that computers can possess understanding or consciousness.",
-    "category": "Critique",
-    "links": [
-      "https://en.wikipedia.org/wiki/Chinese_room"
-    ],
-    "era": "expert-systems"
   },
   {
     "date": "1982-01-01",
@@ -414,36 +133,6 @@
     "era": "expert-systems"
   },
   {
-    "date": "1998-01-01",
-    "title": "LeNet-5: Handwritten Digit Recognition",
-    "description": "Yann LeCun, Bottou, Bengio, and Haffner publish LeNet-5, a convolutional neural network for document recognition, building on LeCun's earlier work reading handwritten zip codes for the US Postal Service.",
-    "category": "Model",
-    "links": [
-      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
-    ],
-    "era": "machine-learning"
-  },
-  {
-    "date": "1995-01-01",
-    "title": "Artificial Intelligence: A Modern Approach Published",
-    "description": "Stuart Russell and Peter Norvig publish 'Artificial Intelligence: A Modern Approach', which redefines AI around the concept of intelligent agents and becomes the standard university textbook worldwide.",
-    "category": "Theory",
-    "links": [
-      "https://en.wikipedia.org/wiki/Intelligent_agent"
-    ],
-    "era": "machine-learning"
-  },
-  {
-    "date": "2005-10-08",
-    "title": "DARPA Grand Challenge",
-    "description": "Stanford's autonomous vehicle wins the DARPA Grand Challenge, marking a breakthrough in self-driving car technology.",
-    "category": "Milestone",
-    "links": [
-      "https://en.wikipedia.org/wiki/DARPA_Grand_Challenge"
-    ],
-    "era": "machine-learning"
-  },
-  {
     "date": "2009-01-01",
     "title": "ImageNet",
     "description": "Fei-Fei Li and colleagues launch ImageNet, a large-scale image database that becomes a key resource for training deep learning models.",
@@ -466,16 +155,6 @@
     "era": "machine-learning"
   },
   {
-    "date": "2013-01-01",
-    "title": "Word2Vec",
-    "description": "Google releases Word2Vec, a neural network-based word embedding model that advances natural language understanding and enables large language models.",
-    "category": "Algorithm",
-    "links": [
-      "https://en.wikipedia.org/wiki/Word2vec"
-    ],
-    "era": "deep-learning"
-  },
-  {
     "date": "2006-01-01",
     "title": "A Fast Learning Algorithm for Deep Belief Nets",
     "description": "Geoffrey Hinton, Simon Osindero, and Yee-Whye Teh publish a paper showing that deep neural networks can be efficiently trained layer by layer. After nearly two decades of neglect, this paper reignites interest in deep learning and launches the modern neural network revolution.",
@@ -484,18 +163,6 @@
     "links": [
       "https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf"
     ],
-    "era": "machine-learning"
-  },
-  {
-    "date": "2011-02-16",
-    "title": "IBM Watson Wins Jeopardy!",
-    "description": "IBM’s Watson defeats human champions on the quiz show Jeopardy!, showcasing advances in natural language processing and question answering.",
-    "category": "Milestone",
-    "links": [
-      "https://en.wikipedia.org/wiki/Watson_(computer)"
-    ],
-    "featured": false,
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
     "era": "machine-learning"
   },
   {
@@ -590,88 +257,6 @@
     "era": "foundation-models"
   },
   {
-    "date": "2020-03-01",
-    "title": "15.ai Voice Synthesis",
-    "description": "15.ai, a free web application, demonstrates high-quality AI voice cloning for creative content, popularizing AI voice synthesis.",
-    "category": "Application",
-    "featured": false,
-    "links": [
-      "https://en.wikipedia.org/wiki/15.ai"
-    ],
-    "era": "foundation-models"
-  },
-  {
-    "date": "2023-03-01",
-    "title": "Anthropic Claude",
-    "description": "Anthropic releases Claude, a family of large language models, contributing to the generative AI boom.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://en.wikipedia.org/wiki/Claude_(AI)"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2023-12-06",
-    "title": "Google Gemini",
-    "description": "Google launches Gemini (formerly Bard), a major competitor in the large language model space.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://en.wikipedia.org/wiki/Google_Gemini"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Google_Gemini_icon_2025.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2025-08-07",
-    "title": "GPT-5",
-    "description": "OpenAI releases GPT-5, a unified multimodal model with a 400,000-token context window and up to 128,000 output tokens. A router automatically selects between a faster model and a slower reasoning model based on the task.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://openai.com/index/introducing-gpt-5/",
-      "https://en.wikipedia.org/wiki/GPT-5"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2022-05-01",
-    "title": "Gato by DeepMind",
-    "description": "DeepMind releases Gato, a generalist agent capable of performing hundreds of tasks, advancing the field of foundation models.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://en.wikipedia.org/wiki/Gato_(DeepMind)"
-    ],
-    "era": "foundation-models"
-  },
-  {
-    "date": "2024-06-01",
-    "title": "Claude 3.5 Sonnet",
-    "description": "Anthropic releases Claude 3.5 Sonnet, demonstrating improved performance in coding, workflows, and image analysis.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://en.wikipedia.org/wiki/Claude_(AI)"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2024-10-08",
-    "title": "2024 Nobel Prizes for AI",
-    "description": "John Hopfield, Geoffrey Hinton, Demis Hassabis, John Jumper, and David Baker receive Nobel Prizes for their contributions to AI and protein folding.",
-    "category": "Award",
-    "featured": false,
-    "links": [
-      "https://www.nobelprize.org/all-nobel-prizes-2024/"
-    ],
-    "era": "deep-learning"
-  },
-  {
     "date": "2022-11-30",
     "title": "ChatGPT",
     "description": "OpenAI launches ChatGPT, a conversational AI model based on GPT-3.5, which quickly becomes a global phenomenon for its natural language capabilities.",
@@ -679,159 +264,6 @@
     "featured": true,
     "links": [
       "https://openai.com/blog/chatgpt/"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2023-03-22",
-    "title": "Pause Giant AI Experiments Open Letter",
-    "description": "Thousands of AI researchers and tech leaders sign an open letter calling for a pause on training AI systems more powerful than GPT-4, citing societal risks.",
-    "category": "Milestone",
-    "featured": false,
-    "links": [
-      "https://futureoflife.org/open-letter/pause-giant-ai-experiments/"
-    ],
-    "era": "foundation-models"
-  },
-  {
-    "date": "2025-11-01",
-    "title": "OpenClaw",
-    "description": "Peter Steinberger releases OpenClaw, an open-source autonomous AI agent for messaging platforms. OpenClaw gains global adoption and highlights new security and privacy concerns.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://en.wikipedia.org/wiki/OpenClaw",
-      "https://openclaw.ai/",
-      "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
-      "https://www.pcmag.com/news/openclaw-is-the-hot-new-ai-agent-but-is-it-safe-to-use"
-    ],
-    "era": "foundation-models"
-  },
-  {
-    "date": "2018-06-11",
-    "title": "GPT-1",
-    "description": "OpenAI releases Generative Pre-trained Transformer (GPT-1), the first large-scale transformer-based language model, demonstrating the power of unsupervised pre-training for NLP tasks.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://openai.com/research/gpt-1",
-      "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2019-02-14",
-    "title": "GPT-2",
-    "description": "OpenAI releases GPT-2, a much larger language model capable of generating coherent paragraphs of text, sparking debate about the risks of powerful generative models.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://openai.com/research/gpt-2",
-      "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2022-08-22",
-    "title": "Stable Diffusion",
-    "description": "Stability AI releases Stable Diffusion as open-source, developed in collaboration with RunwayML, LMU Munich, and others. It makes high-quality text-to-image generation freely available to anyone, igniting a global debate about AI and creative work.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://en.wikipedia.org/wiki/Stable_Diffusion"
-    ],
-    "era": "foundation-models"
-  },
-  {
-    "date": "2021-01-05",
-    "title": "DALL-E",
-    "description": "OpenAI introduces DALL-E, a neural network that creates images from textual descriptions, pioneering the field of text-to-image synthesis.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://openai.com/research/dall-e",
-      "https://en.wikipedia.org/wiki/DALL-E"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2023-10-19",
-    "title": "DALL-E 3",
-    "description": "OpenAI releases DALL-E 3, further improving the quality and controllability of text-to-image generation.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://openai.com/research/dall-e-3",
-      "https://en.wikipedia.org/wiki/DALL-E"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2021-08-10",
-    "title": "Codex",
-    "description": "OpenAI releases Codex, a model capable of translating natural language into code, powering GitHub Copilot and advancing AI-assisted programming.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://openai.com/research/codex",
-      "https://en.wikipedia.org/wiki/OpenAI_Codex"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2022-09-21",
-    "title": "Whisper",
-    "description": "OpenAI releases Whisper, a general-purpose speech recognition model trained on a large amount of multilingual and multitask supervised data.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://openai.com/research/whisper",
-      "https://en.wikipedia.org/wiki/Whisper_(speech_recognition)"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2023-03-14",
-    "title": "GPT-4",
-    "description": "OpenAI releases GPT-4, a large multimodal model that accepts image and text inputs, achieving state-of-the-art results on a range of professional and academic benchmarks.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://openai.com/research/gpt-4",
-      "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2022-11-30",
-    "title": "GPT-3.5",
-    "description": "OpenAI releases GPT-3.5, an improved version of GPT-3 that powers the initial release of ChatGPT and demonstrates enhanced reasoning and coding abilities.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://openai.com/blog/chatgpt",
-      "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2024-02-15",
-    "title": "Sora Announced",
-    "description": "OpenAI announces Sora, a text-to-video model capable of generating high-fidelity videos from textual prompts, marking a major advance in generative AI for video.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://openai.com/research/sora",
-      "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
     "era": "foundation-models"
@@ -860,147 +292,6 @@
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg",
     "featured": true,
-    "era": "foundation-models"
-  },
-  {
-    "date": "2025-02-03",
-    "title": "Andrej Karpathy's Vibe Coding Tweet",
-    "description": "Andrej Karpathy tweets about 'vibe coding', describing a style of programming where you give in to the vibes, embrace exponentials, and forget that the code even exists.",
-    "category": "Tweet",
-    "featured": false,
-    "links": [
-      "https://x.com/karpathy/status/1886192184808149383"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2025-06-15",
-    "title": "OpenAI Long-Horizon Agents",
-    "description": "OpenAI launches agentic frameworks and models trained for long-horizon, multi-step tasks, enabling autonomous workflows and persistent digital assistants.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://openai.com/research/long-horizon-agents",
-      "https://openai.com/blog/agentic-ai-2025"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/OpenAI_Logo.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2026-02-05",
-    "title": "Claude Opus 4.6",
-    "description": "Anthropic releases Claude Opus 4.6, a frontier model excelling at long-context agentic tasks in coding, research, and enterprise automation.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://www.anthropic.com/news/claude-opus-4-6",
-      "https://www.anthropic.com/news/claude-sonnet-4-6"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2014-06-10",
-    "title": "Generative Adversarial Nets",
-    "description": "Ian Goodfellow publishes 'Generative Adversarial Nets', introducing a framework where two neural networks compete — a generator creating data and a discriminator detecting fakes. The paper gives machines the ability to create, laying the conceptual foundation for the generative AI revolution.",
-    "category": "Research",
-    "featured": false,
-    "era": "deep-learning"
-  },
-  {
-    "date": "2018-10-11",
-    "title": "BERT",
-    "description": "Google releases BERT (Bidirectional Encoder Representations from Transformers), the first model to show that pre-training a Transformer bidirectionally on unlabeled text produces breakthrough language understanding. BERT crushes every NLP benchmark and proves the Transformer architecture's real-world dominance, setting the stage for the large language model revolution.",
-    "category": "Research",
-    "featured": false,
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2023-02-24",
-    "title": "Meta LLaMA",
-    "description": "Meta releases LLaMA, a powerful open-source large language model. When weights leak publicly, it proves frontier-quality AI can run on consumer hardware. LLaMA spawns an open-source ecosystem — Alpaca, Vicuna, Mistral — and fundamentally shifts the power dynamics of AI from closed labs to the global community.",
-    "category": "Research",
-    "featured": false,
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Meta_Platforms_logo.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2024-09-12",
-    "title": "OpenAI o1: Reasoning Models",
-    "description": "OpenAI releases o1, the first model that 'thinks' before responding — using chain-of-thought reasoning at inference time. Instead of making models smarter by training them longer, o1 proves you can make them smarter by letting them reason longer, opening a new paradigm in AI capabilities.",
-    "category": "Research",
-    "featured": false,
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "1997-11-15",
-    "title": "Long Short-Term Memory (LSTM)",
-    "description": "Sepp Hochreiter and Jürgen Schmidhuber publish the LSTM paper, introducing a neural network architecture that can remember information over long sequences. LSTM becomes the dominant architecture for speech recognition, machine translation, and language modeling for the next two decades.",
-    "category": "Research",
-    "featured": false,
-    "era": "machine-learning"
-  },
-  {
-    "date": "2011-10-04",
-    "title": "Siri",
-    "description": "Apple launches Siri on the iPhone 4S, bringing AI into the pockets of millions. For the first time, ordinary people talk to an AI assistant daily, opening the door for Alexa, Google Assistant, and the voice AI era.",
-    "category": "Product Launch",
-    "featured": false,
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
-    "era": "deep-learning"
-  },
-  {
-    "date": "2015-12-11",
-    "title": "OpenAI Founded",
-    "description": "Sam Altman, Elon Musk, and others found OpenAI as a nonprofit research lab with $1 billion in pledged funding, dedicated to building safe artificial general intelligence for the benefit of humanity.",
-    "category": "Industry",
-    "featured": false,
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
-    "era": "deep-learning"
-  },
-  {
-    "date": "2021-06-29",
-    "title": "GitHub Copilot",
-    "description": "GitHub launches Copilot, an AI pair programmer powered by OpenAI Codex that autocompletes code in real time. It becomes the first AI tool used daily by millions of developers, proving that large language models have immediate practical value.",
-    "category": "Product Launch",
-    "featured": false,
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/GitHub_Copilot_logo.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2025-01-20",
-    "title": "DeepSeek R1",
-    "description": "Chinese startup DeepSeek releases R1, an open-source reasoning model matching frontier closed-source models at a fraction of the cost. The release triggers a stock market shock, with Nvidia losing nearly $600 billion in a single day, challenging assumptions about the capital required for AI progress.",
-    "category": "Industry",
-    "featured": false,
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Deepseek-logo-icon.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2025-05-22",
-    "title": "Claude 4",
-    "description": "Anthropic releases the Claude 4 family, with Claude Opus 4 becoming the top-performing coding model. It scores 72.5% on SWE-bench and introduces hybrid instant/extended-thinking modes for agentic workflows.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://www.anthropic.com/news/claude-4"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg",
-    "era": "foundation-models"
-  },
-  {
-    "date": "2025-12-17",
-    "title": "Gemini 3",
-    "description": "Google releases Gemini 3 Flash and Gemini 3 Pro (Pro launched November 18), achieving 100% on the AIME 2025 maths benchmark with code execution tools (95% without) and a 1-million-token context window. The model replaces Gemini 2.5 across Google's products.",
-    "category": "Product Launch",
-    "featured": false,
-    "links": [
-      "https://deepmind.google/technologies/gemini/"
-    ],
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Google_Gemini_icon_2025.svg",
     "era": "foundation-models"
   }
 ]
