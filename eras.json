@@ -1,9 +1,9 @@
 [
-  { "name": "The Inception of AI", "start": "1200-01-01", "end": "1955-12-31", "description": "The ideas and breakthroughs that laid the groundwork for AI" },
-  { "name": "Early Enthusiasm, Great Expectations", "start": "1956-01-01", "end": "1973-12-31", "description": "AI is born at Dartmouth and optimism runs high" },
-  { "name": "A Dose of Reality", "start": "1974-01-01", "end": "1993-12-31", "description": "Two waves of hype collapse, but progress continues quietly" },
-  { "name": "Machine Learning & Big Data", "start": "1994-01-01", "end": "2009-12-31", "description": "Data-driven methods and probabilistic AI emerge" },
-  { "name": "Deep Learning", "start": "2010-01-01", "end": "2019-12-31", "description": "Neural networks, GPUs, and big data change everything" },
-  { "name": "LLMs, Generative AI & Agents", "start": "2020-01-01", "end": "2026-02-28", "description": "LLMs, generative AI, and agents reshape the landscape" },
-  { "name": "What Comes Next", "start": "2026-03-01", "end": "2035-12-31", "description": "Swarms, physical AI, and the road ahead" }
+  { "id": "foundations", "name": "The Foundations", "years": "– 1955", "description": "The ideas and breakthroughs that laid the groundwork for AI" },
+  { "id": "early-enthusiasm", "name": "Early Enthusiasm, Great Expectations", "years": "1952 – 1974", "description": "AI is born at Dartmouth and optimism runs high" },
+  { "id": "dose-of-reality", "name": "A Dose of Reality", "years": "1966 – 1993", "description": "Critiques, funding cuts, and the rise and fall of expert systems" },
+  { "id": "machine-learning", "name": "Machine Learning & Big Data", "years": "1986 – 2012", "description": "Data-driven methods and probabilistic AI emerge" },
+  { "id": "deep-learning", "name": "Deep Learning", "years": "2011 – present", "description": "Neural networks, GPUs, and big data converge" },
+  { "id": "generative-ai", "name": "Generative AI & Agents", "years": "2017 – present", "description": "LLMs, generative AI, and agents reshape the landscape" },
+  { "id": "what-comes-next", "name": "What Comes Next", "years": "", "description": "Swarms, physical AI, and the road ahead" }
 ]

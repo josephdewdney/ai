@@ -30,6 +30,12 @@ This presentation serves as an introduction to a series of presentations on AI f
 - The audience may be experiencing AI fatigue. AI hype has been relentless. Acknowledge this rather than pretend the audience is eager. Avoid hype language, be honest about limitations, and focus on substance over buzzwords.
 - Do not use hype language in the script or timeline descriptions. Avoid words like "revolutionary", "game-changing", "incredible", "explosive", "unprecedented" etc. State what happened factually and let the audience draw their own conclusions.
 
+## Resources
+
+- Russell, S. & Norvig, P. (2021). *Artificial Intelligence: A Modern Approach* (4th ed.). Pearson. — Chapter 1.3 covers the history of AI in named eras.
+- [A Brief History of AI: From Machine Learning to Gen AI to Agentic AI](https://www.youtube.com/watch?v=ZHCB09O6zUk) — IBM Technology (YouTube)
+- [The history of AI that no one ever told you](https://www.youtube.com/watch?v=zExHlzp6p-4) — Matt Wolfe (YouTube)
+
 ## Possible Future Presentations
 
 ### Technical Topics

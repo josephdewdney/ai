@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI - How did we get here?</title>
+  <title>AI - A Brief History</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -136,7 +136,7 @@
       AI
     </h1>
     <p class="hero-sub text-lg text-gray-600 mt-2 font-light tracking-wide">
-      How did we get here?
+      A Brief History
     </p>
     <div class="hero-bar h-[2px] bg-gray-300 mx-auto mt-5 rounded-full"></div>
   </header>
@@ -198,12 +198,7 @@
       let cardIndex = 0;
 
       for (const era of eras) {
-        const eraStart = new Date(era.start);
-        const eraEnd = new Date(era.end);
-        const eraEvents = events.filter(e => {
-          const d = new Date(e.date);
-          return d >= eraStart && d <= eraEnd;
-        });
+        const eraEvents = events.filter(e => e.era === era.id);
         if (eraEvents.length === 0) continue;
 
         const heading = document.createElement('div');
@@ -211,7 +206,7 @@
         heading.innerHTML = `
           <div class="era-node absolute left-[-33px] top-[8px] w-3.5 h-3.5 rounded-full bg-gray-400 z-10 ring-[3px] ring-[#fafafa] transition-all duration-300"></div>
           <div>
-            <h2 class="font-display text-[1.6rem] font-700 text-gray-900 tracking-tight leading-snug">${escapeHtml(era.name)}</h2>
+            <h2 class="font-display text-[1.6rem] font-700 text-gray-900 tracking-tight leading-snug">${escapeHtml(era.name)}${era.years ? ` <span class="font-mono text-sm font-400 text-gray-400">${escapeHtml(era.years)}</span>` : ''}</h2>
             <p class="text-sm text-gray-600 mt-0.5">${escapeHtml(era.description)}</p>
           </div>
         `;

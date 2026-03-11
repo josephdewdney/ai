@@ -12,11 +12,11 @@ We're going to walk through a timeline, from the 1950s to where things are headi
 
 **Early Enthusiasm, Great Expectations**
 
-So the story really starts in 1950, when Alan Turing publishes this paper — "Computing Machinery and Intelligence" — and he asks a deceptively simple question: can machines think? And rather than trying to define what thinking actually is, he sidesteps the whole thing and proposes what we now call the Turing Test. If a machine can hold a conversation and you genuinely can't tell it apart from a human, does it even matter whether it's "really" thinking? It's a clever framing, and it basically kicked off the whole field.
+So the story really starts in 1950, when Alan Turing publishes this paper — "Computing Machinery and Intelligence" — and he asks a deceptively simple question: can machines think? And rather than trying to define what thinking actually is, he sidesteps the whole thing and proposes what we now call the Turing Test. If a machine can hold a conversation and you genuinely can't tell it apart from a human, does it even matter whether it's "really" thinking? He also suggested that it would be easier to create human-level AI by developing learning algorithms and then teaching the machine, rather than programming its intelligence by hand.
 
 Then in 1956, a group of researchers got together at Dartmouth College — John McCarthy, Marvin Minsky, Claude Shannon — yes, that's who the AI is named after — and a few others — and they coined the term "artificial intelligence." And they were incredibly optimistic. They genuinely believed that within a generation, machines would be able to do anything a human mind could do.
 
-And early on, it actually looked like they might be right. In 1966, a program called ELIZA came out of MIT. It was essentially a chatbot that used pattern matching to simulate a therapist. And people were amazed by it — some genuinely believed they were talking to something that understood them. It was really the first time software created that illusion of intelligence.
+And early on, it actually looked like they might be right. By the mid-60s, programs at MIT were solving calculus problems, IQ-style analogy questions, and algebra word problems. In 1966, a program called ELIZA came out of MIT. It was essentially a chatbot that used pattern matching to simulate a therapist. And people were amazed by it — some genuinely believed they were talking to something that understood them. It was really the first time software created that illusion of intelligence.
 
 Around the same time, researchers were building what's now called symbolic AI. The idea was pretty straightforward — you encode human knowledge as rules. If this, then that. Expert systems took this approach and ran with it, and for narrow, well-defined problems, they actually worked quite well.
 
@@ -24,7 +24,7 @@ Around the same time, researchers were building what's now called symbolic AI. T
 
 **A Dose of Reality**
 
-But the thing is, these systems were brittle. They couldn't handle ambiguity, they couldn't learn from new data, and the hardware of the time just wasn't powerful enough to do anything more ambitious. So funding dried up. Twice, actually. The first AI winter hit in the mid-1970s. Interest came back in the 80s with expert systems, but when those failed to live up to the hype, a second winter followed in the late 80s and early 90s.
+But the thing is, these systems were brittle. They couldn't handle ambiguity, they couldn't learn from new data, and the hardware of the time just wasn't powerful enough to do anything more ambitious. So funding dried up — that's the first AI winter, mid-1970s. Interest came back in the 80s with expert systems, and the AI industry boomed from a few million dollars in 1980 to billions by 1988 — hundreds of companies building expert systems, vision systems, robots. But then came the second AI winter, when many of those companies fell by the wayside. It turned out to be difficult to build and maintain expert systems for complex domains — the reasoning methods broke down in the face of uncertainty, and the systems couldn't learn from experience.
 
 And I think this is worth pausing on, because there's a pattern here that repeats throughout AI history — hype, followed by reality, followed by disappointment. And I'd encourage you to keep that pattern in mind, because I think it's relevant to where we are today as well.
 
@@ -50,7 +50,7 @@ And what followed was a rapid wave of progress. In 2014, GANs introduced a way f
 
 ---
 
-**LLMs, Generative AI & Agents**
+**Generative AI & Agents**
 
 Then in 2017, a team at Google published a paper called "Attention Is All You Need," which introduced the transformer architecture. And this really did fundamentally change natural language processing. The key insight was the attention mechanism — instead of processing text word by word in sequence, the model could look at all parts of the input simultaneously and learn which parts are relevant to each other.
 
