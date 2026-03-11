@@ -12,3 +12,8 @@ Nothing really.
 
 ## I would be interested, now that we have those agents, do you see our job as SWEs in danger? [PLANTED]
 Honestly, I don't know. I actually think about this a lot as I am sure you all do. Hallucinations remain a big problem.
+
+## There was this plateauing issue but then they started getting better again, why?
+...
+
+## What sort of patterns could the perceptron learn?

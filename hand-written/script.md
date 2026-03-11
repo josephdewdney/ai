@@ -1,7 +1,7 @@
 
 # Evolution of AI
 
-## The Beginnings: 1950 - 1974
+## The Beginnings: 1950 - 1974 (~1 min, including intro)
 
 - Alan Turing's paper
 - Dartmouth is what made it the focus - Fun fact: Claude from Anthropic is named after Claude Shannon.
@@ -10,7 +10,7 @@
 - The systems had to be programmed and fell apart outside of their narrow domain.
 - Start of first AI winter triggered by Lighthill Report (1973) and US/UK funding cuts
 
-## Expert Systems: 1980 – 1987
+## Expert Systems: 1980 – 1987 (~1 min)
 
 - Rule-based systems
 - Narrower ambitions, proven concepts from the first AI winter, and competitive pressure from Japan's Fifth Generation Computer Project (1982) made it possible
@@ -20,7 +20,7 @@
 - Brittle, couldn't handle uncertainty, couldn't learn
 - Second AI winter — DARPA cut AI funding, expert systems too expensive to maintain, LISP machine market collapsed
 
-## Machine Learning: 1986 - 2012
+## Machine Learning: 1986 - 2012 (~1 min)
 
 - Learning from data rather than instructions
 - Backpropagation (earlier research), the internet provided vast training data, increased compute (Moore's Law), and algorithmic advances (SVMs, ensemble methods) made it possible
@@ -28,7 +28,7 @@
 - Deep Blue beating Kasparov (rule based though)
 - Needing more compute
 
-## Deep Learning: 2012 - 2017
+## Deep Learning: 2012 - 2017 (~2 min)
 
 - Neural Networks many layers deep
 - GPUs, Big Data, ReLU, dropout, batch normalisation, ...
@@ -36,7 +36,7 @@
 - AlphaGo beating Lee Sedol (2016) was global news
 - Image recognition, speech recognition, machine translation (Google Neural MT, 2016), games
 
-## Foundation Models: 2017 - present
+## Foundation Models: 2017 - present (~4 min)
 
 - "AI model that undergoes pre-training on a large amount of data to do a range of tasks"
 - "Attention is all you need" - Fun fact: even the authors didn't foresee the full impact.
@@ -46,7 +46,7 @@
 - Hallucinations, ...
 - MCP, Agent Skills, Agents
 
-## And what comes next?
+## And what comes next? (~1 min)
 
 
 For each section:
