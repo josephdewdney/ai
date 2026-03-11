@@ -44,7 +44,7 @@
 ## Foundation Models: 2017 - present
 
 - "AI model that undergoes pre-training on a large amount of data to do a range of tasks"
-- "Attention is all you need"
+- "Attention is all you need" - Fun fact: even the authors didn't foresee the full impact.
 - GPT-3 showed the benefits of scaling
 - ChatGPT public focus
 - Code generation, summaries, translation, ...
