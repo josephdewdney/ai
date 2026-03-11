@@ -165,6 +165,16 @@
     "reference": "https://en.wikipedia.org/wiki/Perceptrons_(book)"
   },
   {
+    "term": "Symbolic AI",
+    "definition": "An approach to AI based on encoding human knowledge as rules and logic (if this, then that).",
+    "reference": "https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence"
+  },
+  {
+    "term": "Scaling",
+    "definition": "Making AI models larger and training them on more data, which has been shown to produce unexpectedly better results and new capabilities.",
+    "reference": "https://en.wikipedia.org/wiki/Neural_scaling_law"
+  },
+  {
     "term": "SNARC",
     "definition": "The Stochastic Neural Analog Reinforcement Calculator, built by Marvin Minsky and Dean Edmonds in 1951, was the first artificial neural network machine.",
     "reference": "https://en.wikipedia.org/wiki/Stochastic_Neural_Analog_Reinforcement_Calculator"
