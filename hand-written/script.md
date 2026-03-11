@@ -51,7 +51,7 @@
 - Models learn to "think longer" before answering
 
 ### Phase 3: Agents (Dec 2025)
-- Models trained for long-horizon persistence, tool use, and self-recovery
+- Models trained for long-horizon persistence, tool use, and self-recovery (no more going in circles — recognises it's stuck and tries a different approach)
 - Opus 4.5, GPT-5.2 Codex, and other frontier models all ship within weeks of each other
 - Coding agents go from broken to working — Karpathy: "coding agents basically didn't work before December"
 - Each phase found a new axis to scale: first parameters, then inference compute, then task duration and tool use
