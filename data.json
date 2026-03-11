@@ -455,6 +455,17 @@
     "era": "machine-learning"
   },
   {
+    "date": "2006-10-02",
+    "title": "Netflix Prize",
+    "description": "Netflix offers $1M for a 10% improvement to its recommendation algorithm. Over 40,000 teams from 186 countries compete, demonstrating the power of machine learning on real-world data at scale.",
+    "category": "Milestone",
+    "featured": true,
+    "links": [
+      "https://en.wikipedia.org/wiki/Netflix_Prize"
+    ],
+    "era": "machine-learning"
+  },
+  {
     "date": "2013-01-01",
     "title": "Word2Vec",
     "description": "Google releases Word2Vec, a neural network-based word embedding model that advances natural language understanding and enables large language models.",
@@ -483,7 +494,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Watson_(computer)"
     ],
-    "featured": true,
+    "featured": false,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
     "era": "machine-learning"
   },
@@ -884,7 +895,7 @@
     "title": "Long Short-Term Memory (LSTM)",
     "description": "Sepp Hochreiter and Jürgen Schmidhuber publish the LSTM paper, introducing a neural network architecture that can remember information over long sequences. LSTM becomes the dominant architecture for speech recognition, machine translation, and language modeling for the next two decades.",
     "category": "Research",
-    "featured": true,
+    "featured": false,
     "era": "machine-learning"
   },
   {
