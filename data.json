@@ -265,7 +265,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)"
     ],
-    "era": "dose-of-reality"
+    "era": "expert-systems"
   },
   {
     "date": "1980-01-01",
@@ -276,7 +276,7 @@
     "links": [
       "https://ai.stanford.edu/~nilsson/OnlinePubs-Nils/General_Essays/HistoryAI.pdf"
     ],
-    "era": "dose-of-reality"
+    "era": "expert-systems"
   },
   {
     "date": "1966-01-01",
@@ -286,7 +286,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/ALPAC"
     ],
-    "era": "dose-of-reality"
+    "era": "expert-systems"
   },
   {
     "date": "1969-01-01",
@@ -296,7 +296,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Perceptrons_(book)"
     ],
-    "era": "dose-of-reality"
+    "era": "expert-systems"
   },
   {
     "date": "1973-01-01",
@@ -307,7 +307,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Lighthill_report"
     ],
-    "era": "dose-of-reality"
+    "era": "expert-systems"
   },
   {
     "date": "1988-01-01",
@@ -317,7 +317,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Moravec%27s_paradox"
     ],
-    "era": "dose-of-reality"
+    "era": "expert-systems"
   },
   {
     "date": "1972-01-01",
@@ -327,7 +327,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Hubert_Dreyfus"
     ],
-    "era": "dose-of-reality"
+    "era": "expert-systems"
   },
   {
     "date": "1986-10-09",
@@ -348,7 +348,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Hopfield_network"
     ],
-    "era": "dose-of-reality"
+    "era": "expert-systems"
   },
   {
     "date": "1984-01-01",
@@ -358,7 +358,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Cyc"
     ],
-    "era": "dose-of-reality"
+    "era": "expert-systems"
   },
   {
     "date": "1976-01-01",
@@ -368,7 +368,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Computer_Power_and_Human_Reason"
     ],
-    "era": "dose-of-reality"
+    "era": "expert-systems"
   },
   {
     "date": "1985-01-01",
@@ -378,7 +378,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Boltzmann_machine"
     ],
-    "era": "dose-of-reality"
+    "era": "expert-systems"
   },
   {
     "date": "1988-01-01",
@@ -398,7 +398,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Chinese_room"
     ],
-    "era": "dose-of-reality"
+    "era": "expert-systems"
   },
   {
     "date": "1982-01-01",
@@ -408,7 +408,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Fifth_generation_computer"
     ],
-    "era": "dose-of-reality"
+    "era": "expert-systems"
   },
   {
     "date": "1997-05-11",
@@ -431,7 +431,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/AI_winter"
     ],
-    "era": "dose-of-reality"
+    "era": "expert-systems"
   },
   {
     "date": "1998-01-01",
@@ -539,19 +539,7 @@
     "links": [
       "https://arxiv.org/abs/1706.03762"
     ],
-    "era": "generative-ai"
-  },
-  {
-    "date": "2020-11-30",
-    "title": "AlphaFold Solves Protein Folding",
-    "description": "DeepMind's AlphaFold achieves a breakthrough in protein structure prediction, solving a 50-year-old grand challenge in biology.",
-    "category": "Milestone",
-    "links": [
-      "https://en.wikipedia.org/wiki/AlphaFold"
-    ],
-    "featured": true,
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/DeepMind_new_logo.svg",
-    "era": "deep-learning"
+    "era": "foundation-models"
   },
   {
     "date": "2020-06-11",
@@ -563,7 +551,7 @@
       "https://en.wikipedia.org/wiki/GPT-3"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2020-03-01",
@@ -573,7 +561,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/15.ai"
     ],
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2023-03-01",
@@ -584,7 +572,7 @@
       "https://en.wikipedia.org/wiki/Claude_(AI)"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2023-12-01",
@@ -595,7 +583,7 @@
       "https://en.wikipedia.org/wiki/Google_Gemini"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Google_Gemini_icon_2025.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2025-08-07",
@@ -608,7 +596,7 @@
       "https://en.wikipedia.org/wiki/GPT-5"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2022-05-01",
@@ -618,7 +606,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Gato_(DeepMind)"
     ],
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2024-06-01",
@@ -629,7 +617,7 @@
       "https://en.wikipedia.org/wiki/Claude_(AI)"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2024-10-08",
@@ -652,7 +640,7 @@
       "https://openai.com/blog/chatgpt/"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2023-03-29",
@@ -662,7 +650,7 @@
     "links": [
       "https://futureoflife.org/open-letter/pause-giant-ai-experiments/"
     ],
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2025-11-01",
@@ -675,7 +663,7 @@
       "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
       "https://www.pcmag.com/news/openclaw-is-the-hot-new-ai-agent-but-is-it-safe-to-use"
     ],
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2018-06-11",
@@ -687,7 +675,7 @@
       "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2019-02-14",
@@ -699,7 +687,7 @@
       "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2022-08-22",
@@ -709,7 +697,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Stable_Diffusion"
     ],
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2021-01-05",
@@ -721,7 +709,7 @@
       "https://en.wikipedia.org/wiki/DALL-E"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2023-10-19",
@@ -733,7 +721,7 @@
       "https://en.wikipedia.org/wiki/DALL-E"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2021-08-10",
@@ -745,7 +733,7 @@
       "https://en.wikipedia.org/wiki/OpenAI_Codex"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2022-09-21",
@@ -757,7 +745,7 @@
       "https://en.wikipedia.org/wiki/Whisper_(speech_recognition)"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2023-03-14",
@@ -769,7 +757,7 @@
       "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2022-11-30",
@@ -781,7 +769,7 @@
       "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2024-02-15",
@@ -793,7 +781,7 @@
       "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2024-11-25",
@@ -805,7 +793,7 @@
       "https://github.com/modelcontext/protocol"
     ],
     "featured": true,
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2025-11-12",
@@ -819,7 +807,7 @@
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg",
     "featured": true,
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2025-02-06",
@@ -830,7 +818,7 @@
       "https://x.com/karpathy/status/1886192184808149383"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2025-06-15",
@@ -842,7 +830,7 @@
       "https://openai.com/blog/agentic-ai-2025"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/OpenAI_Logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2026-02-05",
@@ -855,7 +843,7 @@
       "https://www.anthropic.com/news/claude-sonnet-4-6"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2014-06-10",
@@ -872,7 +860,7 @@
     "category": "Research",
     "featured": true,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2023-02-24",
@@ -881,7 +869,7 @@
     "category": "Research",
     "featured": true,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Meta_Platforms_logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2024-09-12",
@@ -890,7 +878,7 @@
     "category": "Research",
     "featured": true,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "1997-11-15",
@@ -925,7 +913,7 @@
     "category": "Product Launch",
     "featured": true,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/GitHub_Copilot_logo.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2025-01-20",
@@ -934,7 +922,7 @@
     "category": "Industry",
     "featured": true,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Deepseek-logo-icon.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2025-05-22",
@@ -946,7 +934,7 @@
       "https://www.anthropic.com/news/claude-4"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2025-12-17",
@@ -958,7 +946,7 @@
       "https://deepmind.google/technologies/gemini/"
     ],
     "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Google_Gemini_icon_2025.svg",
-    "era": "generative-ai"
+    "era": "foundation-models"
   },
   {
     "date": "2026-03-01",
@@ -981,7 +969,7 @@
   {
     "date": "2026-03-03",
     "title": "Scientific AI",
-    "description": "Building on AlphaFold, AI moves toward conducting science — generating hypotheses and designing experiments.",
+    "description": "AI moves toward conducting science — generating hypotheses and designing experiments.",
     "category": "Trend",
     "featured": true,
     "links": [],

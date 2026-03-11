@@ -10,11 +10,6 @@
     "reference": "https://en.wikipedia.org/wiki/AlexNet"
   },
   {
-    "term": "AlphaFold",
-    "definition": "An AI system developed by DeepMind that achieved a breakthrough in protein structure prediction, solving a long-standing challenge in biology.",
-    "reference": "https://en.wikipedia.org/wiki/AlphaFold"
-  },
-  {
     "term": "AlphaGo",
     "definition": "A computer program developed by DeepMind that defeated world champion Go player Lee Sedol in 2016, demonstrating the power of reinforcement learning and deep neural networks.",
     "reference": "https://en.wikipedia.org/wiki/AlphaGo"
