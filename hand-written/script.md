@@ -1,11 +1,6 @@
 
 # Evolution of AI
 
-## Introduction
-- I want to talk about where AI began and how it evolved.
-- A lot of the approaches and techniques are still used. I have grouped the developments by where the particular approach dominated the field.
-- Sometimes the research came much earlier.
-
 ## The Beginnings: 1950 - 1974
 
 - Alan Turing's paper
