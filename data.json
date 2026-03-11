@@ -21,7 +21,7 @@
     "era": "beginnings"
   },
   {
-    "date": "1300-01-01",
+    "date": "1275-01-01",
     "title": "Ramon Llull's Logical Machines",
     "description": "Ramon Llull develops logical machines to combine basic truths mechanically, influencing later ideas of mechanized reasoning.",
     "category": "Precursors",
@@ -41,9 +41,9 @@
     "era": "beginnings"
   },
   {
-    "date": "1679-01-01",
+    "date": "1673-01-01",
     "title": "Leibniz's Stepped Reckoner and Calculus Ratiocinator",
-    "description": "Gottfried Wilhelm Leibniz builds the Stepped Reckoner and envisions the Calculus Ratiocinator, a universal logical calculation engine.",
+    "description": "Gottfried Wilhelm Leibniz presents the Stepped Reckoner to the Royal Society and envisions the Calculus Ratiocinator, a universal logical calculation engine.",
     "category": "Precursors",
     "links": [
       "https://en.wikipedia.org/wiki/Leibniz_wheel",
@@ -104,7 +104,7 @@
   {
     "date": "1957-01-01",
     "title": "General Problem Solver",
-    "description": "Newell and Simon create the General Problem Solver, a universal problem-solving machine that influenced AI planning and search algorithms.",
+    "description": "Newell, Simon, and Shaw create the General Problem Solver, a universal problem-solving machine that influenced AI planning and search algorithms.",
     "category": "Algorithm",
     "links": [
       "https://en.wikipedia.org/wiki/General_Problem_Solver"
@@ -114,7 +114,7 @@
   {
     "date": "1959-01-01",
     "title": "Samuel's Checkers Program",
-    "description": "Arthur Samuel develops a checkers-playing program that learns from experience, an early example of machine learning.",
+    "description": "Arthur Samuel publishes 'Some Studies in Machine Learning Using the Game of Checkers', coining the term 'machine learning'. His checkers program, developed from 1952, learns from experience.",
     "category": "Application",
     "links": [
       "https://en.wikipedia.org/wiki/Arthur_Samuel_(computer_scientist)"
@@ -122,7 +122,7 @@
     "era": "beginnings"
   },
   {
-    "date": "1956-08-17",
+    "date": "1956-06-18",
     "title": "Dartmouth Workshop",
     "description": "The Dartmouth Summer Research Project on Artificial Intelligence, led by John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon, is held. This event is considered the birth of AI as a field.",
     "category": "Milestone",
@@ -133,7 +133,7 @@
     "era": "beginnings"
   },
   {
-    "date": "1957-07-01",
+    "date": "1957-01-01",
     "title": "The Perceptron",
     "description": "Frank Rosenblatt invents the perceptron, an early neural network model capable of learning simple patterns, laying the groundwork for modern neural networks.",
     "category": "Model",
@@ -145,8 +145,8 @@
   },
   {
     "date": "1960-01-01",
-    "title": "ADALINE and MADALINE Neural Networks",
-    "description": "Bernard Widrow and Ted Hoff develop ADALINE and MADALINE, early neural networks used for practical applications.",
+    "title": "ADALINE Neural Network",
+    "description": "Bernard Widrow and Ted Hoff develop ADALINE, an early neural network used for practical applications. MADALINE follows in 1962.",
     "category": "Model",
     "links": [
       "https://en.wikipedia.org/wiki/ADALINE"
@@ -165,7 +165,7 @@
     "era": "beginnings"
   },
   {
-    "date": "1970-01-01",
+    "date": "1966-01-01",
     "title": "Shakey the Robot",
     "description": "SRI International develops Shakey, the first mobile robot able to reason about its actions, integrating perception, planning, and action.",
     "category": "Robotics",
@@ -197,7 +197,7 @@
   {
     "date": "1976-01-01",
     "title": "MYCIN Expert System",
-    "description": "MYCIN diagnoses blood infections using ~600 IF-THEN rules, performing as well as human specialists. It inspires the expert systems boom of the 1980s.",
+    "description": "MYCIN diagnoses blood infections using ~450 IF-THEN rules, performing as well as human specialists. It inspires the expert systems boom of the 1980s.",
     "category": "Application",
     "featured": true,
     "links": [
@@ -216,9 +216,9 @@
     "era": "beginnings"
   },
   {
-    "date": "1973-01-01",
+    "date": "1969-01-01",
     "title": "Conceptual Dependency Theory",
-    "description": "Roger Schank develops Conceptual Dependency Theory, a framework for representing natural language meaning in AI.",
+    "description": "Roger Schank introduces Conceptual Dependency Theory, a framework for representing natural language meaning in AI.",
     "category": "Theory",
     "links": [
       "https://en.wikipedia.org/wiki/Conceptual_dependency_theory"
@@ -238,7 +238,7 @@
   {
     "date": "1980-01-01",
     "title": "R1: First Commercial Expert System",
-    "description": "DEC deploys R1 (also called XCON), the first commercially successful expert system, which configures VAX computer orders and saves the company an estimated $40 million per year. It proves AI has real business value.",
+    "description": "DEC deploys R1 (also called XCON), the first commercially successful expert system, which configures VAX computer orders and saves the company an estimated $25 million per year. It proves AI has real business value.",
     "category": "Application",
     "featured": true,
     "links": [
@@ -249,7 +249,7 @@
   {
     "date": "1966-01-01",
     "title": "ALPAC Report",
-    "description": "The US government publishes the ALPAC report, criticizing the lack of progress in machine translation and leading to a major reduction in AI funding.",
+    "description": "The ALPAC advisory committee publishes a report criticizing the lack of progress in machine translation, leading to a major reduction in US funding for the field.",
     "category": "AI Winter",
     "links": [
       "https://en.wikipedia.org/wiki/ALPAC"
@@ -341,7 +341,7 @@
   {
     "date": "1985-01-01",
     "title": "Boltzmann Machine Introduced",
-    "description": "Geoffrey Hinton and Terry Sejnowski introduce the Boltzmann machine, a stochastic recurrent neural network.",
+    "description": "David Ackley, Geoffrey Hinton, and Terry Sejnowski introduce the Boltzmann machine, a stochastic recurrent neural network.",
     "category": "Model",
     "links": [
       "https://en.wikipedia.org/wiki/Boltzmann_machine"
@@ -557,7 +557,7 @@
   {
     "date": "2016-09-26",
     "title": "Google Neural Machine Translation",
-    "description": "Google replaces its phrase-based translation system with a neural network, dramatically improving translation quality across 100+ languages overnight. A landmark demonstration of deep learning in production at massive scale.",
+    "description": "Google replaces its phrase-based translation system with a neural network, dramatically improving translation quality. Initially launched for 8 language pairs, it gradually expands to cover all Google Translate languages. A landmark demonstration of deep learning in production at massive scale.",
     "category": "Product Launch",
     "featured": true,
     "links": [
@@ -613,7 +613,7 @@
     "era": "foundation-models"
   },
   {
-    "date": "2023-12-01",
+    "date": "2023-12-06",
     "title": "Google Gemini",
     "description": "Google launches Gemini (formerly Bard), a major competitor in the large language model space.",
     "category": "Product Launch",
@@ -627,7 +627,7 @@
   {
     "date": "2025-08-07",
     "title": "GPT-5",
-    "description": "OpenAI releases GPT-5, a unified multimodal model with a 128,000-token context window and a router that automatically selects between a faster model and a slower reasoning model based on the task.",
+    "description": "OpenAI releases GPT-5, a unified multimodal model with a 400,000-token context window and up to 128,000 output tokens. A router automatically selects between a faster model and a slower reasoning model based on the task.",
     "category": "Product Launch",
     "featured": false,
     "links": [
@@ -684,7 +684,7 @@
     "era": "foundation-models"
   },
   {
-    "date": "2023-03-29",
+    "date": "2023-03-22",
     "title": "Pause Giant AI Experiments Open Letter",
     "description": "Thousands of AI researchers and tech leaders sign an open letter calling for a pause on training AI systems more powerful than GPT-4, citing societal risks.",
     "category": "Milestone",
@@ -737,7 +737,7 @@
   {
     "date": "2022-08-22",
     "title": "Stable Diffusion",
-    "description": "Stability AI releases Stable Diffusion as open-source, making high-quality text-to-image generation freely available to anyone. Millions of people generate images for the first time, igniting a global debate about AI and creative work.",
+    "description": "Stability AI releases Stable Diffusion as open-source, developed in collaboration with RunwayML, LMU Munich, and others. It makes high-quality text-to-image generation freely available to anyone, igniting a global debate about AI and creative work.",
     "category": "Product Launch",
     "featured": false,
     "links": [
@@ -849,7 +849,7 @@
     "era": "foundation-models"
   },
   {
-    "date": "2025-11-12",
+    "date": "2025-10-16",
     "title": "Agent Skills",
     "description": "Anthropic introduces Agent Skills for Claude, enabling users to automate expertise and workflows. Skills can be stacked for complex tasks and help capture institutional knowledge.",
     "category": "Product Launch",
@@ -863,9 +863,9 @@
     "era": "foundation-models"
   },
   {
-    "date": "2025-02-06",
+    "date": "2025-02-03",
     "title": "Andrej Karpathy's Vibe Coding Tweet",
-    "description": "Andrej Karpathy tweets about 'vibe coding', describing the feeling of effortless, creative programming when everything flows smoothly.",
+    "description": "Andrej Karpathy tweets about 'vibe coding', describing a style of programming where you give in to the vibes, embrace exponentials, and forget that the code even exists.",
     "category": "Tweet",
     "featured": false,
     "links": [
@@ -994,7 +994,7 @@
   {
     "date": "2025-12-17",
     "title": "Gemini 3",
-    "description": "Google releases Gemini 3 Flash and Gemini 3 Pro, achieving a perfect 100% on the AIME 2025 maths benchmark with a 1-million-token context window. The model replaces Gemini 2.5 across Google's products.",
+    "description": "Google releases Gemini 3 Flash and Gemini 3 Pro (Pro launched November 18), achieving 100% on the AIME 2025 maths benchmark with code execution tools (95% without) and a 1-million-token context window. The model replaces Gemini 2.5 across Google's products.",
     "category": "Product Launch",
     "featured": false,
     "links": [

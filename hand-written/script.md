@@ -19,9 +19,9 @@
 
 - Rule-based systems
 - Narrower ambitions, proven concepts from the first AI winter, and competitive pressure from Japan's Fifth Generation Computer Project (1982) made it possible
-- MYCIN (1976) diagnosed blood infections using ~600 rules, inspired the boom
-- Ran on expensive specialized LISP machines ($50K–$100K+); cheaper general-purpose PCs ended the era by making them obsolete in 1987
-- Commercialisation - R1/XCON configured VAX orders for DEC, saving $40M/year. Companies realized they could make money from AI.
+- MYCIN (1976) diagnosed blood infections using ~450 rules, inspired the boom
+- Ran on expensive specialized LISP machines ($50K–$100K+); cheaper general-purpose workstations ended the era by making them obsolete in 1987
+- Commercialisation - R1/XCON configured VAX orders for DEC, saving ~$25M/year. Companies realized they could make money from AI.
 - Brittle, couldn't handle uncertainty, couldn't learn
 - Second AI winter — DARPA cut AI funding, expert systems too expensive to maintain, LISP machine market collapsed
 
@@ -50,6 +50,8 @@
 - Code generation, summaries, translation, ...
 - Hallucinations, ...
 - MCP, Agent Skills, Agents
+
+## And what comes next?
 
 
 For each section:
