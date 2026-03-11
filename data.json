@@ -499,6 +499,28 @@
     "era": "machine-learning"
   },
   {
+    "date": "2010-01-01",
+    "title": "ReLU Activation Function",
+    "description": "Nair and Hinton show that Rectified Linear Units (ReLU) train deep networks far faster than sigmoid or tanh activations by avoiding the vanishing gradient problem. ReLU becomes the default activation for deep learning.",
+    "category": "Algorithm",
+    "featured": true,
+    "links": [
+      "https://en.wikipedia.org/wiki/Rectifier_(neural_networks)"
+    ],
+    "era": "deep-learning"
+  },
+  {
+    "date": "2012-07-03",
+    "title": "Dropout Regularisation",
+    "description": "Hinton et al. introduce dropout — randomly disabling neurons during training — as a simple way to prevent overfitting in deep networks. Used in AlexNet and adopted universally.",
+    "category": "Algorithm",
+    "featured": true,
+    "links": [
+      "https://en.wikipedia.org/wiki/Dilution_(neural_networks)"
+    ],
+    "era": "deep-learning"
+  },
+  {
     "date": "2012-09-30",
     "title": "AlexNet Wins ImageNet",
     "description": "AlexNet, a deep convolutional neural network by Krizhevsky, Sutskever, and Hinton, wins the ImageNet competition by a large margin, demonstrating the power of deep learning for computer vision.",
@@ -506,6 +528,17 @@
     "featured": true,
     "links": [
       "https://en.wikipedia.org/wiki/AlexNet"
+    ],
+    "era": "deep-learning"
+  },
+  {
+    "date": "2015-02-11",
+    "title": "Batch Normalisation",
+    "description": "Ioffe and Szegedy at Google introduce batch normalisation, which stabilises and accelerates deep network training by normalising layer inputs. It becomes a standard component of virtually every deep learning architecture.",
+    "category": "Algorithm",
+    "featured": true,
+    "links": [
+      "https://en.wikipedia.org/wiki/Batch_normalization"
     ],
     "era": "deep-learning"
   },
