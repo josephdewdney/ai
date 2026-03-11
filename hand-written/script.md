@@ -36,15 +36,29 @@
 - AlphaGo beating Lee Sedol (2016) was global news
 - Image recognition, speech recognition, machine translation (Google Neural MT, 2016), games
 
-## Foundation Models: 2017 - present (~4 min)
+## Generative AI & Agents: 2017 - present (~4 min)
 
+### Phase 1: Scaling (2017-2023)
 - "AI model that undergoes pre-training on a large amount of data to do a range of tasks"
 - "Attention is all you need" - Fun fact: even the authors didn't foresee the full impact.
-- GPT-3 showed the benefits of scaling
+- GPT-3 showed the benefits of scaling — make it bigger, more capabilities emerge
 - ChatGPT public focus
+
+### Phase 2: Reasoning (2024)
+- Pre-training scaling hits diminishing returns — just making models bigger stops working as well
+- Pivot to test-time compute: spend more compute when answering, not just when training
+- OpenAI o1 (Sept 2024) — first reasoning model, trained with RL on verifiable rewards (does the code pass? is the maths right?)
+- Models learn to "think longer" before answering
+
+### Phase 3: Agents (Dec 2025)
+- Models trained for long-horizon persistence, tool use, and self-recovery
+- Opus 4.5, Gemini 3, GPT 5.2 all ship within weeks of each other
+- Coding agents go from broken to working — Karpathy: "coding agents basically didn't work before December"
+- Each phase found a new axis to scale: first parameters, then inference compute, then task duration and tool use
+- MCP, Agent Skills — open standards and tooling for agents
+
 - Code generation, summaries, translation, ...
 - Hallucinations, ...
-- MCP, Agent Skills, Agents
 
 ## And what comes next? (~1 min)
 
