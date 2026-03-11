@@ -6,25 +6,27 @@
 - A lot of the approaches and techniques are still used. I have grouped the developments by where the particular approach dominated the field.
 - Sometimes the research came much earlier.
 
-## The Beginnings / Symbolic AI: 1950 - 1974
+## The Beginnings: 1950 - 1974
 
 - Alan Turing's paper
 - Dartmouth is what made it the focus
 - Mostly symbolic AI - Perceptron exception
 - Eliza
 - The systems had to be programmed and fell apart outside of their narrow domain.
+- start of first AI winter triggered by Lighthill Report (1973) and US/UK funding cuts
 
 ## Expert Systems: 1980 – 1987
 
 - Rule-based systems
-- Cheaper hardware and proven concepts from the winter made it possible
+- Narrower ambitions, proven concepts from the first AI winter, and competitive pressure from Japan's Fifth Generation Computer Project (1982) made it possible
+- Ran on expensive specialized LISP machines ($50K–$100K+); cheaper general-purpose PCs ended the era by making them obsolete in 1987
 - Commercialisation - companies realized they could make money from it
 - Brittle, couldn't handle uncertainty, couldn't learn
 
 ## Machine Learning: 1986 - 2012
 
 - Learning from data rather than instructions
-- Backpropagation (earlier research), the internet made it possible
+- Backpropagation (earlier research), the internet provided vast training data, increased compute (Moore's Law), and algorithmic advances (SVMs, ensemble methods) made it possible
 - Practical results: spam filters, recommendation engines (Netflix), fraud detection
 - Deep Blue beating Kasparov (rule based though)
 - Needing more compute
@@ -35,7 +37,7 @@
 - GPUs, Big Data, ReLU, dropout, batch normalisation, ...
 - AlexNet made it the funding focus
 - AlphaGo beating Lee Sedol (2016) was global news
-- Image recognition, speech recognition, games
+- Image recognition, speech recognition, machine translation (Google Neural MT, 2016), games
 
 ## Foundation Models: 2017 - present
 
