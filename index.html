@@ -206,7 +206,8 @@
         heading.innerHTML = `
           <div class="era-node absolute left-[-33px] top-[8px] w-3.5 h-3.5 rounded-full bg-gray-400 z-10 ring-[3px] ring-[#fafafa] transition-all duration-300"></div>
           <div>
-            <h2 class="font-display text-[1.6rem] font-700 text-gray-900 tracking-tight leading-snug">${escapeHtml(era.name)}${era.years ? ` <span class="font-mono text-sm font-400 text-gray-400">${escapeHtml(era.years)}</span>` : ''}</h2>
+            ${era.years ? `<div class="absolute left-[-192px] top-[9.5px] w-[125px] text-right font-mono text-[0.78rem] text-gray-500 whitespace-nowrap z-20 pointer-events-none leading-none tracking-wider">${escapeHtml(era.years)}</div>` : ''}
+            <h2 class="font-display text-[1.6rem] font-700 text-gray-900 tracking-tight leading-snug">${escapeHtml(era.name)}</h2>
             <p class="text-sm text-gray-600 mt-0.5">${escapeHtml(era.description)}</p>
           </div>
         `;

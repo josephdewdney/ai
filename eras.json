@@ -2,7 +2,7 @@
   { "id": "foundations", "name": "The Foundations", "years": "– 1955", "description": "The ideas and breakthroughs that laid the groundwork for AI" },
   { "id": "early-enthusiasm", "name": "Early Enthusiasm, Great Expectations", "years": "1952 – 1974", "description": "AI is born at Dartmouth and optimism runs high" },
   { "id": "dose-of-reality", "name": "A Dose of Reality", "years": "1966 – 1993", "description": "Critiques, funding cuts, and the rise and fall of expert systems" },
-  { "id": "machine-learning", "name": "Machine Learning & Big Data", "years": "1986 – 2012", "description": "Data-driven methods and probabilistic AI emerge" },
+  { "id": "machine-learning", "name": "Machine Learning", "years": "1986 – 2012", "description": "Data-driven methods and probabilistic AI emerge" },
   { "id": "deep-learning", "name": "Deep Learning", "years": "2011 – present", "description": "Neural networks, GPUs, and big data converge" },
   { "id": "generative-ai", "name": "Generative AI & Agents", "years": "2017 – present", "description": "LLMs, generative AI, and agents reshape the landscape" },
   { "id": "what-comes-next", "name": "What Comes Next", "years": "", "description": "Swarms, physical AI, and the road ahead" }

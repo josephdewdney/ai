@@ -30,7 +30,7 @@ And I think this is worth pausing on, because there's a pattern here that repeat
 
 ---
 
-**Machine Learning & Big Data**
+**Machine Learning**
 
 So what actually pulled AI out of the cold? It was really a philosophical shift more than anything. Instead of telling a computer the rules, you give it data and let it figure out the rules itself. That's machine learning.
 
