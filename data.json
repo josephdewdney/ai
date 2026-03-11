@@ -381,8 +381,8 @@
   },
   {
     "date": "1983-01-01",
-    "title": "Lisp Machines & the AI Boom",
-    "description": "Symbolics, LMI, and Texas Instruments sell specialised Lisp machines costing $50K–$100K+. Two-thirds of Fortune 500 companies invest in AI projects, and the industry exceeds $1 billion per year.",
+    "title": "Symbolics 3600 Launch",
+    "description": "Symbolics ships the 3600 Lisp machine, the flagship product of the AI hardware boom. Priced at $50K–$100K+, it becomes the platform of choice for expert systems development as the AI industry exceeds $1 billion per year.",
     "category": "Industry",
     "featured": true,
     "links": [
@@ -499,7 +499,7 @@
     "era": "machine-learning"
   },
   {
-    "date": "2010-01-01",
+    "date": "2010-06-21",
     "title": "ReLU Activation Function",
     "description": "Nair and Hinton show that Rectified Linear Units (ReLU) train deep networks far faster than sigmoid or tanh activations by avoiding the vanishing gradient problem. ReLU becomes the default activation for deep learning.",
     "category": "Algorithm",
@@ -1003,49 +1003,4 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Google_Gemini_icon_2025.svg",
     "era": "foundation-models"
   },
-  {
-    "date": "2026-03-01",
-    "title": "Swarm Intelligence",
-    "description": "Agents evolve into coordinated multi-agent systems — specialist agents working together like ant colonies.",
-    "category": "Trend",
-    "featured": true,
-    "links": [],
-    "era": "what-comes-next"
-  },
-  {
-    "date": "2026-03-02",
-    "title": "Physical AI",
-    "description": "AI merges with robotics. Humanoid robots on BMW production lines, Tesla targeting 50K deployments.",
-    "category": "Trend",
-    "featured": true,
-    "links": [],
-    "era": "what-comes-next"
-  },
-  {
-    "date": "2026-03-03",
-    "title": "Scientific AI",
-    "description": "AI moves toward conducting science — generating hypotheses and designing experiments.",
-    "category": "Trend",
-    "featured": true,
-    "links": [],
-    "era": "what-comes-next"
-  },
-  {
-    "date": "2026-03-04",
-    "title": "World Models",
-    "description": "A challenge to LLMs — AI that understands physics and causality, not just text. LeCun raised $1B to build it.",
-    "category": "Trend",
-    "featured": true,
-    "links": [],
-    "era": "what-comes-next"
-  },
-  {
-    "date": "2026-03-05",
-    "title": "Ambient AI",
-    "description": "AI embedded in cars, buildings, workflows — as commonplace as electricity.",
-    "category": "Trend",
-    "featured": true,
-    "links": [],
-    "era": "what-comes-next"
-  }
 ]
