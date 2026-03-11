@@ -31,7 +31,7 @@
 ## Deep Learning: 2012 - 2017 (~2 min)
 
 - Neural Networks many layers deep
-- GPUs, Big Data, ReLU, dropout, batch normalisation, ...
+- Made possible to GPUs, Big Data, ReLU, dropout, batch normalisation, ...
 - AlexNet made it the funding focus
 - AlphaGo beating Lee Sedol (2016) was global news
 - Image recognition, speech recognition, machine translation (Google Neural MT, 2016), games
@@ -52,7 +52,7 @@
 
 ### Phase 3: Agents (Dec 2025)
 - Models trained for long-horizon persistence, tool use, and self-recovery
-- Opus 4.5, Gemini 3, GPT 5.2 all ship within weeks of each other
+- Opus 4.5, GPT-5.2 Codex, and other frontier models all ship within weeks of each other
 - Coding agents go from broken to working — Karpathy: "coding agents basically didn't work before December"
 - Each phase found a new axis to scale: first parameters, then inference compute, then task duration and tool use
 - MCP, Agent Skills — open standards and tooling for agents

@@ -3,9 +3,21 @@
 ## What is the difference between "The Imitation Game" and "The Turing Test"?
 "The Imitation Game" is "The Turing Test". Alan Turing called it "The Imitation Game" but people nowadays mostly refer to it as "The Turing Test".
 
-## What is reinforecment learning?
+## What is reinforcement learning?
+Reinforcement learning is a type of machine learning. There is
+- supervised learning (labeled data, spam filter - spam or not spam)
+- unsupervised learning (unlabeled, purchase data - these users purchase similar things)
+- reinforcement learning (it knows how wrong it is - AlphaGo - )
+- generative AI.
+
+## What is Reinforcement Learning from Human Feedback
+Reinforcement Learning from Human Feedback is an extension of Reinforcement Learning where .
+
+## What is the difference between a cost function and reward function?
+A reward function is associated with reinforcement learning where the output only gets a 'score' for its correctness and a cost function (the inverse of a reward function) is mostly used in suprevised learning which uses labeled data and thus has a correct output.
 
 ## How similar is AI to how our brains work?
+Neural net
 
 ## What connection do the Expert Systems have to what we think of today as AI?
 Nothing really.
@@ -47,3 +59,36 @@ There is
 - Unsupervised learning: the AI gets no answers and figures out patterns for itself, like categorisation.
 - Reinforcement learning: the AI tries things, gets a reward signal (good or bad), and learns to do better. No correct answer given.
 - Generative AI: AI that creates new content — text, images, code — based on patterns learned from training data.
+
+## How many layers does a neural network have to have to be considered a deep learning neural network?
+There is no strict consensus. The most common definition is at least 2 hidden layers, but in practice modern deep networks have hundreds of layers so the exact cutoff doesn't really matter.
+
+# What is Reinforcement Learning with Variable Rewards (RLVR)?
+Reinforcement Learning with Verifiable Rewards. That is reinforcement learning where the learning comes from outcomes that can be checked like code passing tests for example.
+
+# What made the models so much better at the end of 2025?
+Karpathy "most capability progress in 2025 was defined by labs chewing through the overhang of this new [RLVR] stage — similar sized LLMs but a lot longer RL runs."
+
+## Why couldn't they just add more layers to the perceptron in the early years to get better results?
+There was no way to update the models weights beyond the output layer at the beginning and even when backpropagation existed compute was an issue and there was less interest in these techniques.
+
+## What is a neural network?
+A neural network is a network of nodes loosely inspired by the connectino of nerons in the brain. Its nonlinearity allows it to deal with more complex problems.
+
+## Are any Expert Systems still used today?
+Yes, but most of them are a mix of rule-based and machine learning techniques. For example there is the WHO disease diagnosis systems.
+
+## What does GPT stand for?
+Generative Pretrained Transformer
+
+## What was the difference between transformers made?
+
+"The animal didn't cross the street because it was too tired."                          
+                                          
+What does "it" refer to? The animal. Attention learns to give "animal" a high weight when processing "it", and "street" a low weight. That's all attention is — learned relevance weights between words.
+
+## Is the transformer architecture used in image models like DALL-E?
+Yes, but in the modern models it is used to understand the prompt and diffusion models are used to generate the image.
+
+## Who recognizes the potential for scaling based on the Attention is all you need paper?
+It was OpenAI.
