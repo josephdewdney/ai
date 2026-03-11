@@ -1,7 +1,0 @@
-[
-  { "id": "beginnings", "name": "The Beginnings", "years": "1950 – 1974", "description": "AI is born at Dartmouth and optimism runs high" },
-  { "id": "expert-systems", "name": "Expert Systems", "years": "1980 – 1987", "description": "Symbolic AI goes commercial — and hits its limits" },
-  { "id": "machine-learning", "name": "Machine Learning", "years": "1986 – 2012", "description": "Data-driven methods replace hand-coded rules" },
-  { "id": "deep-learning", "name": "Deep Learning", "years": "2012 – 2017", "description": "Neural networks, GPUs, and big data converge" },
-  { "id": "foundation-models", "name": "Foundation Models", "years": "2017 – present", "description": "Large pre-trained models adapted to many tasks" }
-]
